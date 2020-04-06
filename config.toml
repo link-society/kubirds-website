@@ -6,6 +6,9 @@ theme = "kube"
 [params]
 author = "Link Society"
 
+[markup.goldmark.renderer]
+unsafe=true
+
 [menu]
 
   [[menu.main]]
