@@ -147,12 +147,6 @@ form .control-group button {
       <td class="product-available"><i class="fas fa-check"></i></td>
     </tr>
     <tr>
-      <td>Cassandra</td>
-      <td class="product-unavailable"><i class="fas fa-times"></i></td>
-      <td class="product-available"><i class="fas fa-check"></i></td>
-      <td class="product-available"><i class="fas fa-check"></i></td>
-    </tr>
-    <tr>
       <td>Docker</td>
       <td class="product-unavailable"><i class="fas fa-times"></i></td>
       <td class="product-available"><i class="fas fa-check"></i></td>
@@ -165,12 +159,6 @@ form .control-group button {
       <td class="product-available"><i class="fas fa-check"></i></td>
     </tr>
     <tr>
-      <td>MariaDB</td>
-      <td class="product-unavailable"><i class="fas fa-times"></i></td>
-      <td class="product-available"><i class="fas fa-check"></i></td>
-      <td class="product-available"><i class="fas fa-check"></i></td>
-    </tr>
-    <tr>
       <td>MongoDB</td>
       <td class="product-unavailable"><i class="fas fa-times"></i></td>
       <td class="product-available"><i class="fas fa-check"></i></td>
@@ -178,12 +166,6 @@ form .control-group button {
     </tr>
     <tr>
       <td>MySQL</td>
-      <td class="product-unavailable"><i class="fas fa-times"></i></td>
-      <td class="product-available"><i class="fas fa-check"></i></td>
-      <td class="product-available"><i class="fas fa-check"></i></td>
-    </tr>
-    <tr>
-      <td>Percona</td>
       <td class="product-unavailable"><i class="fas fa-times"></i></td>
       <td class="product-available"><i class="fas fa-check"></i></td>
       <td class="product-available"><i class="fas fa-check"></i></td>
@@ -210,6 +192,24 @@ form .control-group button {
       <td>SonarQube</td>
       <td class="product-unavailable"><i class="fas fa-times"></i></td>
       <td class="product-available"><i class="fas fa-check"></i></td>
+      <td class="product-available"><i class="fas fa-check"></i></td>
+    </tr>
+    <tr>
+      <td>Cassandra</td>
+      <td class="product-unavailable"><i class="fas fa-times"></i></td>
+      <td class="product-unavailable"><i class="fas fa-times"></i></td>
+      <td class="product-available"><i class="fas fa-check"></i></td>
+    </tr>
+    <tr>
+      <td>MariaDB</td>
+      <td class="product-unavailable"><i class="fas fa-times"></i></td>
+      <td class="product-unavailable"><i class="fas fa-times"></i></td>
+      <td class="product-available"><i class="fas fa-check"></i></td>
+    </tr>
+    <tr>
+      <td>Percona</td>
+      <td class="product-unavailable"><i class="fas fa-times"></i></td>
+      <td class="product-unavailable"><i class="fas fa-times"></i></td>
       <td class="product-available"><i class="fas fa-check"></i></td>
     </tr>
     <tr class="product-offer-header">
@@ -240,6 +240,12 @@ form .control-group button {
       <td>RabbitMQ</td>
       <td class="product-unavailable"><i class="fas fa-times"></i></td>
       <td class="product-available"><i class="fas fa-check"></i></td>
+      <td class="product-available"><i class="fas fa-check"></i></td>
+    </tr>
+    <tr>
+      <td>Zapier</td>
+      <td class="product-unavailable"><i class="fas fa-times"></i></td>
+      <td class="product-unavailable"><i class="fas fa-times"></i></td>
       <td class="product-available"><i class="fas fa-check"></i></td>
     </tr>
   </tbody>
