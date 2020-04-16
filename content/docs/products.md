@@ -123,7 +123,7 @@ form .control-group button {
       <td class="product-available"><i class="fas fa-check"></i></td>
     </tr>
     <tr>
-      <td>Prioritzed support</td>
+      <td>Prioritized support</td>
       <td class="product-unavailable"><i class="fas fa-times"></i></td>
       <td class="product-unavailable"><i class="fas fa-times"></i></td>
       <td class="product-available"><i class="fas fa-check"></i></td>
