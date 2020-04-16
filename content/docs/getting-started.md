@@ -30,7 +30,7 @@ metadata:
     notify-slack: "yes"
 spec:
   image:
-    name: kubevisor-probes/check-curl:latest
+    name: linksociety/kubevisor-probe-curl:latest
     pullPolicy: Always
   env:
     - name: HOST
@@ -53,7 +53,7 @@ metadata:
   name: notify-slack
 spec:
   image:
-    name: kubevisor-probes/notify-slack:latest
+    name: linksociety/kubevisor-notifier-slack:latest
     pullPolicy: Always
   envFrom:
     secretRef:
