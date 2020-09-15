@@ -1,0 +1,37 @@
+{{ define "main" }}
+  <nav>
+    <ul class="navInterne">
+      <li><a href="5-contact.html"><i class="icon-mdi_navigate_before"></i></a></li>
+    </ul>
+  </nav>
+  <div class="contact">
+    <h1>Contact by phone</h1>
+    <form action="" method="post">
+      <div class="formBlk">
+        <label for="contactName">Name</label>
+        <input name="contactName" type="text" id="contactName" placeholder="Mike Horn" value="">
+      </div>
+      <div class="formBlk">
+        <label for="contactPhone">Phone number</label>
+        <input name="contactPhone" type="text" id="contactPhone" placeholder="+33786152876" value="">
+      </div>
+      <p>I would prefer you to contact me on :</p>
+      <ul class="contactCheckbox">
+        <li><input type="checkbox" name="contactDay[]" id="contactDay1" value="1" /><label for="contactDay1">Monday</label></li>
+        <li><input type="checkbox" name="contactDay[]" id="contactDay2" value="2" /><label for="contactDay2">Tuesday</label></li>
+        <li><input type="checkbox" name="contactDay[]" id="contactDay3" value="3" /><label for="contactDay3">Wednesday</label></li>
+        <li><input type="checkbox" name="contactDay[]" id="contactDay4" value="4" /><label for="contactDay4">Thursday</label></li>
+        <li><input type="checkbox" name="contactDay[]" id="contactDay5" value="5" /><label for="contactDay5">Friday</label></li>
+      </ul>
+      <p>Between :</p>
+      <ul class="contactCheckbox">
+        <li><input type="checkbox" name="contactHour[]" id="contactHour1" value="1" /><label for="contactHour1">8:30 - 12:00</label></li>
+        <li><input type="checkbox" name="contactHour[]" id="contactHour2" value="2" /><label for="contactHour2">12:00 - 14:00</label></li>
+        <li><input type="checkbox" name="contactHour[]" id="contactHour3" value="3" /><label for="contactHour3">14:00 - 18:00</label></li>
+        <li><input type="checkbox" name="contactHour[]" id="contactHour4" value="4" /><label for="contactHour4">18:00 - 20:00</label></li>
+      </ul>
+      <a href="#" class="lkMore2 lkSimple lkClose" onclick="javascript:parent.jQuery.fancybox.getInstance().close();return false;">Cancel</a>
+      <input type="submit" value="Phone me back !" class="lkMore lkSimple lkBt">
+    </form>
+  </div>
+{{ end }}

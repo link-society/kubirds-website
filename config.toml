@@ -1,25 +1,231 @@
 baseURL = "https://kubevisor.io/"
 languageCode = "en-us"
 title = "Kubevisor"
-theme = "kube"
 
 [params]
 author = "Link Society"
 
+[params.urls]
+contact = "/contact"
+about = "/about"
+github = "https://github.com/link-society/kubevisor"
+
+[[params.menu]]
+
+uri = "/getting-started"
+name = "Getting Started"
+
+[[params.menu]]
+
+uri = "/products"
+name = "Products and Services"
+
+[[params.menu]]
+
+uri = "/docs/"
+name = "Documentation"
+
+[[params.features]]
+
+icon = "icon-mdi_remove_red_eye"
+title = "Declarative"
+abstract = "Describe yout supervision and let it run."
+
+[[params.features]]
+
+icon = "icon-mdi_all_out"
+title = "Scalable by default"
+abstract = "Running on Kubernetes allows automated scalability <br>of your supervision."
+
+[[params.features]]
+
+icon = "icon-mdi_dashboard"
+title = "Monitor"
+abstract = "See your supervision in real-time thanks to the Dashboard."
+
+[[params.features]]
+
+icon = "icon-mdi_remove_red_eye"
+title = "Designed for Kubernetes"
+abstract = "Every component is designed to run on Kubernetes and <br>exploits its full potential."
+
+[[params.features]]
+
+icon = "icon-mdi_multiline_chart"
+title = "Many Probes Available"
+abstract = "A large set of probes to monitor your cluster is available <br> (free & pro)."
+
+[[params.features]]
+
+icon = "icon-mdi_notifications_active"
+title = "Notify everywhere"
+abstract = "We support a large number of service to be notified of <br>your check results."
+
+[params.products]
+
+free = "$0"
+gold = "$99"
+platinum = "$499"
+
+[params.services]
+
+dev = "$1499/day"
+integ = "$799/day"
+audit = "$899/day"
+
+[[params.products.packs]]
+
+name = "Operator"
+free = true
+gold = true
+platinum = true
+
+[[params.products.packs]]
+
+name = "Dashboard"
+free = true
+gold = true
+platinum = true
+
+[[params.products.packs]]
+
+name = "Support"
+free = false
+gold = true
+platinum = true
+
+[[params.products.packs]]
+
+name = "Prioritized Support"
+free = false
+gold = false
+platinum = true
+
+[[params.products.probes]]
+
+name = "cURL"
+free = true
+gold = true
+platinum = true
+
+[[params.products.probes]]
+
+name = "TCP"
+free = true
+gold = true
+platinum = true
+
+[[params.products.probes]]
+
+name = "Docker"
+free = false
+gold = true
+platinum = true
+
+[[params.products.probes]]
+
+name = "ElasticSearch"
+free = false
+gold = true
+platinum = true
+
+[[params.products.probes]]
+
+name = "MongoDB"
+free = false
+gold = true
+platinum = true
+
+[[params.products.probes]]
+
+name = "MySQL"
+free = false
+gold = true
+platinum = true
+
+[[params.products.probes]]
+
+name = "Postgres"
+free = false
+gold = true
+platinum = true
+
+[[params.products.probes]]
+
+name = "RabbitMQ"
+free = false
+gold = true
+platinum = true
+
+[[params.products.probes]]
+
+name = "Redis"
+free = false
+gold = true
+platinum = true
+
+[[params.products.probes]]
+
+name = "SonarQube"
+free = false
+gold = false
+platinum = true
+
+[[params.products.probes]]
+
+name = "Cassandra"
+free = false
+gold = false
+platinum = true
+
+[[params.products.probes]]
+
+name = "MariaDB"
+free = false
+gold = false
+platinum = true
+
+[[params.products.probes]]
+
+name = "Percona"
+free = false
+gold = false
+platinum = true
+
+[[params.products.notifiers]]
+
+name = "Mail"
+free = true
+gold = true
+platinum = true
+
+[[params.products.notifiers]]
+
+name = "Slack"
+free = false
+gold = true
+platinum = true
+
+[[params.products.notifiers]]
+
+name = "RabbitMQ"
+free = false
+gold = true
+platinum = true
+
+[[params.products.notifiers]]
+
+name = "SMS"
+free = false
+gold = false
+platinum = true
+
+[[params.products.notifiers]]
+
+name = "Zapier"
+free = false
+gold = false
+platinum = true
+
 [markup.goldmark.renderer]
 unsafe=true
-
-[menu]
-
-  [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    pre = "<i class='fas fa-rss-square'></i>"
-    url = "/blog/"
-    weight = -110
-
-  [[menu.main]]
-    name = "Documentation"
-    pre = "<i class='fa fa-info-circle'></i>"
-    url = "/docs/"
-    weight = -100

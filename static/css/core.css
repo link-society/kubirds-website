@@ -1,0 +1,46 @@
+article, aside, audio, canvas, datalist, details, dialog, figure, footer, header, menu, nav, section, video{display:block;}
+abbr, eventsource, mark, meter, time, progress, output{display:inline;}
+*, *:after, *:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0;line-height:1em;}
+img{border:0;image-rendering:optimizeQuality;vertical-align:middle;-ms-interpolation-mode:bicubic;}
+ul, ol, li{list-style:none;}
+fieldset{border:0;}
+table, table td{border-spacing:0;border-collapse:collapse;}
+input:focus{outline:none;}
+input[type="search"]{-webkit-appearance:none;-webkit-border-radius:0;}
+input[type="submit"], input[type="button"]{cursor:pointer;}
+input[type="button"]::-moz-focus-inner, button::-moz-focus-inner{border:0;padding:0;}
+img, table, td, blockquote, code, pre, textarea, input{height:auto;max-width:100%;}
+input, textarea, keygen, select, button{font-size:1em; line-height: normal;}
+html{font-size:87.5%;}
+body{min-width:320px;text-align:center;}
+h1, h2, h3, h4, h5, h6{font-size:1em;}
+sup, sub {font-size:0.8em;}
+abbr[title] {border-bottom: 1px dotted;}
+hr { background-color:#ccc; border:0; height:1px; margin:10px 0;}
+.fix{clear:both;line-height:0;font-size:0;height:0;}
+.hidden{display:none;}
+.noSel{-moz-user-select:-moz-none;-ms-user-select:none;-webkit-user-select:none;-khtml-user-select:none;-o-user-select:none;user-select:none;}
+.center{text-align:center;}
+.justify{text-align:justify;}
+.alignleft {display:inline-block; float:left; margin-right:10px;}
+.alignright {display:inline-block; float:right; margin-left:10px;}
+.aligncenter {clear:both; display:block; margin-left:auto; margin-right:auto;}
+.content{clear:both;margin:0 auto;min-width:320px;position:relative;text-align:left;width:970px;padding: 0;}
+.onlySMS, .onlyTAB, .sinceTAB, .dn{display:none!important;}
+.onlyPC{display:block!important;}
+.clearPC{clear:both!important;}
+.clear{clear:both;}
+@media only screen{
+	.content{max-width:1920px;width:100%;}
+}
+@media only screen and (max-width:1023px){
+	.onlyPC{display:none!important;}
+	.onlyTAB, .sinceTAB{display:block!important;}
+	.clearTAB{clear:both!important;}
+}
+@media all and (max-width:767px){
+	.onlyTAB, .noSMS{display:none!important;}
+	.onlySMS{display:block!important;}
+	.clearTAB{clear:none!important;}
+	.clearSMS{clear:both!important;}
+}

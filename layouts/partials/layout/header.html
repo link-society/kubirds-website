@@ -1,0 +1,37 @@
+<div class="header">
+  <div class="hTop">
+    <div class="content">
+      <nav>
+        <div class="hSms" id="hSms">
+          <span></span>
+          <span></span>
+        </div>
+
+        <h1>
+          <a href="/" class="hLogo">
+            <img src="/gfx/Logo_Kubevisor.png" alt="Kubevisor">
+          </a>
+        </h1>
+
+        <ul class="hNavSec noNav" id="hNavSec">
+          <li class="hNavSNoFix"><img src="/gfx/Logo_Kubernetes.svg" alt="Kubernetes"></li>
+          <li><a data-fancybox="" data-type="iframe" href="{{ .Site.Params.urls.contact }}">Contact</a></li>
+          <li><a href="{{ .Site.Params.urls.about }}">About us</a></li>
+          <li class="hNavSNoFix"><a href="{{ .Site.Params.urls.github }}" target="_blank"><img src="/gfx/Logo_Github.svg" alt="Github"></a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div class="hMenu noNav" id="hMenu">
+    <div class="content">
+      <nav>
+        <ul class="hNav">
+          {{ range .Site.Params.Menu }}
+            <li><a href="{{ .uri }}">{{ .name }}</a></li>
+          {{ end }}
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>

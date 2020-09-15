@@ -1,0 +1,12 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    {{ partial "metadata.html" . }}
+    {{ partial "css.html" . }}
+    {{ partial "scripts.html" . }}
+  </head>
+  <body class="modal">
+    {{ block "main" . }}
+    {{ end }}
+  </body>
+</html>

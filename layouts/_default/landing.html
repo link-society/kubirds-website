@@ -1,0 +1,27 @@
+{{ define "main" }}
+  <div class="mainBandeau" style="background-image: url(/img/bgMainBandeau.jpg);">
+    <div class="mainBandeauOverlay"></div>
+    <div class="mainBandeauContent">
+      <div class="mainBanTxt">
+        <h2>
+          Kubevisor brings easy supervision to your Kubernetes cluster.
+          It provides a simple way to declare how your infrastructure
+          should be monitored and takes care of the rest.
+        </h2>
+      </div>
+      <a href="/getting-started" class="lkMore">getting started</a>
+    </div>
+  </div><!-- END .mainBandeau -->
+
+  <div class="content">
+    <div class="dispos dispos3 homeFeatures">
+      {{ range .Site.Params.Features }}
+        <div class="dispo">
+          <i class="{{ .icon }}"></i>
+          <h2>{{ .title }}</h2>
+          <p>{{ .abstract | safeHTML }}</p>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+{{ end }}

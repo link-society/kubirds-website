@@ -1,0 +1,73 @@
+{{ define "main" }}
+  <div class="mainContent">
+    <div class="content">
+      <div class="biTitre">
+        <a href="/products">Products</a>
+        <i class="icon-mdi_grade"></i>
+        <h1>Services</h1>
+      </div>
+
+      <div class="blk">
+        <div class="dispos dispos3 services">
+          <div class="dispo prodLevel1">
+            <div>
+              <img src="/img/service1.jpg" alt="">
+              <h2><img src="/gfx/cube_blanc.svg" alt=""> Custom development</h2>
+            </div>
+            <div class="contenu">
+              <ul>
+                <li>Additional probes and notifiers to integrate with your infrastructure.</li>
+                <li>New features to accomodate for your business constraints.</li>
+                <li>Dashboard improvements to fullfil your data-visualization needs.</li>
+              </ul>
+            </div>
+            <div class="prodPrice">{{ .Site.Params.services.dev }}</div>
+          </div>
+
+          <div class="dispo prodLevel2">
+            <div>
+              <img src="/img/service2.jpg" alt="">
+              <h2><img src="/gfx/cube_blanc.svg" alt=""> Integration</h2>
+            </div>
+            <div class="contenu">
+              <ul>
+                <li>Installation, training and customer support (remote)</li>
+              </ul>
+            </div>
+            <div class="prodPrice">{{ .Site.Params.services.integ }}</div>
+          </div>
+
+          <div class="dispo prodLevel3">
+            <div>
+              <img src="/img/service3.jpg" alt="">
+              <h2><img src="/gfx/cube_blanc.svg" alt=""> Auditing</h2>
+            </div>
+            <div class="contenu">
+              <ul>
+                <li>We provide you with one of our engineers to perform an audit together (averages around 2 days).</li>
+              </ul>
+            </div>
+            <div class="prodPrice">{{ .Site.Params.services.audit }}</div>
+          </div>
+        </div>
+
+        <div class="service">
+          <img src="/img/service4.jpg" alt="">
+          <div><h2>On-site intervention | {{ .Site.Params.services.onsite }}</h2></div>
+          <div class="contenu">
+            <p>
+              As an extra to the above offers, one of our engineer will come on-site
+              to work directly with you.
+            </p>
+          </div>
+        </div>
+
+        <div class="caleBt">
+          <a data-fancybox="" data-type="iframe" href="/contact" class="lkMore lkTalk">
+            I want to know more about your services
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+{{ end }}
