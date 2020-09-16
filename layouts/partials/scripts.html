@@ -1,2 +1,16 @@
 <script type='text/javascript' src='/js/jquery-3.5.0.min.js'></script>
 <script type='text/javascript' src='/js/scripts.js'></script>
+<script type='text/javascript'>
+  function send_contact(form_selector) {
+    console.log(arguments)
+    const payload = $(form_selector).serialize()
+
+    $.ajax({
+      type: 'POST',
+      url: "{{ .Site.Params.zapier }}",
+      data: payload
+    }).then(() => {
+      parent.jQuery.fancybox.getInstance().close();
+    })
+  }
+</script>

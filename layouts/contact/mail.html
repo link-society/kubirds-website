@@ -6,21 +6,22 @@
   </nav>
   <div class="contact">
     <h1>Contact by mail</h1>
-    <form action="{{ .Site.Params.zapier }}" method="post">
+    <form id="form-mail">
+      <input type="hidden" name="kind" value="mail" />
       <div class="formBlk">
         <label for="contactName">Name</label>
-        <input name="name" type="text" id="contactName" placeholder="Mike Horn" value="">
+        <input name="name" type="text" id="contactName" placeholder="Mike Horn" value="" required />
       </div>
       <div class="formBlk">
         <label for="contactMail">E-mail</label>
-        <input name="email" type="email" id="contactMail" placeholder="mike@example.com" value="">
+        <input name="email" type="email" id="contactMail" placeholder="mike@example.com" value="" required />
       </div>
       <div class="formBlk">
         <label for="contactMessage">Message</label>
         <textarea name="message" id="contactMessage" cols="30" rows="10" placeholder="How can we help you ?"></textarea>
       </div>
       <a href="#" class="lkMore2 lkSimple lkClose" onclick="javascript:parent.jQuery.fancybox.getInstance().close();return false;">Cancel</a>
-      <input type="submit" value="E-mail me !" class="lkMore lkSimple lkBt">
+      <input type="submit" value="E-mail me !" class="lkMore lkSimple lkBt"  onclick="javascript:send_contact('#form-mail');return false;" />
     </form>
   </div>
 {{ end }}
