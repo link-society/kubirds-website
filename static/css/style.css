@@ -463,12 +463,6 @@ p {
 	color: #464159;
 }
 
-.footer {
-  display: none;
-}
-.bodysticky .footer {
-  display: block;
-}
 .sticky {
   position: fixed;
   width: 100%;
