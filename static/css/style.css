@@ -1477,13 +1477,13 @@ body.modal {
 		height: auto;
 	}
 	.hMenu .content {
-		left: auto;
+		left: auto!important;
 		padding-top: 40px;
 		position: relative;
-		text-align: center;
+		text-align: center!important;
 		top: auto;
 		transform: none;
-		width: 100%;
+		width: 100%!important;
 	}
 	.hTop .content {
 		overflow: visible;
@@ -1493,7 +1493,7 @@ body.modal {
 		position: relative;
 		right: auto;
 		text-align: center;
-		top: 65px;
+		top: 65px!important;
 		z-index: 20;
 	}
 	header + section {
@@ -1528,6 +1528,9 @@ body.modal {
 	}
 	.homeFeatures {
 		padding-bottom: 0;
+	}
+	.homeFeatures .dispo {
+		padding: 15px 0;
 	}
 	.mainBandeau {
 		padding: 30px 15px;
