@@ -1462,15 +1462,39 @@ body.modal {
 		width: 100%;
 		z-index: 1;
 	}
-  .sticky, .header, .hTop, .hTop .content {
-    height: 62px!important;
-  }
-  .hLogo, .hLogo img {
-    height: auto!important;
-    animation: none!important;
-  }
+	.sticky, .header, .hTop, .hTop .content {
+		height: 62px!important;
+	}
+	.hLogo, .hLogo img {
+		animation: none!important;
+		height: auto!important;
+	}
 	.hNav a {
 		line-height: 3;
+	}
+	.hMenu {
+		bottom: auto;
+		height: auto;
+	}
+	.hMenu .content {
+		left: auto;
+		padding-top: 40px;
+		position: relative;
+		text-align: center;
+		top: auto;
+		transform: none;
+		width: 100%;
+	}
+	.hTop .content {
+		overflow: visible;
+	}
+	.hNavSec {
+		padding: 5px 0;
+		position: relative;
+		right: auto;
+		text-align: center;
+		top: 65px;
+		z-index: 20;
 	}
 	header + section {
 		margin-top: 62px;
@@ -1490,13 +1514,6 @@ body.modal {
 	}
 	.hLogo, .hLogo img {
 		max-width: 150px;
-	}
-	.hNavSec {
-		padding: 5px 0;
-		position: relative;
-		right: auto;
-		text-align: center;
-		top: auto;
 	}
 	.hNavSec li {
 		padding: 0 15px;
