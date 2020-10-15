@@ -84,7 +84,7 @@ platinum = true
 [[params.products.packs]]
 
 name = "Dashboard"
-free = true
+free = false
 gold = true
 platinum = true
 
