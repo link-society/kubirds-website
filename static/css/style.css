@@ -1610,3 +1610,29 @@ blockquote {
 	padding-bottom: 0.01em;
 	font-style: italic;
 }
+
+.contenu table {
+	width: 100%;
+	border: 0px;
+}
+
+.contenu table tr {
+	border: 0px;
+	border-bottom: 1px solid rgba(10, 10, 10, 0.2);
+	transition: background-color 0.3s ease-in-out;
+}
+
+.contenu table tbody tr:hover {
+	background-color: rgba(10, 10, 10, 0.04);
+}
+
+.contenu table tbody tr:last-child {
+	border: 0px;
+}
+
+.contenu table th,
+.contenu table td {
+	border: 0px;
+
+	padding: 1rem;
+}
