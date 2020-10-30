@@ -21,7 +21,7 @@
                 <li>Dashboard improvements to fullfil your data-visualization needs.</li>
               </ul>
             </div>
-            <div class="prodPrice">{{ .Site.Params.services.dev }}</div>
+            <div class="prodPrice">{{ .Site.Data.services.meta.dev }}</div>
           </div>
 
           <div class="dispo prodLevel2">
@@ -34,7 +34,7 @@
                 <li>Installation, training and customer support (remote)</li>
               </ul>
             </div>
-            <div class="prodPrice">{{ .Site.Params.services.integ }}</div>
+            <div class="prodPrice">{{ .Site.Data.services.meta.integ }}</div>
           </div>
 
           <div class="dispo prodLevel3">
@@ -47,13 +47,13 @@
                 <li>We provide you with one of our engineers to perform an audit together (averages around 2 days).</li>
               </ul>
             </div>
-            <div class="prodPrice">{{ .Site.Params.services.audit }}</div>
+            <div class="prodPrice">{{ .Site.Data.services.meta.audit }}</div>
           </div>
         </div>
 
         <div class="service">
           <img src="/img/service4.jpg" alt="">
-          <div><h2>On-site intervention | {{ .Site.Params.services.onsite }}</h2></div>
+          <div><h2>On-site intervention | {{ .Site.Data.services.meta.onsite }}</h2></div>
           <div class="contenu">
             <p>
               As an extra to the above offers, one of our engineer will come on-site

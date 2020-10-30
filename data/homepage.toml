@@ -1,0 +1,35 @@
+[[features]]
+
+icon = "icon-mdi_remove_red_eye"
+title = "Declarative"
+abstract = "Describe your supervision and let it run."
+
+[[features]]
+
+icon = "icon-mdi_all_out"
+title = "Scalable by default"
+abstract = "Running on Kubernetes allows automated scalability <br>of your supervision."
+
+[[features]]
+
+icon = "icon-mdi_dashboard"
+title = "Monitor"
+abstract = "See your supervision in real-time thanks to the Dashboard."
+
+[[features]]
+
+icon = "icon-mdi_remove_red_eye"
+title = "Designed for Kubernetes"
+abstract = "Every component is designed to run on Kubernetes and <br>exploits its full potential."
+
+[[features]]
+
+icon = "icon-mdi_multiline_chart"
+title = "Interoperability"
+abstract = "Built to integrate with a large set of Docker images."
+
+[[features]]
+
+icon = "icon-mdi_notifications_active"
+title = "Notify everywhere"
+abstract = "We support a large number of service to be notified of <br>your check results."

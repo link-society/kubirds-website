@@ -13,13 +13,13 @@
 				    <div class="Rtable-row">
 					    <div class="Rtable-cell Rtable-cell-thead"></div>
 					    <div class="Rtable-cell Rtable-cell-thead prodLevel1">
-                <h2><img src="/gfx/cube_blanc.svg" alt=""> Free</h2>
+                <h2><img src="/gfx/cube_blanc.svg" alt=""> Basic</h2>
               </div>
 					    <div class="Rtable-cell Rtable-cell-thead prodLevel2">
                 <h2><img src="/gfx/cube_blanc.svg" alt=""> Gold</h2>
               </div>
 					    <div class="Rtable-cell Rtable-cell-thead prodLevel3">
-                <h2><img src="/gfx/cube_blanc.svg" alt=""> Platinium</h2>
+                <h2><img src="/gfx/cube_blanc.svg" alt=""> Platinum</h2>
               </div>
             </div>
 
@@ -27,48 +27,48 @@
               <div class="Rtable-cell tableTitre"><h2>Packs</h2></div>
             </div>
 
-            {{ range .Site.Params.Products.Packs }}
+            {{ range .Site.Data.products.packs.items }}
               <div class="Rtable-row">
                 <div class="Rtable-cell Rtable-cell-head">{{ .name }}</div>
-                {{ $free := "clear" }} {{ if .free }} {{ $free = "done" }} {{ end }}
+                {{ $basic := "clear" }} {{ if .basic }} {{ $basic = "done" }} {{ end }}
                 {{ $gold := "clear" }} {{ if .gold }} {{ $gold = "done" }} {{ end }}
                 {{ $platinum := "clear" }} {{ if .platinum }} {{ $platinum = "done" }} {{ end }}
 
-                <div class="Rtable-cell prodLevel1"><div><i class="icon-mdi_{{ $free }}"></i></div></div>
+                <div class="Rtable-cell prodLevel1"><div><i class="icon-mdi_{{ $basic }}"></i></div></div>
                 <div class="Rtable-cell prodLevel2"><div><i class="icon-mdi_{{ $gold }}"></i></div></div>
                 <div class="Rtable-cell prodLevel3"><div><i class="icon-mdi_{{ $platinum }}"></i></div></div>
               </div>
             {{ end }}
 
             <div class="Rtable-row">
-              <div class="Rtable-cell tableTitre"><h2>Probes</h2></div>
+              <div class="Rtable-cell tableTitre"><h2>Units</h2></div>
             </div>
 
-            {{ range .Site.Params.Products.Probes }}
+            {{ range .Site.Data.products.units.items }}
               <div class="Rtable-row">
                 <div class="Rtable-cell Rtable-cell-head">{{ .name }}</div>
-                {{ $free := "clear" }} {{ if .free }} {{ $free = "done" }} {{ end }}
+                {{ $basic := "clear" }} {{ if .basic }} {{ $basic = "done" }} {{ end }}
                 {{ $gold := "clear" }} {{ if .gold }} {{ $gold = "done" }} {{ end }}
                 {{ $platinum := "clear" }} {{ if .platinum }} {{ $platinum = "done" }} {{ end }}
 
-                <div class="Rtable-cell prodLevel1"><div><i class="icon-mdi_{{ $free }}"></i></div></div>
+                <div class="Rtable-cell prodLevel1"><div><i class="icon-mdi_{{ $basic }}"></i></div></div>
                 <div class="Rtable-cell prodLevel2"><div><i class="icon-mdi_{{ $gold }}"></i></div></div>
                 <div class="Rtable-cell prodLevel3"><div><i class="icon-mdi_{{ $platinum }}"></i></div></div>
               </div>
             {{ end }}
 
             <div class="Rtable-row">
-              <div class="Rtable-cell tableTitre"><h2>Notifiers</h2></div>
+              <div class="Rtable-cell tableTitre"><h2>Reactors</h2></div>
             </div>
 
-            {{ range .Site.Params.Products.Notifiers }}
+            {{ range .Site.Data.products.reactors.items }}
               <div class="Rtable-row">
                 <div class="Rtable-cell Rtable-cell-head">{{ .name }}</div>
-                {{ $free := "clear" }} {{ if .free }} {{ $free = "done" }} {{ end }}
+                {{ $basic := "clear" }} {{ if .basic }} {{ $basic = "done" }} {{ end }}
                 {{ $gold := "clear" }} {{ if .gold }} {{ $gold = "done" }} {{ end }}
                 {{ $platinum := "clear" }} {{ if .platinum }} {{ $platinum = "done" }} {{ end }}
 
-                <div class="Rtable-cell prodLevel1"><div><i class="icon-mdi_{{ $free }}"></i></div></div>
+                <div class="Rtable-cell prodLevel1"><div><i class="icon-mdi_{{ $basic }}"></i></div></div>
                 <div class="Rtable-cell prodLevel2"><div><i class="icon-mdi_{{ $gold }}"></i></div></div>
                 <div class="Rtable-cell prodLevel3"><div><i class="icon-mdi_{{ $platinum }}"></i></div></div>
               </div>
@@ -79,9 +79,9 @@
             </div>
             <div class="Rtable-row">
               <div class="Rtable-cell Rtable-cell-head"></div>
-              <div class="Rtable-cell prodLevel1"><div class="prodPrice">{{ .Site.Params.Products.Free }}</div></div>
-              <div class="Rtable-cell prodLevel2"><div class="prodPrice">{{ .Site.Params.Products.Gold }}</div></div>
-              <div class="Rtable-cell prodLevel3"><div class="prodPrice">{{ .Site.Params.Products.Platinum }}</div></div>
+              <div class="Rtable-cell prodLevel1"><div class="prodPrice">{{ .Site.Data.products.meta.basic }}</div></div>
+              <div class="Rtable-cell prodLevel2"><div class="prodPrice">{{ .Site.Data.products.meta.gold }}</div></div>
+              <div class="Rtable-cell prodLevel3"><div class="prodPrice">{{ .Site.Data.products.meta.platinum }}</div></div>
             </div>
           </div>
         </div>

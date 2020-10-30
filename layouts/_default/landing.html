@@ -15,7 +15,7 @@
 
   <div class="content">
     <div class="dispos dispos3 homeFeatures">
-      {{ range .Site.Params.Features }}
+      {{ range .Site.Data.homepage.features }}
         <div class="dispo">
           <i class="{{ .icon }}"></i>
           <h2>{{ .title }}</h2>

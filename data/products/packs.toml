@@ -1,0 +1,27 @@
+[[items]]
+
+name = "Operator"
+basic = true
+gold = true
+platinum = true
+
+[[items]]
+
+name = "Dashboard"
+basic = true
+gold = true
+platinum = true
+
+[[items]]
+
+name = "Support"
+basic = false
+gold = true
+platinum = true
+
+[[items]]
+
+name = "Prioritized Support"
+basic = false
+gold = false
+platinum = true
