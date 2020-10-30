@@ -14,7 +14,7 @@
         <div class="dispoCol">
           <ul class="colMenu">
             {{ $CURRENT := .Permalink }}
-            {{ range .Parent.Pages }}
+            {{ range .Parent.Pages.ByWeight }}
               {{ if eq .Permalink $CURRENT }}
                 <li class="act"><span>{{ .Title }}</span></li>
               {{ else }}
