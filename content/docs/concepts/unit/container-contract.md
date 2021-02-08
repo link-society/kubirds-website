@@ -1,7 +1,7 @@
 +++
 title = "Container contract"
 description = "Constraints required by Kubevisor"
-weight = 2
+weight = 1
 +++
 
 In order to use a Docker image as a `Unit`, it is mandatory that the image respects the following constraints:
