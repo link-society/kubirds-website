@@ -13,3 +13,24 @@
     })
   }
 </script>
+
+<script type="application/javascript">
+  $(function() {
+    const tabElements = $('.embed-tabs');
+    tabElements.find($('nav .ul .li a')).click(function() {
+        const link = $(this);
+        const ref = link.data('ref');
+
+        tabElements.find($('nav .ul .li')).removeClass('is-active');
+        link.parent().addClass('is-active');
+
+        tabElements.find($('.content .tab')).removeClass('is-active');
+        tabElements.find($(`.content .tab[data-ref='${ref}']`)).addClass('is-active');
+    });
+    tabElements.map((index, element) => {
+        const tab = $(element);
+        $(tab.find($('nav .ul .li'))[0]).addClass('is-active');
+        $(tab.find($('.content .tab'))[0]).addClass('is-active');
+    });
+  });
+</script>
