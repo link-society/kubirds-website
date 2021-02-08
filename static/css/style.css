@@ -1623,7 +1623,7 @@ blockquote {
 }
 
 .contenu table tbody tr:hover {
-	background-color: rgba(10, 10, 10, 0.04);
+	background-color: #F0F8F8;
 }
 
 .contenu table tbody tr:last-child {
@@ -1635,4 +1635,8 @@ blockquote {
 	border: 0px;
 
 	padding: 1rem;
+}
+
+.contenu ul {
+	padding-left: 1rem;
 }
