@@ -1,12 +1,12 @@
 +++
 title = "Unit"
 description = "Kubernetes resource description"
-weight = 1
+weight = 2
 layout = "chapter"
 +++
 
 A `Unit` is the base component of your supervision. It describes a task that
-should be executed periodically.
+must execute periodically and should succeed every time.
 
 Example:
 

@@ -1,12 +1,13 @@
 +++
 title = "Inhibitor"
 description = "Kubernetes resource description"
-weight = 3
+weight = 4
 layout = "chapter"
 +++
 
-An `Inhibitor` resource defines a regular period of time when units
-execution must be skipped:
+An `Inhibitor` describes when the execution of a `Unit` should be skipped.
+
+Example:
 
 ```yaml
 ---
