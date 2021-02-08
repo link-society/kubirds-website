@@ -1,0 +1,4 @@
+{{ if ne .RelPermalink "/docs/" }}
+  {{ partial "docs/breadcrumb.html" .Parent }}
+  <a href="{{ .Parent.Permalink }}">{{ .Parent.Title }}</a> /
+{{ end }}
