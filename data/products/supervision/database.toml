@@ -1,33 +1,5 @@
 [[items]]
 
-name = "cURL"
-basic = true
-gold = true
-platinum = true
-
-[[items]]
-
-name = "TCP"
-basic = true
-gold = true
-platinum = true
-
-[[items]]
-
-name = "Docker"
-basic = false
-gold = true
-platinum = true
-
-[[items]]
-
-name = "ElasticSearch"
-basic = false
-gold = true
-platinum = true
-
-[[items]]
-
 name = "MongoDB"
 basic = false
 gold = true
@@ -42,14 +14,7 @@ platinum = true
 
 [[items]]
 
-name = "Postgres"
-basic = false
-gold = true
-platinum = true
-
-[[items]]
-
-name = "RabbitMQ"
+name = "PostgreSQL"
 basic = false
 gold = true
 platinum = true
@@ -59,13 +24,6 @@ platinum = true
 name = "Redis"
 basic = false
 gold = true
-platinum = true
-
-[[items]]
-
-name = "SonarQube"
-basic = false
-gold = false
 platinum = true
 
 [[items]]

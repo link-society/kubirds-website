@@ -1,16 +1,18 @@
 [[items]]
 
-name = "Mail"
+name = "Prometheus"
+
 basic = true
 gold = true
 platinum = true
 
 [[items]]
 
-name = "Slack"
+name = "ElasticSearch"
 basic = false
 gold = true
 platinum = true
+
 
 [[items]]
 
@@ -19,16 +21,3 @@ basic = false
 gold = true
 platinum = true
 
-[[items]]
-
-name = "SMS"
-basic = false
-gold = false
-platinum = true
-
-[[items]]
-
-name = "Zapier"
-basic = false
-gold = false
-platinum = true

@@ -1,0 +1,15 @@
+[[items]]
+
+name = "Remote Intervention"
+
+basic = "5 business days"
+gold = "48h"
+platinum = "12h"
+
+[[items]]
+
+name = "On-Site Intervention"
+
+basic = "15 business days"
+gold = "10 business days"
+platinum = "5 business days"

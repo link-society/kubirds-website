@@ -1,13 +1,15 @@
 [[items]]
 
-name = "Operator"
+name = "HTTP(S) Endpoint"
+
 basic = true
 gold = true
 platinum = true
 
 [[items]]
 
-name = "Dashboard"
-basic = false
+name = "TCP Socket"
+
+basic = true
 gold = true
 platinum = true
