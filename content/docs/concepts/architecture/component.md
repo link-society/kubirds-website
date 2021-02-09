@@ -18,7 +18,9 @@ content = """
 title = "Dashboard"
 ref = "dashboard"
 content = """
-**TODO**
+<div style="text-align: center;">
+    <img src="/img/docs/architecture/components-dashboard.svg" alt="Dashboard Diagram" />
+</div>
 """
 
 [[components]]
