@@ -7,14 +7,17 @@
         </ul>
       </nav>
 
-      <h1>{{ .Title }} {{ .Params.image | safeHTML }}</h1>
+      <h1>
+        {{ partial "docs/breadcrumb.html" . }}
+        {{ .Title }} {{ .Params.image | safeHTML }}
+      </h1>
       <h2>{{ .Params.description }}</h2>
 
       <div class="dispos">
         <div class="dispoCol">
           <ul class="colMenu">
             {{ $CURRENT := .Permalink }}
-            {{ range .Parent.Pages }}
+            {{ range .Parent.Pages.ByWeight }}
               {{ if eq .Permalink $CURRENT }}
                 <li class="act"><span>{{ .Title }}</span></li>
               {{ else }}

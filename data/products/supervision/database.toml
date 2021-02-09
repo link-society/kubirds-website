@@ -1,0 +1,48 @@
+[[items]]
+
+name = "MongoDB"
+basic = false
+gold = true
+platinum = true
+
+[[items]]
+
+name = "MySQL"
+basic = false
+gold = true
+platinum = true
+
+[[items]]
+
+name = "PostgreSQL"
+basic = false
+gold = true
+platinum = true
+
+[[items]]
+
+name = "Redis"
+basic = false
+gold = true
+platinum = true
+
+[[items]]
+
+name = "Cassandra"
+basic = false
+gold = false
+platinum = true
+
+[[items]]
+
+name = "MariaDB"
+basic = false
+gold = false
+platinum = true
+
+[[items]]
+
+name = "Percona"
+basic = false
+gold = false
+platinum = true

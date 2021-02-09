@@ -1,0 +1,20 @@
+{{ $propname := .Get 0 }}
+{{ $tabs := $.Page.Param $propname }}
+
+<div class="embed-tabs">
+    <nav>
+        <div class="ul">
+            {{ range $tabs }}
+                <div class="li">
+                    <a data-ref="{{ .ref }}">{{ .title }}</a>
+                </div>
+            {{ end }}
+        </div>
+    </nav>
+
+    <div class="content">
+        {{ range $tabs }}
+            <div class="tab" data-ref="{{ .ref }}">{{ .content | markdownify }}</div>
+        {{ end }}
+    </div>
+</div>

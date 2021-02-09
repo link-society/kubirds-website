@@ -1,3 +1,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>{{ .Site.Title }} - {{ .Params.title | default .Title }}</title>
+
+{{ if isset .Params "http_meta_redirect" }}
+    <meta http-equiv="refresh" content="{{ .Params.http_meta_redirect }}" />
+{{ end }}

@@ -1,0 +1,17 @@
+{{ $title := .Get 0 }}
+{{ $img := .Get 1 }}
+{{ $id := delimit (shuffle (seq 1 9)) "" }}
+
+<div class="preview">
+  <p class="preview-title">{{ $title }}</p>
+
+  <div class="preview-body">
+    <a href="#image-{{ $id }}">
+        <img src="{{ $img }}" class="thumbnail" />
+    </a>
+
+    <a href="#_" class="fullsize" id="image-{{ $id }}">
+        <img src="{{ $img }}" />
+    </a>
+  </div>
+</div>

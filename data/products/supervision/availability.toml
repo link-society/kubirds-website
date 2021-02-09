@@ -1,0 +1,15 @@
+[[items]]
+
+name = "HTTP(S) Endpoint"
+
+basic = true
+gold = true
+platinum = true
+
+[[items]]
+
+name = "TCP Socket"
+
+basic = true
+gold = true
+platinum = true

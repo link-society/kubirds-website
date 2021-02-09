@@ -1,0 +1,20 @@
+[[items]]
+
+name = "Mail"
+basic = true
+gold = true
+platinum = true
+
+[[items]]
+
+name = "Slack"
+basic = false
+gold = true
+platinum = true
+
+[[items]]
+
+name = "SMS"
+basic = false
+gold = false
+platinum = true

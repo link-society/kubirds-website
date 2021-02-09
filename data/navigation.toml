@@ -1,0 +1,19 @@
+[urls]
+contact = "/contact"
+about = "/about"
+github = "https://github.com/link-society/kubevisor"
+
+[[menu]]
+
+uri = "/getting-started"
+name = "Getting Started"
+
+[[menu]]
+
+uri = "/products"
+name = "Products and Services"
+
+[[menu]]
+
+uri = "/docs/"
+name = "Documentation"

@@ -1,6 +1,5 @@
 +++
 title = "About us"
-weight = 1
 +++
 
 ## Who are we ?

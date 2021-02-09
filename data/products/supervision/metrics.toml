@@ -1,0 +1,23 @@
+[[items]]
+
+name = "Prometheus"
+
+basic = true
+gold = true
+platinum = true
+
+[[items]]
+
+name = "ElasticSearch"
+basic = false
+gold = true
+platinum = true
+
+
+[[items]]
+
+name = "RabbitMQ"
+basic = false
+gold = true
+platinum = true
+

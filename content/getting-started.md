@@ -1,95 +1,109 @@
 +++
 title = "Getting Started"
 icon = "icon-mdi_extension"
-weight = 10
 +++
 
-## Introduction
+# Introduction
 
 Kubevisor brings easy supervision to your Kubernetes cluster.
 It provides a simple way to declare how your infrastructure should be monitored
 and takes care of the rest.
 
-The whole operator revolves around concepts:
+The whole operator revolves around 3 concepts:
 
- - checks (performed by a **probe**)
- - notifiers
- - downtimes
+## Units
 
-## Resources
+The base element of your supervision. A `Unit` describes a task that must
+execute periodically and should succeed every time.
 
-Each concept is represented by a custom Kubernetes resource.
+For more information, consult the [documentation](/docs/concepts/unit).
 
-A `Check` resource defines how and when the healthcheck must be performed:
+## Reactors
+
+This is where the logic happens. A `Reactor` describes what should happen
+after the execution of a `Unit`.
+
+The execution of a `Reactor` can be triggered by the following events:
+
+ - **success:** the `Unit` execution was successful
+ - **failure:** the `Unit` execution failed
+ - **fixed:** the `Unit` execution was successful while the previous one failed
+ - **regression:** the `Unit` execution failed while the previous one was successful
+
+For more information, consult the [documentation](/docs/concepts/reactor).
+
+## Inhibitors
+
+An `Inhibitor` describes when the execution of a `Unit` should be skipped, ie:
+
+ - during a migration
+ - during a backup restore
+ - outside work hours
+
+For more information, consult the [documentation](/docs/concepts/inhibitor).
+
+# Setting up
+
+## Prerequisites
+
+In order to setup Kubevisor, you will need the following:
+
+ - a Kubernetes cluster (GKE, AKS, EKS, Minikube, KinD, ...)
+ - [Tekton](https://tekton.dev) installed in the cluster
+ - a [RabbitMQ](https://rabbitmq.com) message broker
+ - [git](https://git-scm.com) to fetch the sources
+ - [helm](https://helm.sh) to install the components
+
+## Get the source code
+
+Access to Kubevisor's source code is done through [Github Deploy keys](https://docs.github.com/en/free-pro-team@latest/developers/overview/managing-deploy-keys#deploy-keys).
+
+Once the deploy key has been added to our repositories, you can clone them:
+
+```
+$ git clone git@github.com:link-society/kubevisor.git
+$ git clone git@github.com:link-society/kubevisor-dashboard.git
+```
+
+## Install Helm charts
+
+First, install the operator:
+
+```
+$ helm upgrade --install kubevisor-operator ./kubevisor/chart -f values.operator.yaml --wait
+```
+
+Example of `values.operator.yaml`:
 
 ```yaml
 ---
-apiVersion: kubevisor.io/v1
-kind: Check
-metadata:
-  name: check-google-access
-  labels:
-    notify-slack: "yes"
-    active-during-weekend: "no"
-spec:
+replicaCount: 3
+
+image:
+  name: linksociety/kubevisor-operator
+  tag: latest
+  pullPolicy: Always
+
+serviceAccountName: default
+
+rabbitUrl:
+  value: amqp://guest:guest@localhost:5672/
+```
+
+Then, install the dashboard:
+
+```
+$ helm upgrade --install kubevisor-dashboard ./kubevisor-dashboard/chart -f values.dashboard.yaml --wait
+```
+
+Example of `values.dashboard.yaml`:
+
+```yaml
+---
+frontend:
+  replicaCount: 3
   image:
-    name: linksociety/kubevisor-probe-curl:latest
+    name: linksociety/kubevisor-dashboard-frontend
+    tag: latest
     pullPolicy: Always
-  env:
-    - name: HOST
-      value: https://google.com
-  schedule: every 5 minutes
 ```
-
-As soon as the check is created, it will be scheduled for execution and each
-execution will updates its status:
-
-```yaml
-status:
-  last_state: 0
-  last_state_seen: "2020-09-15T20:38:54.663Z"
-```
-
-A `Notifier` resource defines what checks it applies to, and how it must be
-performed:
-
-```yaml
----
-apiVersion: kubevisor.io/v1
-kind: Notifier
-metadata:
-  name: notify-slack
-spec:
-  image:
-    name: linksociety/kubevisor-notifier-slack:latest
-    pullPolicy: Always
-  envFrom:
-    secretRef:
-      name: my-slack-credentials
-  selector:
-    matchLabels:
-      notify-slack: "yes"
-```
-
-Finally, a `Downtime` resource defines a period of expected failure and will
-skip the execution of the checks it applies to during that time:
-
-```yaml
----
-apiVersion: kubevisor.io/v1
-kind: Downtime
-metadata:
-  name: weekend-shutdown
-spec:
-  startDate: "2020-09-19T00:00:00.000Z"
-  duration: 2 days
-  schedule: every week
-  selector:
-    matchLabels:
-      active-during-weekend: "no"
-```
-
-## Probes and notifiers as containers
-
-The containers used by the `Check` and `Notifier` resources must follow some
-rules, for more information consult the [documentation](/docs/container-contract/).

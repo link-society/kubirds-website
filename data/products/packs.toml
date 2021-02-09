@@ -1,0 +1,13 @@
+[[items]]
+
+name = "Operator"
+basic = true
+gold = true
+platinum = true
+
+[[items]]
+
+name = "Dashboard"
+basic = false
+gold = true
+platinum = true
