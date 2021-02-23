@@ -15,7 +15,7 @@ Vos mentions légales :
 <strong>Responsable publication</strong> : David Delassus – david.delassus@link-society.com<br />
 Le responsable publication est une personne physique ou une personne morale.<br />
 <strong>Webmaster</strong> : David Delassus – david.delassus@link-society.com<br />
-<strong>Hébergeur</strong> : OVH – 2 rue Kellermann - 59100 Roubaix - France<br />
+<strong>Hébergeur</strong> : Netlify, Inc., located at 2325 3rd Street, Suite 296, San Francisco, California 94107<br />
 Crédits : Camille Balaresque, Team Manager tribu UX/UI | Lead UX, cbalaresque@ineat.fr
 Amélie Dubois, DÉVELOPPEUSE WEB HAUTE COUTURE, https://www.amelie-dubois.com/<br />
 Le modèle de mentions légales est offert par Subdelirium.com <a target="_blank" href="https://www.subdelirium.com/generateur-de-mentions-legales/">Mentions légales</a></p>
@@ -75,7 +75,7 @@ Le modèle de mentions légales est offert par Subdelirium.com <a target="_blank
 <strong>Creator</strong>  : <a href="https://link-society.com">David Delassus</a><br />
 <strong>In charge of publication</strong> : David Delassus – david.delassus@link-society.com<br />
 <strong>Webmaster</strong> : David Delassus – david.delassus@link-society.com<br />
-<strong>Hosting company</strong> : OVH – 2 rue Kellermann - 59100 Roubaix - France<br />
+<strong>Hosting company</strong> : Netlify, Inc., located at 2325 3rd Street, Suite 296, San Francisco, California 94107<br />
 <strong>Credits</strong> : <a href="https://www.camillebalaresque.com/">Camille Balaresque, Team Manager tribu UX/UI | Lead UX</a>, and <a href="https://www.amelie-dubois.com/">Amélie Dubois, DÉVELOPPEUSE WEB HAUTE COUTURE</a><br />
 The model of legal terms is provided by Subdelirium.com <a target="_blank" href="https://www.subdelirium.com/generateur-de-mentions-legales/">Legal terms</a></p>
 
