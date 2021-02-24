@@ -49,63 +49,84 @@ In order to setup Kubevisor, you will need the following:
  - a Kubernetes cluster (GKE, AKS, EKS, Minikube, KinD, ...)
  - [Tekton](https://tekton.dev) installed in the cluster
  - a [RabbitMQ](https://rabbitmq.com) message broker
- - [git](https://git-scm.com) to fetch the sources
  - [helm](https://helm.sh) to install the components
 
-## Get the source code
-
-Access to Kubevisor's source code is done through [Github Deploy keys](https://docs.github.com/en/free-pro-team@latest/developers/overview/managing-deploy-keys#deploy-keys).
-
-Once the deploy key has been added to our repositories, you can clone them:
-
-```
-$ git clone git@github.com:link-society/kubevisor.git
-$ git clone git@github.com:link-society/kubevisor-dashboard.git
-```
 
 ## Install Helm charts
 
-First, install the operator:
+You'll need the [Link Society](https://charts.link-society.com) Helm repository:
 
 ```
-$ helm upgrade --install kubevisor-operator ./kubevisor/chart -f values.operator.yaml --wait
+$ helm repo add link-society https://charts.link-society.com/stable
+$ helm repo update
+```
+
+Then, install the operator:
+
+```
+$ helm upgrade --install kubevisor-operator link-society/kubevisor -f values.yaml --wait
 ```
 
 Example of `values.operator.yaml`:
 
 ```yaml
 ---
-replicaCount: 3
+container:
+  registry: npm.pkg.github.io/link-society
 
-image:
-  name: linksociety/kubevisor-operator
-  tag: latest
-  pullPolicy: Always
+controller:
+  enabled: yes
 
-serviceAccountName: default
-
-rabbitUrl:
-  value: amqp://guest:guest@localhost:5672/
-```
-
-Then, install the dashboard:
-
-```
-$ helm upgrade --install kubevisor-dashboard ./kubevisor-dashboard/chart -f values.dashboard.yaml --wait
-```
-
-Example of `values.dashboard.yaml`:
-
-```yaml
----
-frontend:
-  replicaCount: 3
+  replicas: 3
   image:
-    name: linksociety/kubevisor-dashboard-frontend
+    name: kubevisor/kubevisor-controller
     tag: latest
     pullPolicy: Always
+
+  statusImage:
+    name: lachlanevenson/k8s-kubectl
+    tag: latest
+    pullPolicy: IfNotPresent
+
+  serviceAccountName: default
+
+  rabbitUrl:
+    value: amqp://guest:guest@localhost:5672/
+
+admission-webhook:
+  enabled: yes
+
+  replicas: 3
+  image:
+    name: kubevisor/kubevisor-admission-webhook
+    tag: latest
+    pullPolicy: Always
+
+dashboard:
+  enabled: yes
+
+  replicas: 3
+  image:
+    name: kubevisor/kubevisor-dashboard
+    tag: latest
+    pullPolicy: Always
+
+ingress:
+  enabled: yes
+
+  host: status.link-society.com
+
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt
+
+nameOverride: ""
+fullnameOverride: ""
 ```
 
-# Use Kubevisor
+# What's next ?
 
-In order to start to use Kubevisor, you can continue with the [docker tutorial](/content/docs/howto-docker-supervision/tutorial.md) for web oriented use or more advanced use with the [dashboard tutorial](/content/docs/dashboard/tutorial.md).
+We recommend you reading:
+
+ - the [Dashboard Manual](/docs/dashboard/) if you want to visualize your infrastructure's health
+ - the [Dockerized Supervision Guide](/docs/howto-docker-supervision) if you want to configure your monitoring
+ - the [Architecture Specification](/docs/concepts/) if you want to know more about how Kubevisor is built
