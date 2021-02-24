@@ -5,9 +5,7 @@ icon = "icon-mdi_extension"
 
 # Introduction
 
-Kubevisor brings easy supervision to your Kubernetes cluster.
-It provides a simple way to declare how your infrastructure should be monitored
-and takes care of the rest.
+Kubevisor brings easy supervision to your infrastructure. It provides a simple way to declare how it should be monitored and takes care of the rest with Kubernetes.
 
 The whole operator revolves around 3 concepts:
 
