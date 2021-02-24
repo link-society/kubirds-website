@@ -1,6 +1,6 @@
 {{ if ne .RelPermalink "/docs/" }}
   {{ partial "docs/breadcrumb.html" .Parent }}
-  <a href="{{ .Parent.Permalink }}">
+  <a href="{{ .Parent.RelPermalink }}">
     {{ if eq .Parent.Title "Documentation" }}
       📚
     {{ else }}
