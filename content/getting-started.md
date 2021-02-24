@@ -105,3 +105,7 @@ frontend:
     tag: latest
     pullPolicy: Always
 ```
+
+# Use Kubevisor
+
+In order to start to use Kubevisor, you can continue with the [docker tutorial](/content/docs/howto-docker-supervision/tutorial.md) for web oriented use or more advanced use with the [dashboard tutorial](/content/docs/dashboard/tutorial.md).
