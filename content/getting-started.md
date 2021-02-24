@@ -64,7 +64,7 @@ $ helm repo update
 Then, install the operator:
 
 ```
-$ helm upgrade --install kubevisor-operator link-society/kubevisor -f values.yaml --wait
+$ helm upgrade --install kubevisor link-society/kubevisor -f values.yaml --wait
 ```
 
 Example of `values.operator.yaml`:
@@ -128,5 +128,5 @@ fullnameOverride: ""
 We recommend you reading:
 
  - the [Dashboard Manual](/docs/dashboard/) if you want to visualize your infrastructure's health
- - the [Dockerized Supervision Guide](/docs/howto-docker-supervision) if you want to configure your monitoring
+ - the [Dockerized Supervision Guide](/docs/dockerized-supervision) if you want to configure your monitoring
  - the [Architecture Specification](/docs/concepts/) if you want to know more about how Kubevisor is built
