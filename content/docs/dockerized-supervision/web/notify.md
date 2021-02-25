@@ -41,7 +41,7 @@ spec:
     fixed: yes
     regression: yes
   image:
-    name: alpine/curl:latest
+    name: curlimages/curl:latest
     pullPolicy: Always
     command: >
       curl -X POST $HOST -H "Content-Type: application/json" \
