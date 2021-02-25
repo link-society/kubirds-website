@@ -6,7 +6,7 @@ weight = 3
 
 # Use Case
 
-You planned [a web service monitoring](/docs/dockerized-supervision/web/availability) and an upgrade every weekend when there is no activity on your web service.
+You planned an upgrade every weekend when there is no activity on your web service.
 
 There is a service interruption during the upgrade, to apply database migrations.
 
@@ -14,7 +14,7 @@ You don't want to be notified by your monitoring that your service is down durin
 
 # How To
 
-Create an Inhibitor resource for muting a unit every week-end starting the Septembre, 19, 2020:
+Create the following Kubernetes resource:
 
 ```yaml
 ---
@@ -25,7 +25,7 @@ metadata:
   namespace: default
 spec:
   startDate: "2020-09-19T00:00:00.000Z"
-  duration: 2 days
+  duration: 1 hour
   schedule: every week
   unitSelector:
     app: my-service

@@ -6,11 +6,9 @@ weight = 2
 
 # Use Case
 
-[After monitoring your web service](/docs/dockerized-supervision/web/availability), you want to notify your slack workspace when your web service change of availability status.
+You have configured a Slack Webhook to receive notifications from your monitoring.
 
 # How To
-
-Get a [Slack Webhook](https://api.slack.com/messaging/webhooks) to receive notifications from your monitoring.
 
 Create a secret containing the URL of your webhook:
 
@@ -25,7 +23,7 @@ stringData:
   URL: "<your slack webhook URL>"
 ```
 
-Then create a `Reactor` resource for reacting only to availability status update:
+Then create the following `Reactor` resource:
 
 ```yaml
 ---
@@ -40,8 +38,8 @@ spec:
   triggers:
     successful: no
     failed: no
-    fixed: yes # reacts when your web service becomes available
-    regression: yes # reacts when your web service becomes unavailable
+    fixed: yes
+    regression: yes
   image:
     name: curlimages/curl:latest
     pullPolicy: Always
@@ -66,4 +64,4 @@ spec:
 
 For the complete `Reactor` schema, [see this page](/docs/concepts/reactor/schema).
 
-Continue to the [next step](/docs/dockerized-supervision/web/plan) to plan when avoiding to check your web service availability.
+Continue this tutorial on the [next page](/docs/dockerized-supervision/web/plan).
