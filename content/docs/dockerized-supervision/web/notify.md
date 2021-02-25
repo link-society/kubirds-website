@@ -63,3 +63,5 @@ spec:
 > The container environment is automatically populated with the variables `UNIT_STATE` and `UNIT_OUTPUT`, respectively the Unit exit code and its stdout.
 
 For the complete `Reactor` schema, [see this page](/docs/concepts/reactor/schema).
+
+Continue this tutorial on the [next page](/docs/dockerized-supervision/web/plan).

@@ -42,3 +42,5 @@ spec:
 > The `env` property populates the container environment.
 
 For the complete `Unit` schema, [see this page](/docs/concepts/unit/schema).
+
+Continue this tutorial on the [next page](/docs/dockerized-supervision/web/notify).
