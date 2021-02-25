@@ -6,13 +6,11 @@ weight = 1
 
 # Use Case
 
-Your web service is located at `https://api.example.com/my-service`
-
-It exposes a route `/_health` that should return a `200 - OK` response when everything is fine.
+You want to check every 5 minutes if your web service located at `https://api.example.com/my-service` is up (return `200 - OK`).
 
 # How To
 
-Create the following `Unit` resource:
+Create the following `Unit` resource for checking with curl, every 5 minutes, if your web service is reachable or not:
 
 ```yaml
 ---
@@ -32,7 +30,7 @@ spec:
     pullPolicy: Always
   env:
     - name: HOST
-      value: https://api.example.com/my-service/_health
+      value: https://api.example.com/my-service
 ```
 
 > The `schedule` property indicates how often Kubevisor should run the task.
@@ -43,4 +41,4 @@ spec:
 
 For the complete `Unit` schema, [see this page](/docs/concepts/unit/schema).
 
-Continue this tutorial on the [next page](/docs/dockerized-supervision/web/notify).
+Continue to the [next step](/docs/dockerized-supervision/web/notify) for notifying check status update on slack.
