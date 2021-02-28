@@ -8,7 +8,9 @@ weight = 2
 
 {{< read-first "/docs/dockerized-supervision/web/availability" >}}
 
-You have configured a Slack Webhook to receive notifications from your monitoring.
+You have configured a [Slack Webhook] to receive notifications from your monitoring.
+
+[Slack Webhook]: https://api.slack.com/messaging/webhooks
 
 # How To
 
