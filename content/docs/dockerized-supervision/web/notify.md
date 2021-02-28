@@ -6,6 +6,8 @@ weight = 2
 
 # Use Case
 
+{{< read-first "/docs/dockerized-supervision/web/availability" >}}
+
 You have configured a Slack Webhook to receive notifications from your monitoring.
 
 # How To
@@ -64,4 +66,4 @@ spec:
 
 For the complete `Reactor` schema, [see this page](/docs/concepts/reactor/schema).
 
-Continue this tutorial on the [next page](/docs/dockerized-supervision/web/plan).
+{{< continue-reading "/docs/dockerized-supervision/web/plan" >}}

@@ -6,6 +6,8 @@ weight = 1
 
 # Use Case
 
+{{< read-first "/docs/dockerized-supervision/data" >}}
+
 You have a Docker image `example/test-suite:latest` providing a command `run-test-suite`.
 
 The command produce a [JUnit](https://junit.org/junit5/) report to `/tmp/report.xml`.
@@ -84,4 +86,6 @@ spec:
         readOnly: yes
 ```
 
-Continue this tutorial on the [next page](/docs/dockerized-supervision/data/access).
+**NB:** In this example, we used a `PersistentVolumeClaim` but any volume that could be used for a `Pod` can be used here.
+
+{{< continue-reading "/docs/dockerized-supervision/data/access" >}}

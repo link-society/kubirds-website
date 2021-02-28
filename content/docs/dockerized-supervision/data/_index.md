@@ -15,5 +15,4 @@ publish complex reports.
 
 The simplest way to do this is by providing a storage volume to the unit and reactor.
 
-Continue this tutorial on the [next page](/docs/dockerized-supervision/data/volume).
-
+{{< continue-reading "/docs/dockerized-supervision/data/volume" >}}

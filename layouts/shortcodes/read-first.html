@@ -1,0 +1,8 @@
+{{ $link := .Get 0 }}
+
+{{ with $.Site.GetPage $link }}
+  <a href="{{ .RelPermalink }}" class="tutorial-link tutorial-come-from">
+    <span>&#8592; Consider reading first</span>
+    <span class="tutorial-next-page">{{ .Title }}</span>
+  </a>
+{{ end}}

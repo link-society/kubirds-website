@@ -1,0 +1,40 @@
+.tutorial-link {
+  display: block;
+  float: right;
+  padding: 1rem;
+  border: 1px solid #5C5757;
+  border-radius: 2px;
+  text-align: left;
+
+  transition: all .3s ease-in-out;
+}
+
+.tutorial-link span {
+  display: block;
+}
+
+.tutorial-link .tutorial-next-page {
+  text-align: right;
+  margin-top: 0.5rem;
+  font-size: larger;
+  font-weight: bold;
+  color: #5C5757;
+}
+
+.tutorial-link:hover {
+  border-color: #DF4F50;
+  background-color: #DF4F50;
+}
+
+.tutorial-link:hover span {
+  color: white;
+}
+
+.tutorial-link.tutorial-come-from {
+  text-align: right;
+}
+
+.tutorial-link.tutorial-come-from .tutorial-next-page {
+  text-align: left;
+}
+

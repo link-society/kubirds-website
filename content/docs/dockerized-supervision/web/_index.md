@@ -17,4 +17,4 @@ In most cases, all you need is to:
  - notify your team when the service is unavailable (ie: via Slack)
  - plan time windows where monitoring is unneeded (ie: during an upgrade)
 
-Continue this tutorial on the [next page](/docs/dockerized-supervision/web/availability).
+{{< continue-reading "/docs/dockerized-supervision/web/availability" >}}

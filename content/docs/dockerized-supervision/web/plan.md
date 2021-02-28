@@ -6,6 +6,8 @@ weight = 3
 
 # Use Case
 
+{{< read-first "/docs/dockerized-supervision/web/notify" >}}
+
 You planned an upgrade every weekend when there is no activity on your web service.
 
 There is a service interruption during the upgrade, to apply database migrations.

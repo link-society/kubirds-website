@@ -6,6 +6,8 @@ weight = 2
 
 # Introduction
 
+{{< read-first "/docs/dockerized-supervision/data/volume" >}}
+
 In the previous example, we created a strong coupling between the unit and its reactor.
 
 Because they reference the same persistent volume, the reactor cannot be used with another unit.
