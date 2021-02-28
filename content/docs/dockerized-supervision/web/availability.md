@@ -25,7 +25,6 @@ metadata:
   namespace: default
   labels:
     app: my-service
-    notify-slack: "yes"
 spec:
   schedule: every 5 minutes
   image:

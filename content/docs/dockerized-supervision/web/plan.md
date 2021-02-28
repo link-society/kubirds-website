@@ -42,3 +42,5 @@ spec:
 > The `unitSelector` property selects (by label) which units should be silenced.
 
 For the complete `Inhibitor` schema, [see this page](/docs/concepts/inhibitor/schema).
+
+{{< continue-reading "/docs/dockerized-supervision/web/reuse" >}}

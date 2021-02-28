@@ -36,7 +36,7 @@ metadata:
   namespace: default
 spec:
   unitSelector:
-    notify-slack: "yes"
+    app: my-service
   triggers:
     successful: no
     failed: no
@@ -47,7 +47,7 @@ spec:
     pullPolicy: Always
     command: >
       curl -X POST $HOST -H "Content-Type: application/json" \
-           -d "{ \"text\": \"state: $UNIT_STATE | output: $UNIT_OUTPUT\" }"
+           -d "{ \"text\": \"state: $UNIT_STATE\" }"
   env:
     - name: HOST
       valueFrom:
@@ -62,7 +62,7 @@ spec:
 >
 > The `image` and `env` properties serves the same purpose as for the Unit resource.
 >
-> The container environment is automatically populated with the variables `UNIT_STATE` and `UNIT_OUTPUT`, respectively the Unit exit code and its stdout.
+> The container environment is automatically populated with the variable `UNIT_STATE` (the Unit's last exit code).
 
 For the complete `Reactor` schema, [see this page](/docs/concepts/reactor/schema).
 
