@@ -1,5 +1,6 @@
 +++
-title = "Legal terms"
+title = "Terms of service"
+weight = 1
 +++
 
 <!--
@@ -68,7 +69,7 @@ Le modèle de mentions légales est offert par Subdelirium.com <a target="_blank
 
 
 
-<h2>Legal terms</h2>
+<h2>Terms of service</h2>
 <h3>1. Website overview</h3>
 <p>In respect of the french article 6 of the law n° 2004-575 of June, 21, 2004 for trusting in numerical economy, it is specified to website users of <a href="http://kubevisor.io/">kubevisor.io</a> the identity of diverse participants in the scope of its realization and following-up :</p>
 <p><strong>Owner</strong> : Link-Society – SAS 830 977 112 00010 – 3 rue Hurionville Saint Lugle, 62190 Lillers, France<br />

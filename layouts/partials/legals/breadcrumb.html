@@ -1,0 +1,10 @@
+{{ if ne .RelPermalink "/legals/" }}
+  {{ partial "legals/breadcrumb.html" .Parent }}
+  <a href="{{ .Parent.RelPermalink }}">
+    {{ if eq .Parent.Title "Legal terms" }}
+      📜
+    {{ else }}
+      {{ .Parent.Title }}
+    {{ end }}
+  </a> /
+{{ end }}

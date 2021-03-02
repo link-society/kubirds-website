@@ -1,0 +1,26 @@
+{{ define "main" }}
+  <div class="mainContent">
+    <div class="content">
+      <nav>
+        <ul class="navInterne">
+          <li><a href="{{ .Parent.RelPermalink }}"><i class="icon-mdi_navigate_before"></i></a></li>
+        </ul>
+      </nav>
+
+      <h1>
+        {{ partial "legals/breadcrumb.html" . }}
+        {{ .Title }} <i class="{{ .Params.icon }}"></i>
+    </h1>
+
+      <div class="dispos dispos4 documentations">
+        {{ range .Pages.ByWeight }}
+          <a href="{{ .RelPermalink }}" class="dispo">
+            {{ .Params.image | safeHTML }}
+            <h2>{{ .Title }}</h2>
+            <p>{{ .Params.description }}</p>
+          </a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+{{ end }}

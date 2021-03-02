@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    {{ partial "metadata.html" . }}
+    {{ partial "css.html" . }}
+    {{ partial "scripts.html" . }}
+  </head>
+  <body>
+    <header>
+      {{ partial "layout/header.html" . }}
+    </header>
+
+    <section>
+      {{ block "main" . }}
+      {{ end }}
+    </section>
+
+    <footer>
+      {{ partial "layout/footer.html" . }}
+    </footer>
+
+    <script type='text/javascript' src='/js/scripts.js'></script>
+  </body>
+</html>
