@@ -78,10 +78,9 @@ Le modèle de mentions légales est offert par Subdelirium.com <a target="_blank
 <strong>In charge of publication</strong> : David Delassus – david.delassus@link-society.com<br />
 <strong>Webmaster</strong> : David Delassus – david.delassus@link-society.com<br />
 <strong>Hosting company</strong> : Netlify, Inc., located at 2325 3rd Street, Suite 296, San Francisco, California 94107<br />
-<strong>Credits</strong> : <a href="https://www.camillebalaresque.com/">Camille Balaresque, Team Manager tribu UX/UI | Lead UX</a>, and <a href="https://www.amelie-dubois.com/">Amélie Dubois, DÉVELOPPEUSE WEB HAUTE COUTURE</a><br />
+<strong>Credits</strong> : <a href="https://www.camillebalaresque.com/">Camille Balaresque, Team Manager tribu UX/UI | Lead UX</a>, and <a href="https://www.amelie-dubois.com/">Amélie Dubois, haute-couture web developer</a><br />
 The model of legal terms is provided by Subdelirium.com <a target="_blank" href="https://www.subdelirium.com/generateur-de-mentions-legales/">Legal terms</a></p>
 
-<div class="hero">In respect of the french law, the remainder is wrote in french.</div>
 <br>
 
 <h3>2. Terms of use and provided services</h3>
@@ -93,7 +92,7 @@ The model of legal terms is provided by Subdelirium.com <a target="_blank" href=
 <p>Link-Society endeavoures to provide on the website <a href="http://kubevisor.io/">kubevisor.io</a> information as precise as possible. However, it won't be responsible of omissions, inaccuracies and lacks in update, whatever they come from Link-Society or partners who give it those information.</p>
 <p>All information in indicated in the website <a href="http://kubevisor.io/">kubevisor.io</a> are given for purpose only, and are susceptible to evolve. Furthermore, information given on the website <a href="http://kubevisor.io/">kubevisor.io</a> are not exhaustives. They are given under cover of modification brought from their on-line release.</p>
 <h3>4. Contractual limitations on technical data.</h3>
-<p>The website use the technology JavaScript.</p>
+<p>The website uses the technology JavaScript.</p>
 <p>The website won't be responsable for material damages due to website use. In addition, website users undertake to access to the website in using modern material, zithout virus and with a updated navigator.</p>
 <h3>5. Intellectual property and counterfeiting.</h3>
 <p>Link-Society is owner of intelectual property rights or has use rights on all website elements, such as texts, images, graphics, logo, icons, songs and softwares.</p>
