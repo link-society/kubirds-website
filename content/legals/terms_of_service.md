@@ -1,6 +1,7 @@
 +++
 title = "Terms of service"
 weight = 1
+description = ""
 +++
 
 <!--

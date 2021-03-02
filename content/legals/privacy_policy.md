@@ -1,6 +1,7 @@
 +++
 title = "Privacy policy"
 weight = 2
+description = ""
 +++
 
 <div class="content">
