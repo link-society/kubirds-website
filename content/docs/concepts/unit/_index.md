@@ -22,7 +22,7 @@ metadata:
 spec:
   image:
     name: curlimages/curl:latest
-    command: "-L -v $HOST"
+    command: "curl -L -v $HOST"
     pullPolicy: Always
   env:
     - name: HOST

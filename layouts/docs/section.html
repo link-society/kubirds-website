@@ -3,7 +3,7 @@
     <div class="content">
       <nav>
         <ul class="navInterne">
-          <li><a href="{{ .Parent.Permalink }}"><i class="icon-mdi_navigate_before"></i></a></li>
+          <li><a href="{{ .Parent.RelPermalink }}"><i class="icon-mdi_navigate_before"></i></a></li>
         </ul>
       </nav>
 
@@ -14,7 +14,7 @@
 
       <div class="dispos dispos4 documentations">
         {{ range .Pages.ByWeight }}
-          <a href="{{ .Permalink }}" class="dispo">
+          <a href="{{ .RelPermalink }}" class="dispo">
             {{ .Params.image | safeHTML }}
             <h2>{{ .Title }}</h2>
             <p>{{ .Params.description }}</p>

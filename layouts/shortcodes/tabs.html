@@ -6,7 +6,10 @@
         <div class="ul">
             {{ range $tabs }}
                 <div class="li">
-                    <a data-ref="{{ .ref }}">{{ .title }}</a>
+                    <a
+                        data-ref="{{ .ref }}"
+                        style="cursor: pointer;"
+                    >{{ .title }}</a>
                 </div>
             {{ end }}
         </div>

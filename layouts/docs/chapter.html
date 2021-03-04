@@ -3,7 +3,7 @@
     <div class="content">
       <nav>
         <ul class="navInterne">
-          <li><a href="{{ .Parent.Permalink }}"><i class="icon-mdi_navigate_before"></i></a></li>
+          <li><a href="{{ .Parent.RelPermalink }}"><i class="icon-mdi_navigate_before"></i></a></li>
         </ul>
       </nav>
 
@@ -16,12 +16,12 @@
       <div class="dispos">
         <div class="dispoCol">
           <ul class="colMenu">
-            {{ $CURRENT := .Permalink }}
+            {{ $CURRENT := .RelPermalink }}
             {{ range .Pages.ByWeight }}
-              {{ if eq .Permalink $CURRENT }}
+              {{ if eq .RelPermalink $CURRENT }}
                 <li class="act"><span>{{ .Title }}</span></li>
               {{ else }}
-                <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
               {{ end }}
             {{ end }}
           </ul>
