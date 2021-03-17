@@ -18,7 +18,7 @@ And to accomplish that goal, we include the end-user in the design phase of our
 projects.
 
 After studying how supervision was implemented by our clients, **Kubevisor** was
-born
+born.
 
 ## Simplicity first
 
