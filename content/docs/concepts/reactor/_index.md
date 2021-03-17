@@ -1,6 +1,6 @@
 +++
 title = "Reactor"
-description = "Kubernetes Resource description"
+description = "Status checking reactor"
 weight = 3
 layout = "chapter"
 +++
