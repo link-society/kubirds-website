@@ -1,6 +1,6 @@
 +++
 title = "Unit"
-description = "Kubernetes resource description"
+description = "Scheduled status checking"
 weight = 2
 layout = "chapter"
 +++

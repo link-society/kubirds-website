@@ -1,6 +1,6 @@
 +++
 title = "Inhibitor"
-description = "Kubernetes resource description"
+description = "Status checking inhibitor"
 weight = 4
 layout = "chapter"
 +++
