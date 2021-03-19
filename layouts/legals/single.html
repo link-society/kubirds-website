@@ -11,7 +11,7 @@
         {{ partial "legals/breadcrumb.html" . }}
         {{ .Title }} {{ .Params.image | safeHTML }}
       </h1>
-      <h2>{{ .Params.description }}</h2>
+      <h2>{{ .Params.description | markdownify }}</h2>
 
       <div class="dispos">
         <div class="dispoCol">
