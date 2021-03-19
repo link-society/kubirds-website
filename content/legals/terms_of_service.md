@@ -1,5 +1,7 @@
 +++
-title = "Legal terms"
+title = "Terms of service"
+weight = 1
+description = ""
 +++
 
 <!--
@@ -46,16 +48,8 @@ Le modèle de mentions légales est offert par Subdelirium.com <a target="_blank
 <p>Conformément aux dispositions des articles 38 et suivants de la loi 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés, tout utilisateur dispose d’un droit d’accès, de rectification et d’opposition aux données personnelles le concernant, en effectuant sa demande écrite et signée, accompagnée d’une copie du titre d’identité avec signature du titulaire de la pièce, en précisant l’adresse à laquelle la réponse doit être envoyée.</p>
 <p>Aucune information personnelle de l'utilisateur du site <a href="http://kubevisor.io/">kubevisor.io</a> n'est publiée à l'insu de l'utilisateur, échangée, transférée, cédée ou vendue sur un support quelconque à des tiers. Seule l'hypothèse du rachat de Link-Society et de ses droits permettrait la transmission des dites informations à l'éventuel acquéreur qui serait à son tour tenu de la même obligation de conservation et de modification des données vis à vis de l'utilisateur du site <a href="http://kubevisor.io/">kubevisor.io</a>.</p>
 <p>Les bases de données sont protégées par les dispositions de la loi du 1er juillet 1998 transposant la directive 96/9 du 11 mars 1996 relative à la protection juridique des bases de données.</p>
-<h3>8. Liens hypertextes et cookies.</h3>
+<h3>8. Liens hypertextes.</h3>
 <p>Le site <a href="http://kubevisor.io/">kubevisor.io</a> contient un certain nombre de liens hypertextes vers d’autres sites, mis en place avec l’autorisation de Link-Society. Cependant, Link-Society n’a pas la possibilité de vérifier le contenu des sites ainsi visités, et n’assumera en conséquence aucune responsabilité de ce fait.</p>
-<p>La navigation sur le site <a href="http://kubevisor.io/">kubevisor.io</a> est susceptible de provoquer l’installation de cookie(s) sur l’ordinateur de l’utilisateur. Un cookie est un fichier de petite taille, qui ne permet pas l’identification de l’utilisateur, mais qui enregistre des informations relatives à la navigation d’un ordinateur sur un site. Les données ainsi obtenues visent à faciliter la navigation ultérieure sur le site, et ont également vocation à permettre diverses mesures de fréquentation.</p>
-<p>Le refus d’installation d’un cookie peut entraîner l’impossibilité d’accéder à certains services. L’utilisateur peut toutefois configurer son ordinateur de la manière suivante, pour refuser l’installation des cookies :</p>
-<p>Sous Internet Explorer : onglet outil (pictogramme en forme de rouage en haut a droite) / options internet. Cliquez sur Confidentialité et choisissez Bloquer tous les cookies. Validez sur Ok.</p>
-<p>Sous Firefox : en haut de la fenêtre du navigateur, cliquez sur le bouton Firefox, puis aller dans l'onglet Options. Cliquer sur l'onglet Vie privée.
-  Paramétrez les Règles de conservation sur :  utiliser les paramètres personnalisés pour l'historique. Enfin décochez-la pour  désactiver les cookies.</p>
-<p>Sous Safari : Cliquez en haut à droite du navigateur sur le pictogramme de menu (symbolisé par un rouage). Sélectionnez Paramètres. Cliquez sur Afficher les paramètres avancés. Dans la section "Confidentialité", cliquez sur Paramètres de contenu. Dans la section "Cookies", vous pouvez bloquer les cookies.</p>
-<p>Sous Chrome : Cliquez en haut à droite du navigateur sur le pictogramme de menu (symbolisé par trois lignes horizontales). Sélectionnez Paramètres. Cliquez sur Afficher les paramètres avancés. Dans la section "Confidentialité", cliquez sur préférences.  Dans l'onglet "Confidentialité", vous pouvez bloquer les cookies.</p>
-
 <h3>9. Droit applicable et attribution de juridiction.</h3>
 <p>Tout litige en relation avec l’utilisation du site <a href="http://kubevisor.io/">kubevisor.io</a> est soumis au droit français. Il est fait attribution exclusive de juridiction aux tribunaux compétents de Paris.</p>
 <h3>10. Les principales lois concernées.</h3>
@@ -68,7 +62,7 @@ Le modèle de mentions légales est offert par Subdelirium.com <a target="_blank
 
 
 
-<h2>Legal terms</h2>
+<h2>Terms of service</h2>
 <h3>1. Website overview</h3>
 <p>In respect of the french article 6 of the law n° 2004-575 of June, 21, 2004 for trusting in numerical economy, it is specified to website users of <a href="http://kubevisor.io/">kubevisor.io</a> the identity of diverse participants in the scope of its realization and following-up :</p>
 <p><strong>Owner</strong> : Link-Society – SAS 830 977 112 00010 – 3 rue Hurionville Saint Lugle, 62190 Lillers, France<br />
@@ -76,10 +70,9 @@ Le modèle de mentions légales est offert par Subdelirium.com <a target="_blank
 <strong>In charge of publication</strong> : David Delassus – david.delassus@link-society.com<br />
 <strong>Webmaster</strong> : David Delassus – david.delassus@link-society.com<br />
 <strong>Hosting company</strong> : Netlify, Inc., located at 2325 3rd Street, Suite 296, San Francisco, California 94107<br />
-<strong>Credits</strong> : <a href="https://www.camillebalaresque.com/">Camille Balaresque, Team Manager tribu UX/UI | Lead UX</a>, and <a href="https://www.amelie-dubois.com/">Amélie Dubois, DÉVELOPPEUSE WEB HAUTE COUTURE</a><br />
+<strong>Credits</strong> : <a href="https://www.camillebalaresque.com/">Camille Balaresque, Team Manager tribu UX/UI | Lead UX</a>, and <a href="https://www.amelie-dubois.com/">Amélie Dubois, haute-couture web developer</a><br />
 The model of legal terms is provided by Subdelirium.com <a target="_blank" href="https://www.subdelirium.com/generateur-de-mentions-legales/">Legal terms</a></p>
 
-<div class="hero">In respect of the french law, the remainder is wrote in french.</div>
 <br>
 
 <h3>2. Terms of use and provided services</h3>
@@ -91,7 +84,7 @@ The model of legal terms is provided by Subdelirium.com <a target="_blank" href=
 <p>Link-Society endeavoures to provide on the website <a href="http://kubevisor.io/">kubevisor.io</a> information as precise as possible. However, it won't be responsible of omissions, inaccuracies and lacks in update, whatever they come from Link-Society or partners who give it those information.</p>
 <p>All information in indicated in the website <a href="http://kubevisor.io/">kubevisor.io</a> are given for purpose only, and are susceptible to evolve. Furthermore, information given on the website <a href="http://kubevisor.io/">kubevisor.io</a> are not exhaustives. They are given under cover of modification brought from their on-line release.</p>
 <h3>4. Contractual limitations on technical data.</h3>
-<p>The website use the technology JavaScript.</p>
+<p>The website uses the technology JavaScript.</p>
 <p>The website won't be responsable for material damages due to website use. In addition, website users undertake to access to the website in using modern material, zithout virus and with a updated navigator.</p>
 <h3>5. Intellectual property and counterfeiting.</h3>
 <p>Link-Society is owner of intelectual property rights or has use rights on all website elements, such as texts, images, graphics, logo, icons, songs and softwares.</p>
@@ -108,15 +101,8 @@ The model of legal terms is provided by Subdelirium.com <a target="_blank" href=
 <p>In respect of dispositions of the articles 38 and remainders from the law 78-17 of January, 6, 1978 related to "Informatique, fichiers et libertés", any user has an access right, correction and objection to his personal data, in doing a writted and signed request, accompagnied by a copy of identity title with signature of the owner, in stating the address to whom the answer has to be sent.</p>
 <p>No user personal information of the website <a href="http://kubevisor.io/">kubevisor.io</a> is published without the user agreement, exchanged, transfered, assigned or sold by any mean to third parts. Only the hypothesis of repurchase of Link-Society and its rights would allow the transmission of told information to the purchaser who will have to respect in turn, the same data conservation and modification obligation with the user of the website <a href="http://kubevisor.io/">kubevisor.io</a>.</p>
 <p>Database are protected by disposals of the law Jully, 1, 1998, implementing legislation 96/9 of March, 11, 1996, related to legal protection of data bases.</p>
-<h3>8. Hyperlinks and cookies.</h3>
+<h3>8. Hyperlinks.</h3>
 <p>The website <a href="http://kubevisor.io/">kubevisor.io</a> contains some hyperlinks to other websites, introduced by Link-Society agreement. However, Link-Society has not the possibility to check such visited website content, and won't assume any responsability hence.</p>
-<p>The navigation on the website <a href="http://kubevisor.io/">kubevisor.io</a> is susceptible to imply installation of cookie(s) on the user computer. A cookie is a tiny file, which do not allow to identity the user, but who save information about to the computer navigation on a website. Obtained data aims to make easier the ulterior navigation on the website and allow to get attendance measures.</p>
-<p>Cookie refusal installation can forbid access to some services. However, the user can configurate its computer in following way to avoid cookie installation :</p>
-<p>On Internet Explorer : onglet outil (pictogramme en forme de rouage en haut a droite) / options internet. Cliquez sur Confidentialité et choisissez Bloquer tous les cookies. Validez sur Ok.</p>
-<p>On Firefox : en haut de la fenêtre du navigateur, cliquez sur le bouton Firefox, puis aller dans l'onglet Options. Cliquer sur l'onglet Vie privée.
-  Paramétrez les Règles de conservation sur :  utiliser les paramètres personnalisés pour l'historique. Enfin décochez-la pour  désactiver les cookies.</p>
-<p>On Safari : Cliquez en haut à droite du navigateur sur le pictogramme de menu (symbolisé par un rouage). Sélectionnez Paramètres. Cliquez sur Afficher les paramètres avancés. Dans la section "Confidentialité", cliquez sur Paramètres de contenu. Dans la section "Cookies", vous pouvez bloquer les cookies.</p>
-<p>On Chrome : Cliquez en haut à droite du navigateur sur le pictogramme de menu (symbolisé par trois lignes horizontales). Sélectionnez Paramètres. Cliquez sur Afficher les paramètres avancés. Dans la section "Confidentialité", cliquez sur préférences.  Dans l'onglet "Confidentialité", vous pouvez bloquer les cookies.</p>
 
 <h3>9. Applicable law and jurisdiction attribution.</h3>
 <p>Any legal dispute with a using of the website <a href="http://kubevisor.io/">kubevisor.io</a> is subject to french law. Exclusive attribution of jurisdiction is about to the appropriate forums of Paris.</p>
