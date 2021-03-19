@@ -1,4 +1,5 @@
 <script type='text/javascript' src='/js/jquery-3.5.0.min.js'></script>
+<script type='text/javascript' src='/js/showdown.min.js'></script>
 <script type='text/javascript'>
   function send_contact(form_selector) {
     console.log(arguments)
@@ -33,4 +34,20 @@
         $(tab.find($('.content .tab'))[0]).addClass('is-active');
     });
   });
+</script>
+
+<script type="application/javascript">
+  window.BaseWebComponent = {
+    extends({ tag, template, render }) {
+      customElements.define(tag, class extends HTMLElement {
+        connectedCallback() {
+          const fragment = document.getElementById(template)
+          const node = document.importNode(fragment.content, true)
+
+          $(this).append(node)
+          render($(this))
+        }
+      })
+    }
+  }
 </script>
