@@ -1,6 +1,6 @@
 +++
 title = "Terms of service"
-weight = 1
+weight = 2
 description = """
 These Terms of Service has been created with the help of the
 [Terms Of Service Generator](https://www.termsofservicegenerator.net)

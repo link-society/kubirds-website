@@ -1,6 +1,6 @@
 +++
 title = "Privacy policy"
-weight = 2
+weight = 3
 description = """
 Privacy Policy was generated with the help of
 [GDPR Privacy Policy Generator](https://www.gdprprivacynotice.com/)
