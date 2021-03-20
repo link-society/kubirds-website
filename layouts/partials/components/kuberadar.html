@@ -1,0 +1,43 @@
+<template id="webcomp-kuberadar">
+  <div
+    style="width: 40vw; height: 40vw; display: block; margin: auto;"
+    class="radar-chart"
+    data-dataset="{{ .Site.Data.products.radar.dataset | jsonify }}">
+  </div>
+</template>
+<script type="application/javascript">
+  const capitalize = str => `${str.slice(0, 1).toUpperCase()}${str.slice(1)}`
+
+  BaseWebComponent.extends({
+    tag: 'ls-kuberadar',
+    template: 'webcomp-kuberadar',
+    render(instance) {
+      instance.parent().css('display', 'block')
+      instance.css('display', 'block')
+      const radar = instance.find('.radar-chart')
+
+      const { labels, series } = radar.data('dataset')
+      radar.highcharts({
+        chart: {
+          polar: true
+        },
+        title: {
+          text: 'Kubevisor Comparison Overview'
+        },
+        legend: {
+          align: 'center',
+          verticalAlign: 'top',
+          layout: 'horizontal'
+        },
+        xAxis: {
+          labels: {
+            formatter: function() {
+              return labels[this.value]
+            }
+          }
+        },
+        series
+      })
+    }
+  });
+</script>
