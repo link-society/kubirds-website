@@ -51,15 +51,19 @@ In certain circumstances, you have the following data protection rights:
 
 ## Log Files
 
-kubevisor.io follows a standard procedure of using log files. These files log
-visitors when they visit websites. All hosting companies do this and a part of
-hosting services' analytics. The information collected by log files include
-internet protocol (IP) addresses, browser type, Internet Service Provider
-(ISP), date and time stamp, referring/exit pages, and possibly the number of
-clicks. These are not linked to any information that is personally
-identifiable. The purpose of the information is for analyzing trends,
-administering the site, tracking users' movement on the website, and gathering
-demographic information.
+kubevisor.io is being hosted by the third-party service [Github Pages](https://pages.github.com),
+who follows a standard procedure of using log files. These files log visitors
+when they visit websites. All hosting companies do this and a part of hosting
+services' analytics. The information collected by log files include internet
+protocol (IP) addresses, browser type, Internet Service Provider (ISP), date
+and time stamp, referring/exit pages, and possibly the number of clicks. These
+are not linked to any information that is personally identifiable. The purpose
+of the information is for analyzing trends, administering the site, tracking
+users' movement on the website, and gathering demographic information.
+
+kubevisor.io does not have access to those log files and therefore does not
+process any data. Please consult [Github's Privacy Policy](https://docs.github.com/en/github/site-policy/github-privacy-statement#github-pages)
+for more informations.
 
 ## Privacy Policies
 
