@@ -3,7 +3,9 @@ languageCode = "en-us"
 title = "Kubevisor"
 
 [params]
-author = "Link Society"
+logo = "/gfx/Logo_Kubevisor.png"
+author = "Link-Society"
+description = "Dockerized supervision on Kubernetes"
 zapier = "https://hooks.zapier.com/hooks/catch/7255418/ow4b2ez/silent/"
 
 [markup.goldmark.renderer]

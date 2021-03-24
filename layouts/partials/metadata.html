@@ -1,7 +1,13 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>{{ .Site.Title }} - {{ .Params.title | default .Title }}</title>
-
+<meta name="author" content="{{ .Site.Params.Author }}" />
+<meta name="title" content="{{ .Site.Title }}" />
+<meta name="description" content="{{ .Site.Params.Description }}" />
+<meta name="og:title" content="{{ .Site.Title }}" />
+<meta name="og:description" content="{{ .Site.Params.Description }}" />
+<meta name="og:logo" content="{{ .Site.Params.Logo }}" />
+<meta name="twitter:title" content="{{ .Site.Title }}" />
 {{ if isset .Params "http_meta_redirect" }}
     <meta http-equiv="refresh" content="{{ .Params.http_meta_redirect }}" />
 {{ end }}
