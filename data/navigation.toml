@@ -3,6 +3,7 @@ contact = "/contact"
 about = "/about"
 legals = "/legals"
 github = "https://github.com/link-society"
+kubernetes = "https://kubernetes.io"
 
 [[menu]]
 
