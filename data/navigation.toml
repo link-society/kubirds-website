@@ -2,7 +2,7 @@
 contact = "/contact"
 about = "/about"
 legals = "/legals"
-github = "https://github.com/link-society/kubevisor"
+github = "https://github.com/link-society"
 
 [[menu]]
 
