@@ -79,7 +79,7 @@ jobs:
         uses: actions/download-artifact@master
         with:
           name: graphql-apidoc
-          path: static/apidoc
+          path: static/api-doc
 
       - name: setup@hugo
         uses: peaceiris/actions-hugo@v2
