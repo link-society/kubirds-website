@@ -1,28 +1,97 @@
-name: Deploy Github pages
+name: Build and Deploy Github pages
 
-on:
-  push:
-    branches:
-      - master
+on: push
 
 jobs:
-  build-deploy:
-    runs-on: ubuntu-18.04
+  generate-graphql-schema:
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - name: checkout-sdk@scm
+        uses: actions/checkout@master
+        with:
+          repository: datapio/opencore
+          path: ./sdk
+          ref: master
+
+      - name: checkout-operator@scm
+        uses: actions/checkout@master
+        with:
+          repository: link-society/kubevisor
+          path: ./operator
+          ref: master
+          ssh-key: ${{ secrets.OPERATOR_DEPLOY_KEY }}
+
+      - name: graphql-schema@shell
+        run: |
+          set -ex
+          cat sdk/sources/sdk/k8s-operator/src/graphql/type-defs/*.graphql > schema.graphql
+          cat operator/sources/controller/src/api/type-defs/*.graphql >> schema.graphql
+
+      - name: archive@artifact
+        uses: actions/upload-artifact@master
+        with:
+          name: graphql-schema
+          path: schema.graphql
+          retention-days: 5
+
+  generate-apidoc:
+    needs:
+      - generate-graphql-schema
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout@scm
+        uses: actions/checkout@master
+
+      - name: setup@node
+        uses: actions/setup-node@master
+        with:
+          node-version: '14.x'
+
+      - name: spectaql@npm
+        run: npm install -g spectaql
+
+      - name: download@artifact
+        uses: actions/download-artifact@master
+        with:
+          name: graphql-schema
+          path: .github/artifacts
+
+      - name: generate-apidoc@shell
+        run: npx spectaql .github/spectaql.yml -t .github/artifacts/apidoc
+
+      - name: archive@artifact
+        uses: actions/upload-artifact@master
+        with:
+          name: graphql-apidoc
+          path: .github/artifacts/apidoc
+
+  build-deploy:
+    needs:
+      - generate-apidoc
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout@scm
+        uses: actions/checkout@master
         # with:
         #   submodules: true
 
-      - name: Setup Hugo
+      - name: download@artifact
+        uses: actions/download-artifact@master
+        with:
+          name: graphql-apidoc
+          path: static/apidoc
+
+      - name: setup@hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.64.0'
+          hugo-version: '0.82.0'
           # extended: true
 
-      - name: Build
+      - name: build@hugo
         run: hugo --minify
 
-      - name: Deploy
+      - name: deploy@github-pages
+        if: github.ref == 'refs/heads/master'
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
