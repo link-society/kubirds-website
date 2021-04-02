@@ -23,6 +23,7 @@ weight = 2
 | envFrom | [EnvFromSource](https://v1-18.docs.kubernetes.io/docs/reference/generated/kubernetes-api/v1.18/#envfromsource-v1-core) array | List of sources to populate environment variables in the container |
 | volumes | [Volume](#Volume) array | List of volumes to mount in the container |
 | unitSelector | Map | Kubernetes labels used to select units to inhibit |
+| triggers | [Triggers](#Triggers) | Describe when the reactor should run |
 
 ## Image
 
@@ -47,3 +48,12 @@ Same as a Kubernetes [Volume](https://v1-18.docs.kubernetes.io/docs/reference/ge
 | Name | Type | Description |
 | ---- | ---- | ----------- |
 | path | string | Mount path in the container |
+
+## Triggers
+
+| Name | Type | Default | Description |
+| ---- | ---- | ------- | ----------- |
+| success | boolean | true | If true, will be triggered for every successful unit |
+| failure | boolean | true | If true, will be triggered for every failed unit |
+| fixed | boolean | false | If true, will be trigger on a successful unit, previously failed |
+| regression | boolean | false | If true, will be trigger on a failed unit, previously successful |
