@@ -1,0 +1,28 @@
+spectaql:
+  logoFile: static/gfx/Logo_Kubevisor.png
+  faviconFile: static/gfx/Favicon_Kubevisor.svg
+  cssBuildMode: full
+
+introspection:
+  schemaFile: .github/artifacts/schema.graphql
+  dynamicExamplesProcessingModule: ''
+
+info:
+  title: Kubevisor Operator GraphQL API
+  version: 1.0.0-rc2
+  description: API documentation and tutorials
+  termsOfService: /legals
+
+  contact:
+    name: Link Society
+    email: support@link-society.com
+    url: https://link-society.com
+
+  license:
+    name: CC BY-NC-SA 4.0
+    url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+servers:
+  - url: http://kubevisor-operator.default.svc.cluster.local/graphql
+    description: Kubevisor Operator Graphql API
+    production: true
