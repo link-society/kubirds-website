@@ -20,6 +20,7 @@ weight = 2
 | ---- | ---- | ----------- |
 | schedule | string | Describe when the unit must be inhibited. RRule in human readable format or standard format (see [RRule Spec](https://icalendar.org/iCalendar-RFC-5545/3-8-5-3-recurrence-rule.html)), ie: `every 5 minutes` |
 | image | [Image](#image) | Describe the Docker image to use for the reactor |
+| historySize | integer | Describe how many recent `PipelineRun` resources should be kept |
 | env | [EnvVar](https://v1-18.docs.kubernetes.io/docs/reference/generated/kubernetes-api/v1.18/#envvar-v1-core) array | List of environment variables to set in the container |
 | envFrom | [EnvFromSource](https://v1-18.docs.kubernetes.io/docs/reference/generated/kubernetes-api/v1.18/#envfromsource-v1-core) array | List of sources to populate environment variables in the container |
 | volumes | [Volume](#volume) array | List of volumes to mount in the container |
