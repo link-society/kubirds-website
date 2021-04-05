@@ -1,0 +1,78 @@
+{{ define "main" }}
+  <div class="mainContent">
+    <div class="content">
+      <div class="biTitre">
+        <h1>Subscriptions</h1>
+        <i class="icon-mdi_grade"></i>
+        <a href="/products">Products</a>
+        <i class="icon-mdi_grade"></i>
+        <a href="/services">Services</a>
+      </div>
+
+      <script type="application/javascript">
+        function nodesHandler (event) {
+          const nodes = $('#nodes')[0].value;
+          const saving_by_node = Math.ceil(nodes / {{ .Site.Data.subscriptions.meta.nodes_by_saving }});
+          const saving = saving_by_node * {{ .Site.Data.subscriptions.meta.saving }};
+          const prices = []
+          $('#saving').text('Save ' + Math.round(saving / 1000) + ' k€ a year');
+          {{ range .Site.Data.subscriptions.meta.plans }}
+          prices[{{ .name }}] = nodes * {{ .price }};
+          $('#cost_{{ .name }}').text(Math.round(prices[{{ .name }}] / 1000) + ' k€');
+          $('#cost_saving_{{ .name }}').text(Math.round((prices[{{ .name }}] - saving) / 1000) + ' k€');
+          {{ end }}
+        };
+      </script>
+
+      <div class="blk">
+        <h1>No interuption guarantee and unlimited support tickets</h1>
+        <h5>Save up to 3 months or {{ div .Site.Data.subscriptions.meta.saving 1000 }} k€ by dev ops a year</h5>
+        <div class="field">
+          <p class="control has-icons-left has-icons-right">
+            <label for="nodes">How many nodes do you have ?</label>
+            <input value="1" onchange="nodesHandler()" id="nodes" class="input is-warning" type="number" min="1" />
+            <h5 id="saving">Save {{ div .Site.Data.subscriptions.meta.saving 1000 }} k€ a year</h5>
+            <span class="icon is-small is-left">
+              <img src="/gfx/Cube_gris.svg" />
+              <i class="fas fa-envelope"></i>
+            </span>
+          </p>
+        </div>
+        <table class="table is-hoverable is-fullwidth">
+          <thead>
+            <tr>
+              {{ range slice "Plan" "Price € / year / kubernetes node" "Description" "Cost" "Cost with saving" "Action" }}
+                <th><abbr title="{{ . }}">{{ . }}</abbr></th>
+              {{ end }}
+            </tr>
+            <tbody>
+              {{ range .Site.Data.subscriptions.meta.plans }}
+              <tr>
+                <td>{{ .icon }} {{ .name }}</td>
+                <td>{{ div .price 1000 }} k€</td>
+                <td><ul>{{ range .features }}<li>{{ . }}</li>{{ end }}</ul></td>
+                <td id="cost_{{ .name }}">{{ div .price 1000 }} k€</td>
+                <td id="cost_saving_{{ .name }}">{{ div .price 1000 }} k€</td>
+                <td>
+                  <div class="caleBt">
+                    <a data-fancybox="" data-type="iframe" href="/contact" class="lkMore lkTalk">
+                      I choose this plan
+                    </a>
+                  </div>
+                </td>
+              </tr>
+              {{ end }}
+            </tbody>
+          </thead>
+        </table>
+      </div>
+
+        <div class="caleBt">
+          <a data-fancybox="" data-type="iframe" href="/contact" class="lkMore lkTalk">
+            I want to know more about your subscriptions
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+{{ end }}
