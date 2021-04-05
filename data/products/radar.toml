@@ -4,37 +4,37 @@ labels = ["Rapidity", "Scalability", "Interoperability", "Scheduling", "Observab
 
 [[dataset.series]]
 
-type = "area"
+type = "line"
 name = "Nagios"
 data = [5, 5, 7, 3, 5, 5, 1]
 
 [[dataset.series]]
 
-type = "area"
+type = "line"
 name = "Icinga"
 data = [5, 5, 5, 3, 5, 5, 1]
 
 [[dataset.series]]
 
-type = "area"
+type = "line"
 name = "Centreon"
 data = [4, 5, 5, 3, 5, 5, 1]
 
 [[dataset.series]]
 
-type = "area"
+type = "line"
 name = "Shinken"
 data = [6, 5, 5, 3, 5, 5, 3]
 
 [[dataset.series]]
 
-type = "area"
+type = "line"
 name = "Zabbix"
 data = [7, 7, 6, 5, 6, 6, 5]
 
 [[dataset.series]]
 
-type = "area"
+type = "line"
 name = "ELKB"
 data = [5, 7, 3, 0, 9, 9, 9]
 
