@@ -1,0 +1,90 @@
+<template id="webcomp-kubesubscriptions">
+  <div
+    style="width: 40vw; height: 40vw; display: block; margin: auto;"
+    class="subscriptions-table"
+    data-dataset="{{ .Site.Data.subscriptions.plans | jsonify }}"
+  >
+    <h1>Unlimited support tickets</h1>
+    <h5 id="webcomp-kubesubscriptions-message"></h5>
+    <label for="nodes">How many nodes do you have ?</label>
+    <input
+      value="1"
+      class="webcomp-kubesubscriptions-nodes input is-warning"
+      type="number"
+      min="1"
+    />
+    <table>
+      <thead>
+        <tr>
+          <td>Plan</td>
+          <td>Price / month / kubernetes node</td>
+          <td>Price / year / kubernetes node</td>
+          <td>Description</td>
+          <td>Cost / year</td>
+          <td>Cost / month</td>
+          <td>Action</td>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+</template>
+
+<script type="application/javascript">
+  const kround = number => number >= 1000 ? Math.round(number / 1000) : number
+  const format_kround = number => typeof number === 'string' || isNaN(number) ? 'custom' : (kround(number) + ' ' + (number >= 1000 ? 'k' : '') + '€')
+
+  BaseWebComponent.extends({
+    tag: 'ls-kubesubscriptions',
+    template: 'webcomp-kubesubscriptions',
+    render(instance) {
+      instance.parent().css('display', 'block')
+      instance.css('display', 'block')
+
+      const subscriptions = instance.find('.subscriptions-table')
+      const { plans } = subscriptions.data('dataset')
+      const tbody = instance.find('tbody')
+
+      plans.forEach(
+        ({ icon, name, price, features }) => {
+          const tr = $('<tr></tr>').appendTo(tbody)
+          const td = $('<td></td>')
+
+          const month = price / 10
+
+          td.clone().text(icon + ' ' + name).appendTo(tr)
+          td.clone().text(format_kround(month)).appendTo(tr)
+          td.clone().text(format_kround(price)).appendTo(tr)
+
+          const description = td.clone().appendTo(tr)
+          const features_values = $('<ul></ul>').appendTo(description)
+          features.forEach(
+            feature => $('<li></li>').text(feature).appendTo(features_values)
+          )
+
+          td.clone().addClass('cost').attr('data-price', month).appendTo(tr)
+          td.clone().addClass('cost').attr('data-price', price).appendTo(tr)
+
+          const action = td.clone().appendTo(tr)
+          const div = $('<div></div>').appendTo(action).addClass('caleBt')
+          $('<a href="/contact" data-fancybox data-type="iframe" class="lkMore klTalk">').text('I want this plan').appendTo(div)
+        }
+      )
+
+      const input = instance.find('input')
+      const costs = instance.find('.cost')
+
+      const nodesHandler = () => {
+        const nodes = parseInt(input.val())
+        for (const cost of costs) {
+          const price = $(cost).data('price')
+          $(cost).text(format_kround(price * nodes))
+        }
+      }
+
+      input.on('change', nodesHandler)
+      nodesHandler()
+
+    }
+  });
+</script>

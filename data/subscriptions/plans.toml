@@ -1,0 +1,27 @@
+[[plans]]
+
+icon = "😀"
+name = "Basic"
+price = 1000
+features = ["free updates", "rsp. w/i 1-5 business days, 10h-16h, GMT+2"]
+
+[[plans]]
+
+icon = "🥈"
+name = "Silver"
+price = 10000
+features = ["Basic plan included", "📧, slack", "remote intervention"]
+
+[[plans]]
+
+icon = "🥇"
+name = "Gold"
+price = 20000
+features = ["Silver plan included", "rsp. w/i 1-3 business days, 9h-17h, GMT+2"]
+
+[[plans]]
+
+icon = "🏢"
+name = "Enterprise"
+price = "custom"
+features = ["Gold plan included", "☎️", "rsp. w/i 1 business days, 9h-17h, GMT+2", "on site intervention"]
