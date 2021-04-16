@@ -16,7 +16,7 @@ jobs:
       - name: checkout-operator@scm
         uses: actions/checkout@master
         with:
-          repository: link-society/kubevisor
+          repository: link-society/kubirds-operator
           path: ./operator
           ref: master
           ssh-key: ${{ secrets.OPERATOR_DEPLOY_KEY }}
@@ -96,5 +96,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          cname: kubevisor.io
+          cname: kubirds.com
           allow_empty_commit: true

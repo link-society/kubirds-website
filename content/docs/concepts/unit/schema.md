@@ -6,7 +6,7 @@ weight = 2
 
 | API Group | Version | Kind |
 | --------- | ------- | ---- |
-| kubevisor.io | v1 | Unit |
+| kubirds.com | v1 | Unit |
 
 ## Unit
 

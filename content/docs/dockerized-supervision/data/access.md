@@ -72,7 +72,7 @@ Finally, create your unit:
 
 ```yaml
 ---
-apiVersion: kubevisor.io/v1
+apiVersion: kubirds.com/v1
 kind: Unit
 metadata:
   name: predict

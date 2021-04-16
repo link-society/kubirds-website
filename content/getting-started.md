@@ -5,7 +5,8 @@ icon = "icon-mdi_extension"
 
 # Introduction
 
-Kubevisor brings easy supervision to your infrastructure. It provides a simple way to declare how it should be monitored and takes care of the rest with Kubernetes.
+Kubirds brings easy supervision to your infrastructure. It provides a simple way
+to declare how it should be monitored and takes care of the rest with Kubernetes.
 
 The whole operator revolves around 3 concepts:
 
@@ -44,7 +45,7 @@ For more information, consult the [documentation](/docs/concepts/inhibitor).
 
 ## Prerequisites
 
-In order to setup Kubevisor, you will need the following:
+In order to setup Kubirds, you will need the following:
 
  - a Kubernetes cluster (GKE, AKS, EKS, Minikube, KinD, ...)
  - [Tekton](https://tekton.dev) installed in the cluster
@@ -64,7 +65,7 @@ $ helm repo update
 Then, install the operator:
 
 ```
-$ helm upgrade --install kubevisor link-society/kubevisor -f values.yaml --wait
+$ helm upgrade --install kubirds link-society/kubirds -f values.yaml --wait
 ```
 
 Example of `values.operator.yaml`:
@@ -72,14 +73,14 @@ Example of `values.operator.yaml`:
 ```yaml
 ---
 container:
-  registry: npm.pkg.github.io/link-society
+  registry: ghcr.io
 
 controller:
   enabled: yes
 
   replicas: 3
   image:
-    name: kubevisor/kubevisor-controller
+    name: link-society/kubirds-controller
     tag: latest
     pullPolicy: Always
 
@@ -98,7 +99,7 @@ admission-webhook:
 
   replicas: 3
   image:
-    name: kubevisor/kubevisor-admission-webhook
+    name: link-society/kubirds-admission-webhook
     tag: latest
     pullPolicy: Always
 
@@ -107,7 +108,7 @@ dashboard:
 
   replicas: 3
   image:
-    name: kubevisor/kubevisor-dashboard
+    name: link-society/kubirds-dashboard
     tag: latest
     pullPolicy: Always
 
@@ -129,4 +130,4 @@ We recommend you reading:
 
  - the [Dashboard Manual](/docs/dashboard/) if you want to visualize your infrastructure's health
  - the [Dockerized Supervision Guide](/docs/dockerized-supervision) if you want to configure your monitoring
- - the [Architecture Specification](/docs/concepts/) if you want to know more about how Kubevisor is built
+ - the [Architecture Specification](/docs/concepts/) if you want to know more about how Kubirds is built

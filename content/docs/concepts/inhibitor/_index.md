@@ -11,7 +11,7 @@ Example:
 
 ```yaml
 ---
-apiVersion: kubevisor.io/v1
+apiVersion: kubirds.com/v1
 kind: Inhibitor
 metadata:
   name: weekend-shutdown

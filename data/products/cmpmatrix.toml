@@ -1,4 +1,4 @@
-[kubevisor]
+[kubirds]
 
 deployment = "Helm"
 scalability = "Native to Kubernetes"

@@ -1,6 +1,6 @@
 spectaql:
-  logoFile: static/gfx/Logo_Kubevisor.png
-  faviconFile: static/gfx/Favicon_Kubevisor.svg
+  logoFile: static/gfx/Logo_Kubirds.png
+  faviconFile: static/gfx/Favicon_Kubirds.svg
   cssBuildMode: full
 
 introspection:
@@ -8,7 +8,7 @@ introspection:
   dynamicExamplesProcessingModule: ''
 
 info:
-  title: Kubevisor Operator GraphQL API
+  title: Kubirds Operator GraphQL API
   version: 1.0.0-rc2
   description: API documentation and tutorials
   termsOfService: /legals
@@ -23,6 +23,6 @@ info:
     url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 servers:
-  - url: http://kubevisor-operator.default.svc.cluster.local/graphql
-    description: Kubevisor Operator Graphql API
+  - url: http://kubirds-operator.default.svc.cluster.local/graphql
+    description: Kubirds Operator Graphql API
     production: true

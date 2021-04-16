@@ -9,10 +9,10 @@ Privacy Policy was generated with the help of
 
 # Privacy Policy for Link-Society
 
-At kubevisor.io, accessible from https://kubevisor.io, one of our main
+At kubirds.com, accessible from https://kubirds.com, one of our main
 priorities is the privacy of our visitors. This Privacy Policy document
 contains types of information that is collected and recorded by
-kubevisor.io and how we use it.
+kubirds.com and how we use it.
 
 If you have additional questions or require more information about our
 Privacy Policy, do not hesitate to contact us.
@@ -51,7 +51,7 @@ In certain circumstances, you have the following data protection rights:
 
 ## Log Files
 
-kubevisor.io is being hosted by the third-party service [Github Pages](https://pages.github.com),
+kubirds.com is being hosted by the third-party service [Github Pages](https://pages.github.com),
 who follows a standard procedure of using log files. These files log visitors
 when they visit websites. All hosting companies do this and a part of hosting
 services' analytics. The information collected by log files include internet
@@ -61,29 +61,29 @@ are not linked to any information that is personally identifiable. The purpose
 of the information is for analyzing trends, administering the site, tracking
 users' movement on the website, and gathering demographic information.
 
-kubevisor.io does not have access to those log files and therefore does not
+kubirds.com does not have access to those log files and therefore does not
 process any data. Please consult [Github's Privacy Policy](https://docs.github.com/en/github/site-policy/github-privacy-statement#github-pages)
 for more informations.
 
 ## Privacy Policies
 
 You may consult this list to find the Privacy Policy for each of the
-advertising partners of kubevisor.io.
+advertising partners of kubirds.com.
 
 Third-party ad servers or ad networks uses technologies like cookies,
 JavaScript, or Web Beacons that are used in their respective advertisements
-and links that appear on kubevisor.io, which are sent directly to users'
+and links that appear on kubirds.com, which are sent directly to users'
 browser. They automatically receive your IP address when this occurs. These
 technologies are used to measure the effectiveness of their advertising
 campaigns and/or to personalize the advertising content that you see on
 websites that you visit.
 
-Note that kubevisor.io has no access to or control over these cookies that are
+Note that kubirds.com has no access to or control over these cookies that are
 used by third-party advertisers.
 
 ## Third Party Privacy Policies
 
-kubevisor.io's Privacy Policy does not apply to other advertisers or websites.
+kubirds.com's Privacy Policy does not apply to other advertisers or websites.
 Thus, we are advising you to consult the respective Privacy Policies of these
 third-party ad servers for more detailed information. It may include their
 practices and instructions about how to opt-out of certain options.
@@ -98,7 +98,7 @@ Another part of our priority is adding protection for children while using the
 internet. We encourage parents and guardians to observe, participate in, and/or
 monitor and guide their online activity.
 
-kubevisor.io does not knowingly collect any Personal Identifiable Information
+kubirds.com does not knowingly collect any Personal Identifiable Information
 from children under the age of 13. If you think that your child provided this
 kind of information on our website, we strongly encourage you to contact us
 immediately and we will do our best efforts to promptly remove such information
@@ -108,7 +108,7 @@ from our records.
 
 Our Privacy Policy applies only to our online activities and is valid for
 visitors to our website with regards to the information that they shared and/or
-collect in kubevisor.io. This policy is not applicable to any information
+collect in kubirds.com. This policy is not applicable to any information
 collected offline or via channels other than this website.
 
 ## Consent

@@ -6,7 +6,7 @@ weight = 2
 
 | API Group | Version | Kind |
 | --------- | ------- | ---- |
-| kubevisor.io | v1 | Reactor |
+| kubirds.com | v1 | Reactor |
 
 ## Reactor
 

@@ -1,13 +1,13 @@
 +++
 title = "Container contract"
-description = "Constraints required by Kubevisor"
+description = "Constraints required by Kubirds"
 weight = 1
 +++
 
 In order to use a Docker image as a `Reactor`, it is mandatory that the image respects the following constraints:
 
  - no `ENTRYPOINT`, [Tekton](https://tekton.dev) will overwrite it when scheduling the check execution
- - no `CMD`, Kubevisor will overwrite it when creating the check pipeline
+ - no `CMD`, Kubirds will overwrite it when creating the check pipeline
  - presence of `/bin/sh`, it will be used as main shell for the container's `CMD` script
 
 The following environment variables will be provided at runtime:

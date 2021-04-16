@@ -9,7 +9,7 @@ weight = 1
 
 > It is recommended to first read the [Getting Started](/getting-started) guide before continuing this article.
 
-In this tutorial, you will learn to setup the monitoring of your web service using Kubevisor's declarative configuration.
+In this tutorial, you will learn to setup the monitoring of your web service using Kubirds' declarative configuration.
 
 In most cases, all you need is to:
 

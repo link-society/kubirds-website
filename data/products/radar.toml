@@ -41,5 +41,5 @@ data = [5, 7, 3, 0, 9, 9, 9]
 [[dataset.series]]
 
 type = "area"
-name = "Kubevisor"
+name = "Kubirds"
 data = [9, 9, 7, 9, 3, 3, 8]
