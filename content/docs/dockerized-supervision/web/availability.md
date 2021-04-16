@@ -18,7 +18,7 @@ Create the following `Unit` resource:
 
 ```yaml
 ---
-apiVersion: kubevisor.io/v1
+apiVersion: kubirds.com/v1
 kind: Unit
 metadata:
   name: check-my-service-access
@@ -36,7 +36,7 @@ spec:
       value: https://api.example.com/my-service/_health
 ```
 
-> The `schedule` property indicates how often Kubevisor should run the task.
+> The `schedule` property indicates how often Kubirds should run the task.
 >
 > The `image` property indicates which Docker image to use to run the task.
 >

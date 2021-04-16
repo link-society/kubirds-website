@@ -1,6 +1,6 @@
 <template id="webcomp-kubematrix">
   <h1>
-    Compare Kubevisor with:
+    Compare Kubirds with:
     <select class="kubematrix-options">
       {{ range .Site.Data.products.cmpmatrix.concurrent }}
         <option value="{{ . | jsonify }}">{{ .name }}</option>
@@ -8,11 +8,11 @@
     </select>
   </h1>
 
-  <div class="dispoTable kubematrix-table" data-kubevisor="{{ .Site.Data.products.cmpmatrix.kubevisor | jsonify }}">
+  <div class="dispoTable kubematrix-table" data-kubirds="{{ .Site.Data.products.cmpmatrix.kubirds | jsonify }}">
     <div class="Rtable Rtable--3cols">
       <div class="Rtable-row">
         <div class="Rtable-cell Rtable-cell-thead"></div>
-        <div class="Rtable-cell Rtable-cell-thead prodLevel1"><h2>Kubevisor</h2></div>
+        <div class="Rtable-cell Rtable-cell-thead prodLevel1"><h2>Kubirds</h2></div>
         <div class="Rtable-cell Rtable-cell-thead prodLevel2"><h2 class="kubematrix-current-name"></h2></div>
       </div>
 
@@ -22,91 +22,91 @@
 
       <div class="Rtable-row">
         <div class="Rtable-cell Rtable-cell-head" style="padding-left: 38px;">Deployment</div>
-        <div class="Rtable-cell prodLevel1"><div>{{ .Site.Data.products.cmpmatrix.kubevisor.deployment | markdownify }}</div></div>
+        <div class="Rtable-cell prodLevel1"><div>{{ .Site.Data.products.cmpmatrix.kubirds.deployment | markdownify }}</div></div>
         <div class="Rtable-cell prodLevel2"><div class="kubematrix-current-deployment"></div></div>
       </div>
 
       <div class="Rtable-row">
         <div class="Rtable-cell Rtable-cell-head" style="padding-left: 38px;">Scalability</div>
-        <div class="Rtable-cell prodLevel1"><div>{{ .Site.Data.products.cmpmatrix.kubevisor.scalability | markdownify }}</div></div>
+        <div class="Rtable-cell prodLevel1"><div>{{ .Site.Data.products.cmpmatrix.kubirds.scalability | markdownify }}</div></div>
         <div class="Rtable-cell prodLevel2"><div class="kubematrix-current-scalability"></div></div>
       </div>
 
       <div class="Rtable-row">
         <div class="Rtable-cell Rtable-cell-head" style="padding-left: 38px;">Secret Management</div>
-        <div class="Rtable-cell prodLevel1"><div>{{ .Site.Data.products.cmpmatrix.kubevisor.secretManagement | markdownify }}</div></div>
+        <div class="Rtable-cell prodLevel1"><div>{{ .Site.Data.products.cmpmatrix.kubirds.secretManagement | markdownify }}</div></div>
         <div class="Rtable-cell prodLevel2"><div class="kubematrix-current-secretManagement"></div></div>
       </div>
 
       <div class="Rtable-row">
         <div class="Rtable-cell Rtable-cell-head" style="padding-left: 38px;">Configuration</div>
-        <div class="Rtable-cell prodLevel1"><div>{{ .Site.Data.products.cmpmatrix.kubevisor.configuration | markdownify }}</div></div>
+        <div class="Rtable-cell prodLevel1"><div>{{ .Site.Data.products.cmpmatrix.kubirds.configuration | markdownify }}</div></div>
         <div class="Rtable-cell prodLevel2"><div class="kubematrix-current-configuration"></div></div>
       </div>
 
       <div class="Rtable-row">
         <div class="Rtable-cell Rtable-cell-head" style="padding-left: 38px;">Topology Configuration</div>
-        <div class="Rtable-cell prodLevel1"><div>{{ .Site.Data.products.cmpmatrix.kubevisor.topologyConfiguration | markdownify }}</div></div>
+        <div class="Rtable-cell prodLevel1"><div>{{ .Site.Data.products.cmpmatrix.kubirds.topologyConfiguration | markdownify }}</div></div>
         <div class="Rtable-cell prodLevel2"><div class="kubematrix-current-topologyConfiguration"></div></div>
       </div>
 
       <div class="Rtable-row">
         <div class="Rtable-cell Rtable-cell-head" style="padding-left: 38px;">Templating</div>
-        <div class="Rtable-cell prodLevel1"><div>{{ .Site.Data.products.cmpmatrix.kubevisor.templating | markdownify }}</div></div>
+        <div class="Rtable-cell prodLevel1"><div>{{ .Site.Data.products.cmpmatrix.kubirds.templating | markdownify }}</div></div>
         <div class="Rtable-cell prodLevel2"><div class="kubematrix-current-templating"></div></div>
       </div>
 
       <div class="Rtable-row">
         <div class="Rtable-cell Rtable-cell-head" style="padding-left: 38px;">Custom Check</div>
-        <div class="Rtable-cell prodLevel1"><div>{{ .Site.Data.products.cmpmatrix.kubevisor.customCheck | markdownify }}</div></div>
+        <div class="Rtable-cell prodLevel1"><div>{{ .Site.Data.products.cmpmatrix.kubirds.customCheck | markdownify }}</div></div>
         <div class="Rtable-cell prodLevel2"><div class="kubematrix-current-customCheck"></div></div>
       </div>
 
       <div class="Rtable-row">
         <div class="Rtable-cell Rtable-cell-head" style="padding-left: 38px;">Custom Notification</div>
-        <div class="Rtable-cell prodLevel1"><div>{{ .Site.Data.products.cmpmatrix.kubevisor.customNotification | markdownify }}</div></div>
+        <div class="Rtable-cell prodLevel1"><div>{{ .Site.Data.products.cmpmatrix.kubirds.customNotification | markdownify }}</div></div>
         <div class="Rtable-cell prodLevel2"><div class="kubematrix-current-customNotification"></div></div>
       </div>
 
       <div class="Rtable-row">
         <div class="Rtable-cell Rtable-cell-head" style="padding-left: 38px;">Distributed Monitoring</div>
-        <div class="Rtable-cell prodLevel1"><div>{{ .Site.Data.products.cmpmatrix.kubevisor.distributedMonitoring | markdownify }}</div></div>
+        <div class="Rtable-cell prodLevel1"><div>{{ .Site.Data.products.cmpmatrix.kubirds.distributedMonitoring | markdownify }}</div></div>
         <div class="Rtable-cell prodLevel2"><div class="kubematrix-current-distributedMonitoring"></div></div>
       </div>
 
       <div class="Rtable-row">
         <div class="Rtable-cell Rtable-cell-head" style="padding-left: 38px;">Service Discovery</div>
-        <div class="Rtable-cell prodLevel1"><div>{{ .Site.Data.products.cmpmatrix.kubevisor.serviceDiscovery | markdownify }}</div></div>
+        <div class="Rtable-cell prodLevel1"><div>{{ .Site.Data.products.cmpmatrix.kubirds.serviceDiscovery | markdownify }}</div></div>
         <div class="Rtable-cell prodLevel2"><div class="kubematrix-current-serviceDiscovery"></div></div>
       </div>
 
       <div class="Rtable-row">
         <div class="Rtable-cell Rtable-cell-head" style="padding-left: 38px;">Check Scheduling</div>
-        <div class="Rtable-cell prodLevel1"><div>{{ .Site.Data.products.cmpmatrix.kubevisor.checkScheduling | markdownify }}</div></div>
+        <div class="Rtable-cell prodLevel1"><div>{{ .Site.Data.products.cmpmatrix.kubirds.checkScheduling | markdownify }}</div></div>
         <div class="Rtable-cell prodLevel2"><div class="kubematrix-current-checkScheduling"></div></div>
       </div>
 
       <div class="Rtable-row">
         <div class="Rtable-cell Rtable-cell-head" style="padding-left: 38px;">Downtime Scheduling</div>
-        <div class="Rtable-cell prodLevel1"><div>{{ .Site.Data.products.cmpmatrix.kubevisor.downtimeScheduling | markdownify }}</div></div>
+        <div class="Rtable-cell prodLevel1"><div>{{ .Site.Data.products.cmpmatrix.kubirds.downtimeScheduling | markdownify }}</div></div>
         <div class="Rtable-cell prodLevel2"><div class="kubematrix-current-downtimeScheduling"></div></div>
       </div>
 
       <div class="Rtable-row">
         <div class="Rtable-cell Rtable-cell-head" style="padding-left: 38px;">Stateful Checks/Notifications</div>
-        <div class="Rtable-cell prodLevel1"><div>{{ .Site.Data.products.cmpmatrix.kubevisor.stateful | markdownify }}</div></div>
+        <div class="Rtable-cell prodLevel1"><div>{{ .Site.Data.products.cmpmatrix.kubirds.stateful | markdownify }}</div></div>
         <div class="Rtable-cell prodLevel2"><div class="kubematrix-current-stateful"></div></div>
       </div>
 
       <div class="Rtable-row">
         <div class="Rtable-cell Rtable-cell-head" style="padding-left: 38px;">Event Based Check Scheduling</div>
-        <div class="Rtable-cell prodLevel1"><div>{{ .Site.Data.products.cmpmatrix.kubevisor.eventBasedCheckScheduling | markdownify }}</div></div>
+        <div class="Rtable-cell prodLevel1"><div>{{ .Site.Data.products.cmpmatrix.kubirds.eventBasedCheckScheduling | markdownify }}</div></div>
         <div class="Rtable-cell prodLevel2"><div class="kubematrix-current-eventBasedCheckScheduling"></div></div>
       </div>
 
       <div class="Rtable-row">
         <div class="Rtable-cell Rtable-cell-head" style="padding-left: 38px;">Metric Collection</div>
-        <div class="Rtable-cell prodLevel1"><div>{{ .Site.Data.products.cmpmatrix.kubevisor.metricCollection | markdownify }}</div></div>
+        <div class="Rtable-cell prodLevel1"><div>{{ .Site.Data.products.cmpmatrix.kubirds.metricCollection | markdownify }}</div></div>
         <div class="Rtable-cell prodLevel2"><div class="kubematrix-current-metricCollection"></div></div>
       </div>
     </div>
@@ -119,14 +119,14 @@
     template: 'webcomp-kubematrix',
     render(instance) {
       const converter = new showdown.Converter()
-      const kubevisor = instance.find('.kubematrix-table').data('kubevisor')
+      const kubirds = instance.find('.kubematrix-table').data('kubirds')
       const select = instance.find('.kubematrix-options')
 
       const onSelect = () => {
         const obj = JSON.parse(select.val())
 
         instance.find('.kubematrix-current-name').text(obj.name)
-        Object.keys(kubevisor).map(key => {
+        Object.keys(kubirds).map(key => {
           instance.find(`.kubematrix-current-${key}`).html(converter.makeHtml(obj[key] || ''))
         })
       }

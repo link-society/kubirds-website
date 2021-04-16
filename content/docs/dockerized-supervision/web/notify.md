@@ -31,7 +31,7 @@ Then create the following `Reactor` resource:
 
 ```yaml
 ---
-apiVersion: kubevisor.io/v1
+apiVersion: kubirds.com/v1
 kind: Reactor
 metadata:
   name: slack-notifier

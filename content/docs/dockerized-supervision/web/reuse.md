@@ -21,7 +21,7 @@ One possible way to do this is through the unit's labels:
 
 ```yaml
 ---
-apiVersion: kubevisor.io/v1
+apiVersion: kubirds.com/v1
 kind: Unit
 metadata:
   name: check-my-service-access
@@ -38,7 +38,7 @@ Then, in our `Reactor`, instead of using the `app` label, we simply do:
 
 ```yaml
 ---
-apiVersion: kubevisor.io/v1
+apiVersion: kubirds.com/v1
 kind: Reactor
 metadata:
   name: notify-slack
@@ -53,7 +53,7 @@ Finally, we can edit our `Inhibitor` as well:
 
 ```yaml
 ---
-apiVersion: kubevisor.io/v1
+apiVersion: kubirds.com/v1
 kind: Unit
 metadata:
   name: upgrade-window-weekend-night-2h

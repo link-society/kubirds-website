@@ -39,7 +39,7 @@ Then mount the volume on your unit:
 
 ```yaml
 ---
-apiVersion: kubevisor.io/v1
+apiVersion: kubirds.com/v1
 kind: Unit
 metadata:
   name: my-testsuite
@@ -63,7 +63,7 @@ And finally, mount the volume on your reactor:
 
 ```yaml
 ---
-apiVersion: kubevisor.io/v1
+apiVersion: kubirds.com/v1
 kind: Reactor
 metadata:
   name: junit-publisher

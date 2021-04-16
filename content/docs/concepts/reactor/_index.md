@@ -11,7 +11,7 @@ Example:
 
 ```yaml
 ---
-apiVersion: kubevisor.io/v1
+apiVersion: kubirds.com/v1
 kind: Reactor
 metadata:
   name: notify-slack
@@ -19,7 +19,7 @@ spec:
   unitSelector:
     notify-slack: "yes"
   image:
-    name: linksociety/kubevisor-reactor-slack:latest
+    name: ghcr.io/link-society/kubirds-reactor-slack:latest
     pullPolicy: Always
     command: notify-slack
   envFrom:

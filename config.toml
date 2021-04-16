@@ -1,9 +1,9 @@
-baseURL = "https://kubevisor.io/"
+baseURL = "https://kubirds.com/"
 languageCode = "en-us"
-title = "Kubevisor"
+title = "Kubirds"
 
 [params]
-logo = "/gfx/Logo_Kubevisor.png"
+logo = "/gfx/Logo_Kubirds.png"
 author = "Link-Society"
 description = "Dockerized supervision on Kubernetes"
 zapier = "https://hooks.zapier.com/hooks/catch/7255418/ow4b2ez/silent/"

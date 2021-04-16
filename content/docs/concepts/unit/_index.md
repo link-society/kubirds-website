@@ -12,7 +12,7 @@ Example:
 
 ```yaml
 ---
-apiVersion: kubevisor.io/v1
+apiVersion: kubirds.com/v1
 kind: Unit
 metadata:
   name: check-google-access

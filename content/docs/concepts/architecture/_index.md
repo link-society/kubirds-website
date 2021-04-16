@@ -1,16 +1,16 @@
 +++
 title = "Architecture"
-description = "Kubevisor Architecture Specification"
+description = "Kubirds Architecture Specification"
 weight = 1
 layout = "chapter"
 +++
 
 ## Introduction
 
-This document provides an overview of Kubevisor's components and dependencies
+This document provides an overview of Kubirds's components and dependencies
 and how they interact with each other.
 
-Because **Kubevisor** relies on [TektonCD](https://tekton.dev) and [Kubernetes](https://kubernetes.io),
+Because **Kubirds** relies on [TektonCD](https://tekton.dev) and [Kubernetes](https://kubernetes.io),
 it is recommended to also read their documentation, but not mandatory.
 
 ## How to read?

@@ -20,7 +20,7 @@ Create the following Kubernetes resource:
 
 ```yaml
 ---
-apiVersion: kubevisor.io/v1
+apiVersion: kubirds.com/v1
 kind: Inhibitor
 metadata:
   name: weekly-upgrade
