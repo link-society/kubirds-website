@@ -1,0 +1,65 @@
+features = [
+  "Kubirds", 
+  "Packs de Units / Reactors", 
+  "Installation", 
+  "Mise à jour", 
+  "Support", 
+  "Temps de réponse",
+  "Remote intervention",
+  "On site intervention",
+  "Estimation de temps de résolution",
+  "Prix",
+  "Durée"
+  ]
+
+[[subscription]]
+
+custom_css = "prodLevel1"
+name = "Découverte"
+icon = "😀"
+Kubirds = true
+'Packs de Units / Reactors' = "Sur demande"
+Installation = "Sur demande"
+'Mise à jour' = false
+Support = "Communautaire"
+'Temps de réponse' = "<5 jours ouvrés"
+'Remote intervention' = false
+'On site intervention' = false
+'Estimation de temps de résolution' = true
+Prix = "A partir de<br>1 000€ / noeud"
+'Durée' = "<br>12 mois"
+
+[[subscription]]
+
+
+custom_css = "prodLevel2"
+name = "Erudit"
+icon = "🖥️"
+Kubirds = true
+'Packs de Units / Reactors' = "Sur demande"
+Installation = true
+'Mise à jour' = true
+Support = "Tickets illimités"
+'Temps de réponse' = "<48h ouvrés"
+'Remote intervention' = true
+'On site intervention' = false
+'Estimation de temps de résolution' = true
+Prix = "Nous contacter"
+'Durée' = "Tacite reconduction annuelle"
+
+[[subscription]]
+
+custom_css = "prodLevel3"
+name = "Entreprise"
+icon = "🏢"
+Kubirds = true
+'Packs de Units / Reactors' = true
+Installation = true
+'Mise à jour' = true
+Support = "Tickets illimités" 
+'Temps de réponse' = "<24h + astreinte"
+'Remote intervention' = true
+'On site intervention' = true
+'Estimation de temps de résolution' = true
+Prix = "Nous contacter"
+'Durée' = "Tacite reconduction annuelle"
