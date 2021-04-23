@@ -1,3 +1,4 @@
+{{/* English page */}}
 
 {{ define "main" }}
   <div class="mainContent">
@@ -12,10 +13,10 @@
 
       <div class="blk">
         <div class="dispoTable">
-          <div class="Rtable Rtable--{{ add (len .Site.Data.subscriptions.plans2.subscription)  1 }}cols">
+          <div class="Rtable Rtable--{{ add (len .Site.Data.subscriptions.plans.subscription)  1 }}cols">
             <div class="Rtable-row">
               <div class="Rtable-cell Rtable-cell-thead"></div>
-              {{ range $.Site.Data.subscriptions.plans2.subscription }}
+              {{ range $.Site.Data.subscriptions.plans.subscription }}
               <div class="Rtable-cell Rtable-cell-thead {{ .custom_css }}">
                 <h2> {{ .name }}</h2>
               </div>   
@@ -24,20 +25,35 @@
 
             <div class="Rtable-row">
               <div class="Rtable-cell Rtable-cell-head"></div>
-              {{ range $.Site.Data.subscriptions.plans2.subscription }}
+              {{ range $.Site.Data.subscriptions.plans.subscription }}
                 <div class="Rtable-cell {{ .custom_css }}"><div class="prodPrice">{{ .icon }}</div></div>
               {{ end }}
             </div>
 
             <div class="Rtable-row">
-              <div class="Rtable-cell tableTitre"><h2>Offres</h2></div>
+              <div class="Rtable-cell tableTitre"><h2>Offers</h2></div>
             </div>
 
-            {{ range .Site.Data.subscriptions.plans2.features }}
+            {{ range .Site.Data.subscriptions.plans.features }}
             {{ $feature := . }}
             <div class="Rtable-row">
               <div class="Rtable-cell Rtable-cell-head">{{ $feature }}</div>
-              {{ range $.Site.Data.subscriptions.plans2.subscription }}
+              {{ range $.Site.Data.subscriptions.plans.subscription }}
+                <div class="Rtable-cell {{ .custom_css }}">
+                  <div class="prodPrice">
+                    {{ $description := index . $feature }}
+                    {{ if eq $description true }}           
+                      <i class="icon-mdi_done"></i>
+                    {{ else if eq $description false }}
+                    <i class="icon-mdi_clear"></i>
+                    {{ else }}
+                    {{ $description | markdownify }}
+                    {{ end }}
+                  </div>
+                </div>
+              {{ end }}
+
+              {{ range $.Site.Data.subscriptions.plans.validation }}
                 <div class="Rtable-cell {{ .custom_css }}">
                   <div class="prodPrice">
                     {{ $description := index . $feature }}

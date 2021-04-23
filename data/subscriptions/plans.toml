@@ -1,27 +1,68 @@
-[[plans]]
+#English page
 
+features = [
+  "Kubirds", 
+  "Units / Reactors Packs", 
+  "Installation", 
+  "Update", 
+  "Support", 
+  "Maximum Response Time",
+  "Remote intervention",
+  "On site intervention",
+  "Estimate resolution time",
+  "Price",
+  "Duration"
+  ]
+
+[[subscription]]
+
+custom_css = "prodLevel1"
+name = "Discovery"
 icon = "😀"
-name = "Basic"
-price = 1000
-features = ["free updates", "rsp. w/i 1-5 business days, 10h-16h, GMT+2"]
+Kubirds = true
+'Units / Reactors Packs' = "On demand"
+Installation = "On demand"
+Update = false
+Support = "Community"
+'Maximum Response Time' = "5 working days"
+'Remote intervention' = false
+'On site intervention' = false
+'Estimate resolution time' = true
+Price = "From <br>1 000€ / node"
+Duration = "12 month"
 
-[[plans]]
+[[subscription]]
 
-icon = "🥈"
-name = "Silver"
-price = 10000
-features = ["Basic plan included", "📧, slack", "remote intervention"]
 
-[[plans]]
+custom_css = "prodLevel2"
+name = "Learned"
+icon = "🖥️"
+Kubirds = true
+'Units / Reactors Packs' = "On demand"
+Installation = true
+Update = true
+Support = "Unlimited tickets"
+'Maximum Response Time' = "48h working hours"
+'Remote intervention' = true
+'On site intervention' = false
+'Estimate resolution time' = true
+Price = "Custom"
+Duration = "Tacitly renewed each year"
 
-icon = "🥇"
-name = "Gold"
-price = 20000
-features = ["Silver plan included", "rsp. w/i 1-3 business days, 9h-17h, GMT+2"]
+[[subscription]]
 
-[[plans]]
-
+custom_css = "prodLevel3"
+name = "Entreprise"
 icon = "🏢"
-name = "Enterprise"
-price = "custom"
-features = ["Gold plan included", "☎️", "rsp. w/i 1 business days, 9h-17h, GMT+2", "on site intervention"]
+Kubirds = true
+'Units / Reactors Packs' = true
+Installation = true
+Update = true
+Support = "Unlimited tickets" 
+'Maximum Response Time' = "24h + penalties"
+'Remote intervention' = true
+'On site intervention' = true
+'Estimate resolution time' = true
+Price = "Custom"
+Duration = "Tacitly renewed each year"
+
