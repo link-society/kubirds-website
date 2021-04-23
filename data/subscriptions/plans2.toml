@@ -1,3 +1,5 @@
+#French page
+
 features = [
   "Kubirds", 
   "Packs de Units / Reactors", 
@@ -5,8 +7,8 @@ features = [
   "Mise à jour", 
   "Support", 
   "Temps de réponse",
-  "Remote intervention",
-  "On site intervention",
+  "Intervention à distance",
+  "Intervention sur site",
   "Estimation de temps de résolution",
   "Prix",
   "Durée"
@@ -23,8 +25,8 @@ Installation = "Sur demande"
 'Mise à jour' = false
 Support = "Communautaire"
 'Temps de réponse' = "<5 jours ouvrés"
-'Remote intervention' = false
-'On site intervention' = false
+'Intervention à distance' = false
+'Intervention sur site' = false
 'Estimation de temps de résolution' = true
 Prix = "A partir de<br>1 000€ / noeud"
 'Durée' = "<br>12 mois"
@@ -41,8 +43,8 @@ Installation = true
 'Mise à jour' = true
 Support = "Tickets illimités"
 'Temps de réponse' = "<48h ouvrés"
-'Remote intervention' = true
-'On site intervention' = false
+'Intervention à distance' = true
+'Intervention sur site' = false
 'Estimation de temps de résolution' = true
 Prix = "Nous contacter"
 'Durée' = "Tacite reconduction annuelle"
@@ -58,8 +60,8 @@ Installation = true
 'Mise à jour' = true
 Support = "Tickets illimités" 
 'Temps de réponse' = "<24h + astreinte"
-'Remote intervention' = true
-'On site intervention' = true
+'Intervention à distance' = true
+'Intervention sur site' = true
 'Estimation de temps de résolution' = true
 Prix = "Nous contacter"
 'Durée' = "Tacite reconduction annuelle"
