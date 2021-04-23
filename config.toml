@@ -4,7 +4,7 @@ title = "Kubirds"
 
 [params]
 logo = "/gfx/Logo_Kubirds.png"
-author = "Link-Society"
+author = "Link Society"
 description = "Dockerized supervision on Kubernetes"
 zapier = "https://hooks.zapier.com/hooks/catch/7255418/ow4b2ez/silent/"
 
