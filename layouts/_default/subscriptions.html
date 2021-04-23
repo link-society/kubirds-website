@@ -52,21 +52,6 @@
                   </div>
                 </div>
               {{ end }}
-
-              {{ range $.Site.Data.subscriptions.plans.validation }}
-                <div class="Rtable-cell {{ .custom_css }}">
-                  <div class="prodPrice">
-                    {{ $description := index . $feature }}
-                    {{ if eq $description true }}           
-                      <i class="icon-mdi_done"></i>
-                    {{ else if eq $description false }}
-                    <i class="icon-mdi_clear"></i>
-                    {{ else }}
-                    {{ $description | markdownify }}
-                    {{ end }}
-                  </div>
-                </div>
-              {{ end }}
             </div>
             {{ end }}
 
