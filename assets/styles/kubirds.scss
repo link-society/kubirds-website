@@ -1,0 +1,42 @@
+$tradewind: #68B5B7;
+$gun-powder: #464159;
+$slategray: #6C7B95;
+$zambezi: #5c5757;
+$zambezi-alpha: rgba(108, 123, 149, 0.2);
+$verylightgray: #E0E8E8;
+$ultralightgray: #F0F8F8;
+$mandy: #e84a5f;
+$vivid: #FF847C;
+$whitesmoke: #F6F5F7;
+$ghostwhite: #F8F8FA;
+
+$family-monospace: "Roboto mono", monospace;
+$family-sans-serif: "Roboto", sans-serif;
+$primary: $verylightgray;
+$warning: $vivid;
+$danger: $mandy;
+$success: $tradewind;
+$info: $mandy;
+$title-color: $mandy;
+$button-color: $tradewind;
+$table-head-cell-color: $mandy;
+$text: $zambezi;
+$link: $mandy;
+$link-hover: $gun-powder;
+
+$navbar-breakpoint: 1200px;
+
+@import "~bulma/bulma.sass";
+@import "~bulma-checkradio/src/sass/index.sass";
+@import "~bulma-tooltip/src/sass/index.sass";
+@import "~bulma-switch/src/sass/index.sass";
+@import "~bulma-pageloader/src/sass/index.sass";
+
+@import "./matrix.scss";
+@import "./radar.scss";
+@import "./contact-form.scss";
+@import "./helpers.scss";
+
+@import "./custom/main.scss";
+@import "./business/main.scss";
+@import "./getting-started/main.scss";

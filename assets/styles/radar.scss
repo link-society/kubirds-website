@@ -1,0 +1,20 @@
+.radar-chart {
+  width: 40vw;
+  height: 40vw;
+  display: block;
+  margin: auto;
+}
+
+@media screen and (max-width: 1023px) {
+  .radar-chart {
+    width: 60vw;
+    height: 60vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .radar-chart {
+    width: 95vw;
+    height: 95vw;
+  }
+}

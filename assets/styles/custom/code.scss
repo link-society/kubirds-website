@@ -1,0 +1,52 @@
+.highlight-wrapper {
+  display: block;
+
+  &:not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.highlight {
+  position: relative;
+}
+
+.copy-code-button {
+  cursor: pointer;
+
+  z-index: 2;
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em;
+
+  border: 1px solid $success;
+  border-radius: 5px;
+  padding: 0.5em;
+
+  color: $success;
+  background: $gun-powder;
+
+  opacity: 0.1;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.copy-code-icons {
+  position: relative;
+  height: 24px;
+  width: 24px;
+
+  i {
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .copy-code-icon-hidden {
+    opacity: 0;
+  }
+}

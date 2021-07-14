@@ -1,0 +1,26 @@
+html, body {
+  background-color: $ultralightgray;
+}
+
+.document-container {
+  overflow-x: auto;
+}
+
+#toc, #document {
+  background-color: white;
+  z-index: 0;
+}
+
+.toc-link {
+  color: $success !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.toc-link::before {
+  content: "> ";
+}
+
+.toc-link:hover, .toc-link.is-active {
+  color: white !important;
+  background-color: $gun-powder !important;
+}

@@ -1,0 +1,44 @@
+.is-full-height {
+  height: 100%;
+}
+
+.is-sticky {
+	position: sticky;
+  top: 3.5em;
+  left: 0;
+  right: 0;
+}
+
+.is-invisible {
+  opacity: 0;
+}
+
+.is-visible-print-only {
+  display: none !important;
+}
+
+@media print {
+  .is-visible-print-only {
+    display: block !important;
+  }
+
+  .is-hidden-print {
+    display: none !important;
+  }
+}
+
+.has-background-gunpowder {
+  background-color: $gun-powder !important;
+}
+
+.has-background-slategray {
+  background-color: $slategray !important;
+}
+
+.has-background-white-to-verylightgray {
+  background: linear-gradient(180deg, white 85%, $ultralightgray 100%) !important;
+}
+
+.has-text-lightgray {
+  color: #BCBCBC;
+}

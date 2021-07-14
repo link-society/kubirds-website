@@ -1,0 +1,18 @@
+.kubirds-contact-form {
+  .checkbox {
+    border: 1px solid $primary;
+    padding: 1em;
+    margin-right: 1em;
+
+    transition: all 0.3s ease-in-out;
+
+    input {
+      display: none;
+    }
+  }
+
+  .checkbox--checked {
+    background-color: $success;
+    color: white;
+  }
+}

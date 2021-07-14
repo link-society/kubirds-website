@@ -1,0 +1,29 @@
+
+.kubirds-section-link .title {
+  color: $link;
+}
+.kubirds-section-link:hover .title {
+  color: $link-hover;
+}
+
+.kubirds-section-menu {
+  .kubirds-section-menuitem {
+    display: block;
+    padding: 1em;
+    margin-bottom: 1px;
+
+    background-color: white;
+    color: $success;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.75em;
+    font-family: $family-monospace;
+
+    transition: all 0.3s ease-in-out;
+
+    &.is-active, &:hover {
+      background-color: $gun-powder;
+      color: white;
+    }
+  }
+}
