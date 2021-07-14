@@ -1,0 +1,28 @@
+spectaql:
+  logoFile: static/img/logo-kubirds.png
+  faviconFile: static/img/favicon-kubirds.svg
+  cssBuildMode: full
+
+introspection:
+  schemaFile: ./assets/schema.graphql
+  dynamicExamplesProcessingModule: ''
+
+info:
+  title: Kubirds Operator GraphQL API
+  version: 1.0.0-rc3
+  description: API documentation and tutorials
+  termsOfService: /legals
+
+  contact:
+    name: Link Society
+    email: support@link-society.com
+    url: https://link-society.com
+
+  license:
+    name: CC BY-NC-SA 4.0
+    url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+servers:
+  - url: http://kubirds-operator.default.svc.cluster.local/graphql
+    description: Kubirds Operator Graphql API
+    production: true
