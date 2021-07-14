@@ -1,0 +1,38 @@
+available:
+  - key: operator
+    icon: fas fa-cogs
+    displayName: Operator
+    content:
+      - title: Designed for Kubernetes
+        description: >
+          Knowing [Kubernetes](https://kubernetes.io) is knowing 95% of
+          **Kubirds**
+      - title: Scalable by default
+        description: Distribute your supervision workload across your cluster
+      - title: Interoperable
+        description: Query and Mutate any system
+
+  - key: kubectl
+    icon: fas fa-terminal
+    displayName: kubectl plugin
+    content:
+      - title: Small footprint
+        description: Developed in Go for a binary less than 1Kb
+      - title: Easy to use
+        description: >
+          Consult the history of your supervision with a KISS interface
+      - title: Cross-platform
+        description: Avaiable for Windows, Linux and Mac OS
+
+  - key: dashboard
+    icon: fas fa-desktop
+    displayName: Dashboard
+    content:
+      - title: Real-time monitoring
+        description: Visualize the state of your infrastructure in real time
+      - title: Role Based Access Control
+        description: >
+          Control access and permissions with Kubernetes Roles and Service
+          Accounts
+      - title: Responsive
+        description: Consult the dashboard on any device

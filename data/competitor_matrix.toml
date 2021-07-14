@@ -1,0 +1,189 @@
+[kubirds]
+
+deployment = "Helm"
+scalability = "Native to Kubernetes"
+secretManagement = "Native to Kubernetes"
+configuration = """
+ - Kubernetes CRD
+ - Web
+"""
+topologyConfiguration = "Horizontal - Kubernetes Labels"
+templating = """
+ - Helm
+ - Third-party engine using kubectl
+ - Third-party Kubernetes Operator
+ - Integrated (soon)
+"""
+customCheck = "Any Docker Image"
+customNotification = "Any Docker Image"
+distributedMonitoring = "Native to Kubernetes"
+remoteMonitoring = """
+ - SSH
+ - SNMP
+"""
+serviceDiscovery = "Soon"
+checkScheduling = "(Human) RRule"
+downtimeScheduling = "(Human) RRule with Time Window"
+stateful = "Integrated (soon)"
+eventBasedCheckScheduling = "Integrated (soon)"
+metricCollection = "Integrated (soon)"
+
+[[competitor]]
+
+name = "Nagios"
+
+deployment = "Manual"
+scalability = "Manual"
+secretManagement = "Manual"
+configuration = "Custom DSL"
+topologyConfiguration = "Hierarchical - Host/Service groups, Host/Service"
+templating = "Third-party engine"
+customCheck = "Executable file with specific output"
+customNotification = "Any command on host"
+distributedMonitoring = "None"
+remoteMonitoring = """
+ - SSH
+ - SNMP
+"""
+serviceDiscovery = "None"
+checkScheduling = "Interval"
+downtimeScheduling = "Time Window"
+stateful = "None"
+eventBasedCheckScheduling = "None"
+metricCollection = "Yes"
+
+[[competitor]]
+
+name = "Icinga"
+
+deployment = "Manual"
+scalability = "Manual"
+secretManagement = "Manual"
+configuration = """
+ - Custom DSL
+ - Web
+"""
+topologyConfiguration = "Hierarchical - Host/Service groups, Host/Service"
+templating = "Custom DSL"
+customCheck = "Executable file with specific output"
+customNotification = "Any command on host"
+distributedMonitoring = "Custom made (primary/secondary)"
+remoteMonitoring = """
+ - SSH
+ - SNMP
+"""
+serviceDiscovery = "None"
+checkScheduling = "Interval"
+downtimeScheduling = "Time Window"
+stateful = "None"
+eventBasedCheckScheduling = "None"
+metricCollection = "Yes"
+
+[[competitor]]
+
+name = "Centreon"
+
+deployment = "Manual"
+scalability = "Manual"
+secretManagement = "Manual"
+configuration = "Web"
+topologyConfiguration = "Hierarchical - Host/Service groups, Host/Service"
+templating = "Custom DSL"
+customCheck = "Executable file with specific output"
+customNotification = "Any command on host"
+distributedMonitoring = "Custom made (primary/secondary)"
+remoteMonitoring = """
+ - SSH
+ - SNMP
+"""
+serviceDiscovery = "Manually triggered"
+checkScheduling = "Interval"
+downtimeScheduling = "Time Window"
+stateful = "None"
+eventBasedCheckScheduling = "None"
+metricCollection = "Yes"
+
+[[competitor]]
+
+name = "Shinken"
+
+deployment = "Manual"
+scalability = "Manual"
+secretManagement = "Manual"
+configuration = "Custom DSL"
+topologyConfiguration = "Hierarchical - Host/Service groups, Host/Service"
+templating = "Custom DSL"
+customCheck = "Executable file with specific output"
+customNotification = "Any command on host"
+distributedMonitoring = "Custom made (broker)"
+remoteMonitoring = """
+ - SSH
+ - SNMP
+"""
+serviceDiscovery = "Manually triggered"
+checkScheduling = "Interval"
+downtimeScheduling = "Time Window"
+stateful = "None"
+eventBasedCheckScheduling = "None"
+metricCollection = "Yes"
+
+[[competitor]]
+
+name = "Zabbix"
+
+deployment = """
+ - Manual
+ - Helm
+"""
+scalability = """
+ - Manual
+ - Native to Kubernetes
+"""
+secretManagement = "Manual"
+configuration = "Web"
+topologyConfiguration = "Hierarchical - Host/Service groups, Host/Service"
+templating = "Web"
+customCheck = "Shell Script"
+customNotification = "Any command on host"
+distributedMonitoring = "Custom made (server/agent)"
+remoteMonitoring = """
+ - Zabbix Agent
+ - SSH
+ - SNMP
+"""
+serviceDiscovery = "None"
+checkScheduling = "Interval"
+downtimeScheduling = "Time Window"
+stateful = "None"
+eventBasedCheckScheduling = "Yes"
+metricCollection = "Yes"
+
+[[competitor]]
+
+name = "ELKB"
+
+deployment = """
+ - Manual
+ - Helm
+"""
+scalability = """
+ - Manual
+ - Native to Kubernetes
+"""
+secretManagement = "Manual"
+configuration = """
+ - Custom DSL (Logstash)
+ - Web (Kibana)
+"""
+topologyConfiguration = "None"
+templating = "None"
+customCheck = "Metric based alerting"
+customNotification = "Metric based alerting"
+distributedMonitoring = "Agent based"
+remoteMonitoring = "Agent based"
+serviceDiscovery = "None"
+checkScheduling = "None"
+downtimeScheduling = "None"
+stateful = "None"
+eventBasedCheckScheduling = "None"
+metricCollection = "Yes"

@@ -1,0 +1,45 @@
+[dataset]
+
+labels = ["Rapidity", "Scalability", "Interoperability", "Scheduling", "Observability", "Insight", "Intelligence"]
+
+[[dataset.series]]
+
+type = "line"
+name = "Nagios"
+data = [5, 5, 7, 3, 5, 5, 1]
+
+[[dataset.series]]
+
+type = "line"
+name = "Icinga"
+data = [5, 5, 5, 3, 5, 5, 1]
+
+[[dataset.series]]
+
+type = "line"
+name = "Centreon"
+data = [4, 5, 5, 3, 5, 5, 1]
+
+[[dataset.series]]
+
+type = "line"
+name = "Shinken"
+data = [6, 5, 5, 3, 5, 5, 3]
+
+[[dataset.series]]
+
+type = "line"
+name = "Zabbix"
+data = [7, 7, 6, 5, 6, 6, 5]
+
+[[dataset.series]]
+
+type = "line"
+name = "ELKB"
+data = [5, 7, 3, 0, 9, 9, 9]
+
+[[dataset.series]]
+
+type = "area"
+name = "Kubirds"
+data = [9, 9, 7, 9, 3, 3, 8]

@@ -1,0 +1,68 @@
+[[available]]
+
+icon = "fas fa-search"
+displayName = "Audit"
+key = "audit"
+cover = "/img/offers/audit.jpg"
+description = """
+We provide you with one of our engineers to perform an audit together (averages
+around 2 days).
+"""
+
+[[available]]
+
+icon = "fas fa-tasks"
+displayName = "Installation"
+key = "installation"
+cover = "/img/offers/install.jpg"
+description = """
+Benefit from our battle-tested automated installation procedure using
+[klifter](https://klifter.datapio.co).
+"""
+
+[[available]]
+
+icon = "fas fa-arrow-alt-circle-up"
+displayName = "Upgrades"
+key = "upgrades"
+cover = "/img/offers/upgrade.jpg"
+description = """
+Stay up-to-date with the latest Docker images of **Kubirds** and its
+components.
+"""
+
+[[available]]
+
+icon = "fas fa-question-circle"
+displayName = "Support"
+key = "support"
+cover = "/img/offers/support.jpg"
+description = """
+We establish together a maintainence contract to your needs, in order to
+keep your infrastructure well-behaved.
+"""
+
+[[available]]
+
+icon = "fas fa-graduation-cap"
+displayName = "Training"
+key = "training"
+cover = "/img/offers/training.jpg"
+description = """
+Take advantage of our expertise with **Kubirds** and
+[Kubernetes](https://kubernetes.io) to improve your teams skillset.
+"""
+
+[[available]]
+
+icon = "fas fa-code"
+displayName = "Custom Development"
+key = "dev"
+cover = "/img/offers/dev.jpg"
+description = """
+We help you integrate **Kubirds** to your infrastructure with:
+
+ - additional probes and notifiers
+ - new features to accomodate for your business constraints
+ - user interface improvements to fullfill your data-visualization needs
+"""
