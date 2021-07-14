@@ -1,0 +1,44 @@
+<template id="kubirds-webcomp-radar">
+  <div
+    class="radar-chart"
+    data-dataset="{{ .Site.Data.radar.dataset | jsonify }}">
+  </div>
+</template>
+
+<script type="application/javascript">
+  const capitalize = str => `${str.slice(0, 1).toUpperCase()}${str.slice(1)}`
+
+  MicroWebComponent.extends({
+    tag: 'kubirds-radar',
+    template: 'kubirds-webcomp-radar',
+    render(instance) {
+      $(instance).parent().css('display', 'block')
+      $(instance).css('display', 'block')
+      const radar = $(instance).find('.radar-chart')
+
+      const { labels, series } = radar.data('dataset')
+      radar.highcharts({
+        chart: {
+          polar: true
+        },
+        title: {
+          text: 'Kubirds Comparison Overview'
+        },
+        legend: {
+          align: 'center',
+          verticalAlign: 'top',
+          layout: 'horizontal'
+        },
+        xAxis: {
+          labels: {
+            allowOverlap: true,
+            formatter: function() {
+              return labels[this.value]
+            }
+          }
+        },
+        series
+      })
+    }
+  })
+</script>

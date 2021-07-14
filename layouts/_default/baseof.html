@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    {{ partial "core/metadata.html" . }}
+    {{ partial "core/css.html" . }}
+    {{ partial "core/scripts.html" . }}
+  </head>
+  <body class="has-navbar-fixed-top">
+    {{ partial "core/web-components.html" . }}
+
+    {{ partial "components/navbar.html" . }}
+
+    {{ block "main" . }}
+    {{ end }}
+
+    {{ partial "components/footer.html" . }}
+  </body>
+</html>

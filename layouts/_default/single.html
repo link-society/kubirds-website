@@ -1,0 +1,45 @@
+{{ define "main" }}
+  <section class="container p-6">
+    <div class="is-size-4 is-pulled-left">
+      <a class="has-text-dark" href="{{ .Parent.RelPermalink }}">
+        <i class="fas fa-chevron-left"></i>
+      </a>
+    </div>
+    <div class="is-pulled-right">
+      {{ partial "components/reading-time.html" . }}
+    </div>
+    <h2 class="title is-spaced has-text-centered is-family-monospace has-text-dark">
+      {{ partial "components/breadcrumbs.html" (dict "context" . "url" .RelPermalink) }}
+    </h2>
+    <h3 class="subtitle has-text-centered has-text-lightgray">
+      {{ .Params.description | markdownify }}
+    </h3>
+  </section>
+
+  <section class="container mb-6">
+    <div class="columns">
+      <div class="column is-narrow">
+        <nav class="kubirds-section-menu is-sticky">
+          {{ range .Parent.Pages }}
+            {{ if eq $.Page.RelPermalink .RelPermalink }}
+              <a href="{{ .RelPermalink }}" class="kubirds-section-menuitem is-active">
+                &gt; {{ .Title }}
+              </a>
+            {{ else }}
+              <a href="{{ .RelPermalink }}" class="kubirds-section-menuitem">
+                &gt; {{ .Title }}
+              </a>
+            {{ end }}
+          {{ end }}
+        </nav>
+      </div>
+      <div class="column document-container">
+        <div class="content p-6" id="document">
+          {{ .Content }}
+        </div>
+      </div>
+
+      {{ partial "components/toc.html" . }}
+    </div>
+  </section>
+{{ end }}

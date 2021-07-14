@@ -1,0 +1,28 @@
+<section class="hero has-background-white-to-verylightgray">
+  <div class="hero-body">
+    <h2 class="title has-text-centered">Kubirds is...</h2>
+
+    {{ $col_count := .Params.key_points.items_per_row }}
+    {{ $row_count := (div (len .Params.key_points.item) $col_count) }}
+    {{ range $row := (seq $row_count) }}
+      <div class="columns is-centered mt-6">
+        {{ $offset := (mul (sub $row 1) $col_count) }}
+
+        {{ range $key_point := (first $col_count (after $offset $.Params.key_points.item)) }}
+          <div class="column {{ $.Params.key_points.column_size }}">
+            <div class="container p-5 has-text-centered is-flex is-flex-direction-column is-full-height">
+              <h4 class="title is-size-3">
+                <i class="{{ $key_point.icon }}"></i>
+              </h4>
+              <h4 class="title is-size-4">{{ $key_point.title }}</h4>
+
+              <div class="content">
+                {{ $key_point.description | markdownify }}
+              </div>
+            </div>
+          </div>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+</section>

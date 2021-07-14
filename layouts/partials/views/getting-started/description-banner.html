@@ -1,0 +1,11 @@
+<section class="kubirds-description-banner">
+  <div class="kubirds-description-banner-overlay"></div>
+  <div class="kubirds-description-banner-content">
+    <p class="is-size-5">{{ .Page.Params.description_banner.text }}</p>
+    <div class="has-text-centered m-6">
+      <a class="button call-to-action" href="{{ .Page.Params.description_banner.call_to_action.url }}">
+        {{ .Page.Params.description_banner.call_to_action.label | safeHTML }}
+      </a>
+    </div>
+  </div>
+</section>

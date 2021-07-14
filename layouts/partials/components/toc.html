@@ -1,0 +1,9 @@
+{{ if and (isset .Params "toc") .Params.toc }}
+  <div class="column is-narrow is-hidden-touch is-hidden-print">
+    <div id="toc" class="menu pt-3 pb-6 px-3 is-sticky">
+      <p class="menu-label has-text-centered">Table of Content</p>
+
+      <ul id="toc-content" class="pt-3 menu-list"></ul>
+    </div>
+  </div>
+{{ end }}

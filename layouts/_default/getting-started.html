@@ -1,0 +1,21 @@
+{{ define "main" }}
+  {{ partial "views/getting-started/description-banner.html" . }}
+  {{ partial "views/getting-started/key-points.html" . }}
+  {{ partial "views/getting-started/schema.html" . }}
+  {{ partial "views/getting-started/concepts.html" . }}
+
+  <section class="container my-6">
+    <div class="columns">
+      {{ partial "components/toc.html" . }}
+
+      <div class="column document-container">
+        <div class="is-pulled-right p-3">
+          {{ partial "components/reading-time.html" . }}
+        </div>
+        <div class="content p-6" id="document">
+          {{ .Content }}
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}

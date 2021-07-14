@@ -1,0 +1,79 @@
+<header class="hero">
+  <div class="hero-head">
+    <nav class="navbar has-shadow has-background-primary is-fixed-top is-primary">
+      <div class="navbar-brand">
+        <a class="navbar-item brand-text" href="/">
+          <img src="{{ .Site.Params.Layout.Logo }}" alt="Kubirds" />
+        </a>
+
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="kubirds-menu">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="kubirds-menu" class="navbar-menu">
+        <div class="navbar-start">
+          <a
+            {{ if (hasPrefix .RelPermalink "/getting-started/") }}
+              class="navbar-item has-text-success is-uppercase is-size-7 is-active"
+            {{ else }}
+              class="navbar-item has-text-success is-uppercase is-size-7"
+            {{ end }}
+            style="letter-spacing: 2px;"
+            href="/getting-started/"
+          >
+            Getting Started
+          </a>
+          <div class="navbar-item has-text-success is-hidden-touch">|</div>
+          <a
+            {{ if (hasPrefix .RelPermalink "/offers/") }}
+              class="navbar-item has-text-success is-uppercase is-size-7 is-active"
+            {{ else }}
+              class="navbar-item has-text-success is-uppercase is-size-7"
+            {{ end }}
+            style="letter-spacing: 2px;"
+            href="/offers/"
+          >
+            Products and Services
+          </a>
+          <div class="navbar-item has-text-success is-hidden-touch">|</div>
+          <a
+            {{ if (hasPrefix .RelPermalink "/docs/") }}
+              class="navbar-item has-text-success is-uppercase is-size-7 is-active"
+            {{ else }}
+              class="navbar-item has-text-success is-uppercase is-size-7"
+            {{ end }}
+            style="letter-spacing: 2px;"
+            href="/docs/"
+          >
+            Documentation
+          </a>
+        </div>
+
+        <div class="navbar-end">
+          <a class="navbar-item" href="https://kubernetes.io/">
+            <img src="/img/logo-kubernetes.svg" alt="Kubernetes" />
+          </a>
+          <div class="navbar-item is-hidden-touch">|</div>
+          <a class="navbar-item" href="/contact/">
+            Contact
+          </a>
+          <div class="navbar-item is-hidden-touch">|</div>
+          <a class="navbar-item" href="/about/">
+            About us
+          </a>
+          <div class="navbar-item is-hidden-touch">|</div>
+          <a class="navbar-item" href="/legals/">
+            Legals
+          </a>
+          <div class="navbar-item is-hidden-touch">|</div>
+          <a class="navbar-item" href="https://github.com/link-society">
+            <img src="/img/logo-github.svg" alt="View on Github" />
+          </a>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,51 @@
+<template id="kubirds-webcomp-tabs">
+  <nav class="tabs is-centered">
+    <ul></ul>
+  </nav>
+
+  <div class="tabs-content">
+  </div>
+</template>
+
+<script type="application/javascript">
+  MicroWebComponent.extends({
+    tag: 'kubirds-tabs',
+    template: 'kubirds-webcomp-tabs',
+    render(instance) {
+      const container = $(instance)
+      const links = container.find('.tabs ul')
+      const contents = container.find('.tabs-content')
+
+      const tabs = container.data('tabs')
+
+      for (const tab of tabs) {
+        const link = $('<li/>').append(
+          $('<a/>', { text: tab.title })
+        )
+
+        const content = $('<div/>', {
+          class: 'is-hidden',
+          html: tab.content
+        })
+
+        link.on('click', () => {
+          links.find('.is-active').removeClass('is-active')
+
+          contents.find('.is-active')
+            .removeClass('is-active')
+            .addClass('is-hidden')
+
+          link.addClass('is-active')
+          content.removeClass('is-hidden')
+          content.addClass('is-active')
+
+        })
+
+        links.append(link)
+        contents.append(content)
+      }
+
+      links.children().first().trigger('click')
+    }
+  })
+</script>

@@ -1,0 +1,73 @@
+<section class="container mb-6">
+  <div class="columns is-centered">
+    <di class="column is-one-third">
+      <article class="panel is-success has-background-white is-flex is-flex-direction-column is-full-height">
+        <p class="panel-heading has-text-centered">
+          <i class="fab fa-docker"></i> Unit
+        </p>
+        <div class="panel-block" style="border-bottom: 0;">
+          <div class="container">
+            <div class="content">
+              {{ .Page.Params.concepts.unit | markdownify }}
+            </div>
+          </div>
+        </div>
+        <div class="panel-block" style="margin-top: auto;">
+          <div class="container">
+            <div class="content">
+              <p class="has-text-right">
+                <a href="/docs/concepts/unit/">Read more</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </di is-centeredv>
+    <di class="column is-one-third">
+      <article class="panel is-success has-background-white is-flex is-flex-direction-column is-full-height">
+        <p class="panel-heading has-text-centered">
+          <i class="fab fa-docker"></i> Reactor
+        </p>
+        <div class="panel-block" style="border-bottom: 0;">
+          <div class="container">
+            <div class="content">
+              {{ .Page.Params.concepts.reactor | markdownify }}
+            </div>
+          </div>
+        </div>
+        <div class="panel-block" style="margin-top: auto;">
+          <div class="container">
+            <div class="content">
+              <p class="has-text-right">
+                <a href="/docs/concepts/reactor/">Read more</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </di is-centeredv>
+    <div class="column is-one-third">
+      <article class="panel is-success has-background-white is-flex is-flex-direction-column is-full-height">
+        <p class="panel-heading has-text-centered">
+          <i class="far fa-calendar-alt"></i> Inhibitor
+        </p>
+        <div class="panel-block" style="border-bottom: 0;">
+          <div class="container">
+            <div class="content">
+              {{ .Page.Params.concepts.inhibitor | markdownify }}
+            </div>
+          </div>
+        </div>
+        <div class="panel-block" style="margin-top: auto;">
+          <div class="container">
+            <div class="content">
+              <p class="has-text-right">
+                <a href="/docs/concepts/inhibitor/">Read more</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>

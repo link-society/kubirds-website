@@ -1,0 +1,10 @@
+{{ $link := .Get 0 }}
+
+{{ with $.Site.GetPage $link }}
+  <div class="is-flex is-justify-content-flex-end">
+    <a href="{{ .RelPermalink }}" class="tutorial-link">
+      <span>Continue reading &#8594;</span>
+      <span class="tutorial-next-page">{{ .Title }}</span>
+    </a>
+  </div>
+{{ end}}

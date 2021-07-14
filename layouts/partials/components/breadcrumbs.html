@@ -1,0 +1,24 @@
+{{ $page:= .context }}
+{{ $url := .url }}
+
+{{ $breadcrumbs := default (dict) (index $page.Params "breadcrumbs") }}
+{{ $breadcrumbRoot := default false (index $breadcrumbs "root") }}
+{{ $breadcrumbIcon := default false (index $breadcrumbs "icon") }}
+
+{{ if not $breadcrumbRoot }}
+  {{ with $page.Parent }}
+    {{ partial "components/breadcrumbs.html" (dict "context" . "url" $url) }} /
+  {{ end }}
+{{ end }}
+
+{{ if ne $url $page.RelPermalink }}
+  <a href="{{ $page.RelPermalink }}" class="has-text-black">
+    {{ if $breadcrumbIcon }}
+      {{ $breadcrumbIcon | safeHTML }}
+    {{ else }}
+      {{ $page.Title }}
+    {{ end }}
+  </a>
+{{ else }}
+  {{ $page.Title }}
+{{ end }}

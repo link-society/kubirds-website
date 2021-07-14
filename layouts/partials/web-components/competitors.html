@@ -1,0 +1,149 @@
+<template id="kubirds-webcomp-competitors">
+  <div class="matrix" data-matrix="{{ .Site.Data.competitor_matrix | jsonify }}">
+    <header class="matrix-row matrix-columns-3 matrix-header">
+      <div class="matrix-column"><h2>Compare</h2></div>
+      <div class="matrix-column">
+        <h2 class="has-text-white has-background-gunpowder">Kubirds</h2>
+      </div>
+      <div class="matrix-column">
+        <h2 class="has-text-white has-background-slategray">
+          <div class="control">
+            <div class="select is-primary">
+              <select class="matrix-selector is-family-monospace has-background-slategray has-text-white">
+                {{ range .Site.Data.competitor_matrix.competitor }}
+                  <option value="{{ . | jsonify }}">{{ .name }}</option>
+                {{ end }}
+              </select>
+            </div>
+          </div>
+        </h2>
+      </div>
+    </header>
+
+    <div class="matrix-row matrix-category">
+      <div class="matrix-column">
+        <h2 class="has-text-link">Setup</h2>
+      </div>
+    </div>
+
+    <div class="matrix-row matrix-data matrix-columns-3">
+      <div class="matrix-column">Deployment</div>
+      <div class="matrix-column"><div>{{ .Site.Data.competitor_matrix.kubirds.deployment | markdownify }}</div></div>
+      <div class="matrix-column"><div class="kubirds-competitor-field" data-key="deployment"></div></div>
+    </div>
+    <div class="matrix-row matrix-data matrix-columns-3">
+      <div class="matrix-column">Scalability</div>
+      <div class="matrix-column"><div>{{ .Site.Data.competitor_matrix.kubirds.scalability | markdownify }}</div></div>
+      <div class="matrix-column"><div class="kubirds-competitor-field" data-key="scalability"></div></div>
+    </div>
+    <div class="matrix-row matrix-data matrix-columns-3">
+      <div class="matrix-column">Secret Management</div>
+      <div class="matrix-column"><div>{{ .Site.Data.competitor_matrix.kubirds.secretManagement | markdownify }}</div></div>
+      <div class="matrix-column"><div class="kubirds-competitor-field" data-key="secretManagement"></div></div>
+    </div>
+    <div class="matrix-row matrix-data matrix-columns-3">
+      <div class="matrix-column">Configuration</div>
+      <div class="matrix-column"><div>{{ .Site.Data.competitor_matrix.kubirds.configuration | markdownify }}</div></div>
+      <div class="matrix-column"><div class="kubirds-competitor-field" data-key="configuration"></div></div>
+    </div>
+    <div class="matrix-row matrix-data matrix-columns-3">
+      <div class="matrix-column">Topology Configuration</div>
+      <div class="matrix-column"><div>{{ .Site.Data.competitor_matrix.kubirds.topologyConfiguration | markdownify }}</div></div>
+      <div class="matrix-column"><div class="kubirds-competitor-field" data-key="topologyConfiguration"></div></div>
+    </div>
+    <div class="matrix-row matrix-data matrix-columns-3">
+      <div class="matrix-column">Templating</div>
+      <div class="matrix-column"><div>{{ .Site.Data.competitor_matrix.kubirds.templating | markdownify }}</div></div>
+      <div class="matrix-column"><div class="kubirds-competitor-field" data-key="templating"></div></div>
+    </div>
+
+    <div class="matrix-row matrix-category">
+      <div class="matrix-column">
+        <h2 class="has-text-link">Features</h2>
+      </div>
+    </div>
+
+    <div class="matrix-row matrix-data matrix-columns-3">
+      <div class="matrix-column">Custom Check</div>
+      <div class="matrix-column"><div>{{ .Site.Data.competitor_matrix.kubirds.customCheck | markdownify }}</div></div>
+      <div class="matrix-column"><div class="kubirds-competitor-field" data-key="customCheck"></div></div>
+    </div>
+    <div class="matrix-row matrix-data matrix-columns-3">
+      <div class="matrix-column">Custom Notification</div>
+      <div class="matrix-column"><div>{{ .Site.Data.competitor_matrix.kubirds.customNotification | markdownify }}</div></div>
+      <div class="matrix-column"><div class="kubirds-competitor-field" data-key="customNotification"></div></div>
+    </div>
+    <div class="matrix-row matrix-data matrix-columns-3">
+      <div class="matrix-column">Check Scheduling</div>
+      <div class="matrix-column"><div>{{ .Site.Data.competitor_matrix.kubirds.checkScheduling | markdownify }}</div></div>
+      <div class="matrix-column"><div class="kubirds-competitor-field" data-key="checkScheduling"></div></div>
+    </div>
+    <div class="matrix-row matrix-data matrix-columns-3">
+      <div class="matrix-column">Downtime Scheduling</div>
+      <div class="matrix-column"><div>{{ .Site.Data.competitor_matrix.kubirds.downtimeScheduling | markdownify }}</div></div>
+      <div class="matrix-column"><div class="kubirds-competitor-field" data-key="downtimeScheduling"></div></div>
+    </div>
+    <div class="matrix-row matrix-data matrix-columns-3">
+      <div class="matrix-column">Stateful Checks/Notifications</div>
+      <div class="matrix-column"><div>{{ .Site.Data.competitor_matrix.kubirds.stateful | markdownify }}</div></div>
+      <div class="matrix-column"><div class="kubirds-competitor-field" data-key="stateful"></div></div>
+    </div>
+    <div class="matrix-row matrix-data matrix-columns-3">
+      <div class="matrix-column">Event Based Check Scheduling</div>
+      <div class="matrix-column"><div>{{ .Site.Data.competitor_matrix.kubirds.eventBasedCheckScheduling | markdownify }}</div></div>
+      <div class="matrix-column"><div class="kubirds-competitor-field" data-key="eventBasedCheckScheduling"></div></div>
+    </div>
+    <div class="matrix-row matrix-data matrix-columns-3">
+      <div class="matrix-column">Metric Collection</div>
+      <div class="matrix-column"><div>{{ .Site.Data.competitor_matrix.kubirds.metricCollection | markdownify }}</div></div>
+      <div class="matrix-column"><div class="kubirds-competitor-field" data-key="metricCollection"></div></div>
+    </div>
+
+    <div class="matrix-row matrix-category">
+      <div class="matrix-column">
+        <h2 class="has-text-link">Cloud Awareness</h2>
+      </div>
+    </div>
+
+    <div class="matrix-row matrix-data matrix-columns-3">
+      <div class="matrix-column">Distributed Monitoring</div>
+      <div class="matrix-column"><div>{{ .Site.Data.competitor_matrix.kubirds.distributedMonitoring | markdownify }}</div></div>
+      <div class="matrix-column"><div class="kubirds-competitor-field" data-key="distributedMonitoring"></div></div>
+    </div>
+    <div class="matrix-row matrix-data matrix-columns-3">
+      <div class="matrix-column">Remote Monitoring</div>
+      <div class="matrix-column"><div>{{ .Site.Data.competitor_matrix.kubirds.remoteMonitoring | markdownify }}</div></div>
+      <div class="matrix-column"><div class="kubirds-competitor-field" data-key="remoteMonitoring"></div></div>
+    </div>
+    <div class="matrix-row matrix-data matrix-columns-3">
+      <div class="matrix-column">Service Discovery</div>
+      <div class="matrix-column"><div>{{ .Site.Data.competitor_matrix.kubirds.serviceDiscovery | markdownify }}</div></div>
+      <div class="matrix-column"><div class="kubirds-competitor-field" data-key="serviceDiscovery"></div></div>
+    </div>
+  </div>
+</template>
+
+<script type="application/javascript">
+  MicroWebComponent.extends({
+    tag: 'kubirds-competitors',
+    template: 'kubirds-webcomp-competitors',
+    render(instance) {
+      const converter = new showdown.Converter()
+
+      const kubirds = $(instance).find('.matrix').data('matrix')
+      const select = $(instance).find('.matrix-selector')
+
+      const onSelect = () => {
+        const obj = JSON.parse(select.val())
+
+        $(instance).find('.kubirds-competitor-field').each(function() {
+          const key = $(this).data('key')
+          $(this).html(converter.makeHtml(obj[key] || ''))
+        })
+      }
+
+      onSelect()
+      select.on('change', onSelect)
+    }
+  })
+</script>

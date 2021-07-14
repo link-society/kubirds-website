@@ -1,0 +1,49 @@
+{{ define "main" }}
+  {{ $navType := default "full" (index .Params "nav") }}
+
+  <section class="container p-6">
+    <div class="is-size-4 is-pulled-left">
+      <a class="has-text-dark" href="{{ .Parent.RelPermalink }}">
+        <i class="fas fa-chevron-left"></i>
+      </a>
+    </div>
+    <h2 class="title has-text-centered is-family-monospace has-text-dark">
+      {{ partial "components/breadcrumbs.html" (dict "context" . "url" .RelPermalink) }}
+    </h2>
+  </section>
+  <section class="container p-6">
+    <div class="columns is-centered is-multiline">
+      {{ range .Pages }}
+        <div class="column is-one-quarter">
+          {{ if (eq $navType "simple") }}
+            <a href="{{ .RelPermalink }}" class="kubirds-section-link">
+              <div class="container has-background-white p-6 is-full-height">
+                <h2 class="title is-size-5 has-text-centered is-family-monospace has-text-weight-light">
+                  {{ .Title }}
+                </h2>
+              </div>
+            </a>
+          {{ else if (eq $navType "full") }}
+            <a href="{{ .RelPermalink }}" class="kubirds-section-link">
+              <div class="container has-background-white p-6 is-full-height">
+                {{ if .Params.icon }}
+                  <p class="has-text-centered">
+                    {{ .Params.icon | safeHTML }}
+                  </p>
+                {{ end }}
+
+                <h2 class="title is-size-5 has-text-centered is-family-monospace has-text-weight-light">
+                  {{ .Title }}
+                </h2>
+
+                <p class="has-text-black has-text-centered">
+                  {{ .Params.description }}
+                </p>
+              </div>
+            </a>
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}

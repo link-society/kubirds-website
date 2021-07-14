@@ -1,0 +1,8 @@
+{{ $readTime := mul (div (countwords .Content) 220.0) 60 }}
+{{ $readMinutes := int (div $readTime 60) }}
+{{ $readSeconds := mod $readTime 60 }}
+<span class="has-tooltip-left" data-tooltip="Reading time">
+  <i class="fas fa-book mr-1"></i>
+  {{ $readMinutes }}:{{ $readSeconds }}
+</span>
+

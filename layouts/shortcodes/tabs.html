@@ -1,0 +1,4 @@
+{{ $propname := .Get 0 }}
+{{ $tabs := $.Page.Param $propname }}
+
+<kubirds-tabs data-tabs="{{ $tabs | jsonify }}"></kubirds-tabs>

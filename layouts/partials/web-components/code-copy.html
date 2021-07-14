@@ -1,0 +1,34 @@
+<template id="kubirds-webcomp-code-copy">
+  <div class="copy-code-button is-hidden-touch" >
+    <div class="copy-code-icons">
+      <i class="far fa-clipboard"></i>
+      <i class="far fa-check copy-code-icon-hidden"></i>
+    </div>
+  </div>
+</template>
+
+<script type="application/javascript">
+  MicroWebComponent.extends({
+    tag: 'kubirds-code-copy',
+    template: 'kubirds-webcomp-code-copy',
+    render(instance) {
+      const button = $(instance)
+
+      button.on('click', event => {
+        const sourceCode = button.parent().find('pre code').text()
+        navigator.clipboard.writeText(sourceCode)
+          .then(() => {
+            button.trigger('blur')
+            button.find('i').toggleClass('copy-code-icon-hidden')
+
+            setTimeout(
+              () => button.find('i').toggleClass('copy-code-icon-hidden'),
+              1000
+            )
+          })
+
+        event.stopImmediatePropagation()
+      })
+    }
+  })
+</script>

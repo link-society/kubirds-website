@@ -1,0 +1,357 @@
+<template id="kubirds-webcomp-contact-form">
+  <div class="pageloader is-bottom-to-top">
+    <span class="title has-text-link">Sending message</span>
+    <span class="title has-text-link is-hidden">An error occured</span>
+  </div>
+
+  <form class="kubirds-contact-form">
+    <!-- Name / Email -->
+    <div class="field is-horizontal">
+      <div class="field-label is-normal">
+        <label class="label">From</label>
+      </div>
+      <div class="field-body">
+        <div class="field">
+          <p class="control is-expanded has-icons-left">
+            <input class="input kubirds-contact-name" type="text" placeholder="Name" />
+            <span class="icon is-small is-left">
+              <i class="fas fa-user"></i>
+            </span>
+          </p>
+        </div>
+        <div class="field">
+          <p class="control is-expanded has-icons-left">
+            <input class="input kubirds-contact-mail" type="email" placeholder="Email" />
+            <span class="icon is-small is-left">
+              <i class="fas fa-envelope"></i>
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Phone number -->
+    <div class="field is-horizontal">
+      <div class="field-label"></div>
+      <div class="field-body">
+        <div class="field">
+          <p class="control is-expanded has-icons-left">
+            <input class="input kubirds-contact-phone" type="tel" placeholder="Your phone number" />
+            <span class="icon is-small is-left">
+              <i class="fas fa-phone"></i>
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Subject -->
+    <div class="field is-horizontal">
+      <div class="field-label is-normal">
+        <label class="label">Subject</label>
+      </div>
+      <div class="field-body">
+        <div class="field">
+          <div class="control">
+            <div class="select is-fullwidth">
+              <select class="kubirds-contact-subject">
+                <option value="other">I would like to contact you</option>
+                <option value="services">I would like to know more about your services</option>
+                <option value="offers">I want to know more about your offers</option>
+                <option value="offer-teams">I would like to know more about the Teams offer</option>
+                <option value="offer-enterprise">I would like to know more about the Enterprise offer</option>
+                <option value="demo">I would like to schedule a demo</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Message -->
+    <div class="field is-horizontal">
+      <div class="field-label is-normal">
+        <label class="label">Message</label>
+      </div>
+      <div class="field-body">
+        <div class="field">
+          <div class="control">
+            <textarea class="textarea kubirds-contact-message" placeholder="Explain how we can help you"></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Time window -->
+    <div class="field is-horizontal">
+      <div class="field-label is-normal">
+        <label class="label">I would prefer you to contact me on</label>
+      </div>
+      <div class="field-body">
+        <div class="field">
+          <div class="control is-expanded">
+            <span class="kubirds-contact-day-warn has-text-danger mr-3 is-hidden">
+              <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            <label class="checkbox">
+              <input class="kubirds-checkbox kubirds-contact-day" type="checkbox" value="Monday" />
+              Monday
+            </label>
+            <label class="checkbox">
+              <input class="kubirds-checkbox kubirds-contact-day" type="checkbox" value="Tuesday" />
+              Tuesday
+            </label>
+            <label class="checkbox">
+              <input class="kubirds-checkbox kubirds-contact-day" type="checkbox" value="Wednesday" />
+              Wednesday
+            </label>
+            <label class="checkbox">
+              <input class="kubirds-checkbox kubirds-contact-day" type="checkbox" value="Thursday" />
+              Thursday
+            </label>
+            <label class="checkbox">
+              <input class="kubirds-checkbox kubirds-contact-day" type="checkbox" value="Friday" />
+              Friday
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="field is-horizontal">
+      <div class="field-label is-normal">
+        <label class="label">between</label>
+      </div>
+      <div class="field-body">
+        <div class="field">
+          <div class="control is-expanded">
+            <span class="kubirds-contact-time-warn has-text-danger mr-3 is-hidden">
+              <i class="fas fa-exclamation-triangle"></i>
+            </span>
+            <label class="checkbox">
+              <input class="kubirds-checkbox kubirds-contact-time" type="checkbox" value="8:30 - 12:00" />
+              8:30 - 12:00
+            </label>
+            <label class="checkbox">
+              <input class="kubirds-checkbox kubirds-contact-time" type="checkbox" value="12:00 - 14:00" />
+              12:00 - 14:00
+            </label>
+            <label class="checkbox">
+              <input class="kubirds-checkbox kubirds-contact-time" type="checkbox" value="14:00 - 18:00" />
+              14:00 - 18:00
+            </label>
+            <label class="checkbox">
+              <input class="kubirds-checkbox kubirds-contact-time" type="checkbox" value="18:00 - 20:00" />
+              18:00 - 20:00
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Submit buttons -->
+    <div class="field is-horizontal">
+      <div class="field-label"></div>
+      <div class="field-body">
+        <div class="field is-grouped">
+          <p class="control">
+            <button class="button is-success kubirds-contact-submit-mail">
+              <span class="mr-2">Contact me by mail</span>
+              <i class="fas fa-envelope"></i>
+            </button>
+          </p>
+          <p class="control">
+            <button class="button is-success kubirds-contact-submit-phone">
+              <span class="mr-2">Contact me by phone</span>
+              <i class="fas fa-phone"></i>
+            </button>
+          </p>
+          <p class="control">
+            <button type="reset" class="button is-primary">
+              Reset
+            </button>
+          </p>
+        </div>
+      </div>
+    </div>
+  </form>
+</template>
+
+<script type="application/javascript">
+  MicroWebComponent.extends({
+    tag: 'kubirds-contact-form',
+    template: 'kubirds-webcomp-contact-form',
+    render(instance) {
+      const form = $(instance)
+      const fields = {
+        name: form.find('.kubirds-contact-name'),
+        mail: form.find('.kubirds-contact-mail'),
+        phone: form.find('.kubirds-contact-phone'),
+        subject: form.find('.kubirds-contact-subject'),
+        message: form.find('.kubirds-contact-message'),
+        day: form.find('.kubirds-contact-day'),
+        time: form.find('.kubirds-contact-time')
+      }
+
+      const actions = {
+        submitMail: form.find('.kubirds-contact-submit-mail'),
+        submitPhone: form.find('.kubirds-contact-submit-phone')
+      }
+
+      form.find('.kubirds-checkbox').on('change', function() {
+        const checkbox = $(this)
+
+        setTimeout(() => {
+          if (checkbox.is(':checked')) {
+          checkbox.parent().addClass('checkbox--checked')
+          }
+          else {
+            checkbox.parent().removeClass('checkbox--checked')
+          }
+        }, 0)
+      })
+
+      form.find('.kubirds-contact-form').on('reset', () => {
+        form.find('.kubirds-checkbox').trigger('change')
+        form.find('.is-danger').each(function () {
+          $(this).removeClass('is-danger')
+        })
+        $('.kubirds-contact-day-warn').addClass('is-hidden')
+        $('.kubirds-contact-time-warn').addClass('is-hidden')
+      })
+
+      const get_checked = field => () => {
+        const vals = [...field.map(function() {
+          return [[$(this).val(), $(this).is(':checked')]]
+        })]
+
+        return vals
+          .filter(([_, checked]) => checked)
+          .map(([val, _]) => val)
+      }
+
+      const get_days = get_checked(fields.day)
+      const get_times = get_checked(fields.time)
+
+      const validator = contact_field => event => {
+        event.preventDefault()
+
+        fields.mail.removeClass('is-danger')
+        fields.phone.removeClass('is-danger')
+
+        const days = get_days()
+        const times = get_times()
+
+        const conditions = [
+          {
+            cond: () => !!fields.name.val(),
+            success: () => fields.name.removeClass('is-danger'),
+            error: () => fields.name.addClass('is-danger')
+          },
+          {
+            cond: () => !!fields[contact_field].val(),
+            success: () => fields[contact_field].removeClass('is-danger'),
+            error: () => fields[contact_field].addClass('is-danger')
+          },
+          {
+            cond: () => !!fields.message.val(),
+            success: () => fields.message.removeClass('is-danger'),
+            error: () => fields.message.addClass('is-danger')
+          },
+          {
+            cond: () => days.length > 0,
+            success: () => $('.kubirds-contact-day-warn').addClass('is-hidden'),
+            error: () => $('.kubirds-contact-day-warn').removeClass('is-hidden')
+          },
+          {
+            cond: () => times.length > 0,
+            success: () => $('.kubirds-contact-time-warn').addClass('is-hidden'),
+            error: () => $('.kubirds-contact-time-warn').removeClass('is-hidden')
+          }
+        ]
+
+        let valid = true
+
+        for (const { cond, success, error } of conditions) {
+          if (cond()) {
+            success()
+          }
+          else {
+            error()
+            valid = false
+          }
+        }
+
+        if (valid) {
+          form.find('.pageloader').addClass('is-active')
+          form.find('button[type="reset"]').trigger('click')
+
+          const data = {
+            contact_me_by: contact_field,
+            name: fields.name.val(),
+            mail: fields.mail.val(),
+            phone: fields.phone.val(),
+            subject: fields.subject.find('option:selected').text(),
+            message: fields.message.val(),
+            days,
+            times
+          }
+
+          setTimeout(
+            () => {
+              $.post({
+                url: '/.netlify/functions/contact',
+                contentType: 'application/json',
+                data: JSON.stringify(data),
+                dataType: 'json'
+              })
+                .done(() => form.find('.pageloader').removeClass('is-active'))
+                .fail(() => {
+                  form.find('.pageloader span').toggleClass('is-hidden')
+
+                  setTimeout(
+                    () => {
+                      form.find('.pageloader span').toggleClass('is-hidden')
+                      form.find('.pageloader').removeClass('is-active')
+                    },
+                    2000 // this let's the message "an error occured" be seen
+                  )
+                })
+            },
+            1000 // this let's the message "sending response" be seen
+          )
+        }
+      }
+
+      actions.submitMail.on('click', validator('mail'))
+      actions.submitPhone.on('click', validator('phone'))
+
+      const url = new URL(document.location)
+
+      switch (url.searchParams.get('kind')) {
+        case 'services':
+          fields.subject.val('services')
+          break
+
+        case 'offers':
+          switch (url.searchParams.get('offer')) {
+            case 'teams':
+              fields.subject.val('offer-teams')
+              break
+
+            case 'enterprise':
+              fields.subject.val('offer-enterprise')
+              break
+
+            default:
+              fields.subject.val('offers')
+              break
+          }
+
+          break
+
+        case 'demo':
+          fields.subject.val('demo')
+          break
+
+        default:
+          fields.subject.val('other')
+          break
+      }
+    }
+  })
+</script>
