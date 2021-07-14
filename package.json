@@ -1,0 +1,29 @@
+{
+  "name": "kubirds-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/link-society/kubirds-website",
+  "author": "Link Society <contact@link-society.com>",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build:css": "node ./assets/scripts/build-css.js",
+    "build:apidoc": "sh ./assets/scripts/build-apidoc.sh",
+    "build:html": "hugo --minify",
+    "build": "npm run build:css && npm run build:apidoc && npm run build:html",
+    "watch:css": "watch \"yarn build:css\" ./assets/styles"
+  },
+  "devDependencies": {
+    "sass": "^1.35.1",
+    "spectaql": "^0.3.1",
+    "watch": "^1.0.2"
+  },
+  "dependencies": {
+    "bulma": "^0.9.3",
+    "bulma-checkradio": "^1.1.1",
+    "bulma-pageloader": "^0.3.0",
+    "bulma-switch": "^2.0.0",
+    "bulma-tooltip": "^3.0.2",
+    "jsonschema": "^1.4.0",
+    "node-fetch": "^2.6.1"
+  }
+}
