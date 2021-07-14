@@ -1,0 +1,26 @@
+baseURL = "https://kubirds.com/"
+languageCode = "en-us"
+title = "Kubirds"
+
+[params]
+
+[params.backend]
+zapier = "https://hooks.zapier.com/hooks/catch/7255418/ow4b2ez/silent/"
+
+[params.metadata]
+icon = "/img/favicon-kubirds.svg"
+author = "Link-Society"
+description = "Cloud Native Supervision Engine"
+tags = ["automated", "declarative", "scalable", "interoperable"]
+
+[params.layout]
+logo = "/img/logo-kubirds.png"
+footer = """
+Website content is released under the terms of the
+[CC BY NC SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+license
+"""
+
+[markup.goldmark.renderer]
+unsafe=true
+
