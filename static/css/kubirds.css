@@ -14485,6 +14485,16 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   color: #BCBCBC;
 }
 
+.is-landing-nav li a {
+  transition: all 0.3s ease-in-out;
+  border-radius: 0 !important;
+  color: white;
+}
+.is-landing-nav li a:hover {
+  color: white;
+  background-color: #464159 !important;
+}
+
 html, body {
   background-color: #F0F8F8;
 }
