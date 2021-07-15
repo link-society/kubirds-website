@@ -17,12 +17,12 @@ available:
     displayName: kubectl plugin
     content:
       - title: Small footprint
-        description: Developed in Go for a binary less than 1Kb
+        description: Developed in Go for a binary less than 2.2Mb
       - title: Easy to use
         description: >
           Consult the history of your supervision with a KISS interface
       - title: Cross-platform
-        description: Avaiable for Windows, Linux and Mac OS
+        description: Available for Windows, Linux and Mac OS
 
   - key: dashboard
     icon: fas fa-desktop
