@@ -71,26 +71,13 @@
               {{ end }}
             {{ end }}
 
-            <div class="panel-block" style="border-bottom: 0;">
-              <div class="container">
-                <div class="content">
-                  <div class="has-text-centered m-5">
-                    <a class="button call-to-action" href="{{ $page.Params.call_to_action.url }}">
-                      {{ $page.Params.call_to_action.label | safeHTML }}
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="panel-block">
-              <div class="container">
-                <div class="content">
-                  <p class="has-text-right">
-                    <a href="{{ $page.RelPermalink }}">Read more</a>
-                  </p>
-                </div>
-              </div>
+            <div class="panel-block card-footer p-0 mt-5">
+              <a class="card-footer-item button call-to-action" href="{{ $page.Params.call_to_action.url }}">
+                {{ $page.Params.call_to_action.label | safeHTML }}
+              </a>
+              <a class="card-footer-item button call-to-action" href="{{ $page.RelPermalink }}">
+                Read more
+              </a>
             </div>
           </article>
         </div>
