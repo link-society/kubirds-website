@@ -234,6 +234,13 @@ event = "**Jonathan** terminates his contract with [LumenAI](https://lumenai.fr)
 
 [[timeline]]
 
+kind = "event"
+icon = "fas fa-sign-out-alt"
+date = "September 2020"
+event = "**David** terminates his contract with [Decathlon](https://decathlon.fr)"
+
+[[timeline]]
+
 kind = "year"
 year = "2021"
 
