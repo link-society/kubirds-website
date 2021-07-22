@@ -20,6 +20,6 @@ description = "Company and Hosting Provider identification"
 
 | | |
 |-|-|
-| Corporate Name | Github, Inc. |
-| Legal Form | Subsidiary |
+| Corporate Name | Netlify, Inc. |
+| Legal Form | Private Company |
 | Address | San Francisco, California, USA |
