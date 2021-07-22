@@ -22,7 +22,7 @@ name = "Jonathan Labéjof"
 linkedin = "https://www.linkedin.com/in/b3j0f/"
 photo = "/img/team-gallery/jonathan-labejof.png"
 job = "CTO & Co-Founder"
-background = "Doctor of Software Engineering and Distributed Systems"
+background = "PhD in Software Engineering and Distributed Systems"
 
 [[teamGallery]]
 
@@ -37,7 +37,7 @@ background = "Web developer"
 kind = "event"
 date = "September 2009"
 icon = "fas fa-school"
-event = "**Jonathan** starts his doctorate"
+event = "**Jonathan** begins his doctorate"
 
 [[timeline]]
 
@@ -111,6 +111,16 @@ year = "2017"
 [[timeline]]
 
 kind = "event"
+icon = "fas fa-building"
+date = "March 2017"
+event = """
+**David** joins [Scille](https://scille.fr) to work with the *Ministère de la
+Défense* and the *Ministère de l'intérieur*
+"""
+
+[[timeline]]
+
+kind = "event"
 icon = "fas fa-handshake"
 date = "July 2017"
 event = """
@@ -135,7 +145,7 @@ kind = "event"
 icon = "fas fa-mobile-alt"
 date = "December 2017"
 event = """
-In association with the [3-6-9-12](https://3-6-9-12.org) association,
+In association with the [3-6-9-12](https://3-6-9-12.org) organization,
 [Link Society](https://link-society.com) starts working on a mobile application
 to promote the work of **Serge Tisseron**
 """
@@ -144,6 +154,15 @@ to promote the work of **Serge Tisseron**
 
 kind = "year"
 year = "2018"
+
+[[timeline]]
+
+kind = "event"
+icon = "fas fa-sign-out-alt"
+date = "March 2018"
+event = """
+**David** terminates his contract with [Scille](https://scille.fr)
+"""
 
 [[timeline]]
 
