@@ -13,6 +13,7 @@
     "watch:css": "watch \"yarn build:css\" ./assets/styles"
   },
   "devDependencies": {
+    "bulma-timeline": "^3.0.4",
     "sass": "^1.35.1",
     "spectaql": "^0.3.1",
     "watch": "^1.0.2"
