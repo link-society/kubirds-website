@@ -36,17 +36,20 @@ background = "Web developer"
 
 kind = "event"
 date = "September 2009"
+icon = "fas fa-school"
 event = "**Jonathan** starts his doctorate"
 
 [[timeline]]
 
 kind = "event"
+icon = "fas fa-school"
 date = "September 2011"
 event = "**David** begins his University courses"
 
 [[timeline]]
 
 kind = "event"
+icon = "fas fa-graduation-cap"
 date = "July 2012"
 event = "**Jonathan** obtains his Doctorate"
 
@@ -58,6 +61,7 @@ year = "2013"
 [[timeline]]
 
 kind = "event"
+icon = "fas fa-building"
 date = "May 2013"
 event = """
 **David** starts an Internship at [Capensis](https://capensis.fr) to work on
@@ -68,6 +72,7 @@ monitoring.
 [[timeline]]
 
 kind = "event"
+icon = "fas fa-building"
 date = "September 2013"
 event = """
 **Jonathan** is recruited by [Capensis](https://capensis.fr) to work on
@@ -77,6 +82,7 @@ event = """
 [[timeline]]
 
 kind = "event"
+icon = "fas fa-building"
 date = "November 2013"
 event = """
 **David** quits University to work fulltime on [Canopsis](https://canopsis.com)
@@ -90,6 +96,7 @@ year = "2016"
 [[timeline]]
 
 kind = "event"
+icon = "fas fa-sign-out-alt"
 date = "November 2016"
 event = """
 **Jonathan** and **David** quit [Capensis](https://capensis.fr) to work together
@@ -104,6 +111,7 @@ year = "2017"
 [[timeline]]
 
 kind = "event"
+icon = "fas fa-handshake"
 date = "July 2017"
 event = """
 [Link Society](https://link-society.com) is founded by **Jonathan** and
@@ -113,6 +121,7 @@ event = """
 [[timeline]]
 
 kind = "event"
+icon = "fas fa-newspaper"
 date = "November 2017"
 event = """
 After 4 months of work, [Link Society](https://link-society.com) presents a
@@ -123,6 +132,7 @@ help hospitals manage patient's treatment
 [[timeline]]
 
 kind = "event"
+icon = "fas fa-mobile-alt"
 date = "December 2017"
 event = """
 In association with the [3-6-9-12](https://3-6-9-12.org) association,
@@ -138,6 +148,7 @@ year = "2018"
 [[timeline]]
 
 kind = "event"
+icon = "fas fa-rocket"
 date = "July 2018"
 event = """
 **David** joins [Decathlon](https://decathlon.fr) to help their IT teams migrate
@@ -147,6 +158,7 @@ to [Kubernetes](https://kubernetes.io)
 [[timeline]]
 
 kind = "event"
+icon = "fas fa-brain"
 date = "November 2018"
 event = """
 **Jonathan** joins [LumenAI](https://lumenai.fr) to help them build an online
@@ -161,6 +173,7 @@ year = "2019"
 [[timeline]]
 
 kind = "event"
+icon = "fas fa-rocket"
 date = "December 2019"
 event = """
 **David** joins [LumenAI](https://lumenai.fr) to help them deploy their online
@@ -179,6 +192,7 @@ year = "2020"
 [[timeline]]
 
 kind = "event"
+icon = "fas fa-tachometer-alt"
 date = "March 2020"
 event = """
 [Link Society](https://link-society.com) starts working on **Kubirds**, a
@@ -188,12 +202,14 @@ Cloud-Native supervision engine
 [[timeline]]
 
 kind = "event"
+icon = "fas fa-sign-out-alt"
 date = "July 2020"
 event = "**David** terminates his contract with [LumenAI](https://lumenai.fr)"
 
 [[timeline]]
 
 kind = "event"
+icon = "fas fa-sign-out-alt"
 date = "August 2020"
 event = "**Jonathan** terminates his contract with [LumenAI](https://lumenai.fr)"
 
@@ -205,6 +221,7 @@ year = "2021"
 [[timeline]]
 
 kind = "event"
+icon = "fas fa-newspaper"
 date = "March 2021"
 event = """
 [Link Society](https://link-society.com) announces the first release of
