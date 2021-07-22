@@ -13,13 +13,13 @@
     "watch:css": "watch \"yarn build:css\" ./assets/styles"
   },
   "devDependencies": {
-    "bulma-timeline": "^3.0.4",
     "sass": "^1.35.1",
     "spectaql": "^0.3.1",
     "watch": "^1.0.2"
   },
   "dependencies": {
     "bulma": "^0.9.3",
+    "bulma-timeline": "^3.0.4",
     "bulma-checkradio": "^1.1.1",
     "bulma-pageloader": "^0.3.0",
     "bulma-switch": "^2.0.0",
