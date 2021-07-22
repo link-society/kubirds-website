@@ -1,0 +1,38 @@
+
+<section class="container mt-6">
+  <h2 class="title is-size-4 has-text-centered">The team</h2>
+
+  <div class="columns is-centered is-multiline">
+    {{ range $teamMember := .Params.teamGallery }}
+      <div class="column is-one-quarter">
+        <div class="card is-full-height">
+          <div class="card-content">
+            <div class="media">
+              <div class="media-left">
+                <figure class="image is-48x48">
+                  <img src="{{ $teamMember.photo }}" alt="Photo" />
+                </figure>
+              </div>
+              <div class="media-content">
+                <p class="title is-4">
+                  {{ if isset $teamMember "linkedin" }}
+                    <a href="{{ $teamMember.linkedin }}" class="title is-4">
+                      {{ $teamMember.name }}
+                    </a>
+                  {{ else }}
+                    {{ $teamMember.name }}
+                  {{ end }}
+                </p>
+                <p class="subtitle is-6">{{ $teamMember.job }}</p>
+              </div>
+            </div>
+
+            <div class="content">
+              {{ $teamMember.background | markdownify }}
+            </div>
+          </div>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+</section>

@@ -1,0 +1,27 @@
+<section class="container my-6 p-6 has-background-white">
+  <div class="timeline is-centered">
+    <header class="timeline-header">
+      <span class="tag is-large is-success">The story begins</span>
+    </header>
+
+    {{ range $timelineItem := .Params.timeline }}
+      {{ if eq $timelineItem.kind "event" }}
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <p class="heading">{{ $timelineItem.date }}</p>
+            <div>{{ $timelineItem.event | markdownify }}</div>
+          </div>
+        </div>
+      {{ else if eq $timelineItem.kind "year" }}
+        <header class="timeline-header">
+          <span class="tag is-medium is-success">{{ $timelineItem.year }}</span>
+        </header>
+      {{ end }}
+    {{ end }}
+
+    <header class="timeline-header">
+      <span class="tag is-large is-success">The story continues...</span>
+    </header>
+  </div>
+</section>

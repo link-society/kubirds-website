@@ -1,0 +1,11 @@
+<section class="container mt-6">
+  <h1 class="title is-size-2 has-text-centered">{{ .Title }}</h1>
+
+  <div class="columns is-centered">
+    <div class="column is-one-third">
+      <P class="subtitle has-text-centered">
+        {{ .Params.intro | markdownify }}
+      </P>
+    </div>
+  </div>
+</section>
