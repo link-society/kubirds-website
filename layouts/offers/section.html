@@ -4,7 +4,7 @@
       {{ range $page := .Pages }}
         <div class="column">
           <article class="panel has-background-white is-flex is-flex-direction-column is-full-height">
-            <a class="panel-heading has-background-gunpowder has-text-white has-text-centered" href="{{ $page.RelPermalink }}">
+            <a class="panel-heading has-background-{{ $page.Params.color.bg }} has-text-{{ $page.Params.color.fg }} has-text-centered" href="{{ $page.RelPermalink }}">
               <img class="mr-1" src="/img/white-cube.svg" alt="" style="height: 1em;"/>
               {{ $page.Title }}
             </a>

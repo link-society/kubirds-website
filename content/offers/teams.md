@@ -10,4 +10,9 @@ services = ["upgrades", "audit", "installation", "support"]
 url = "/contact/?kind=offers&offer=teams"
 label = "Contact us &rarr;"
 
+[color]
+
+bg = "slategray"
+fg = "white"
+
 +++

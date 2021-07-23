@@ -11,4 +11,9 @@ services = ["upgrades"]
 url = "/getting-started/"
 label = "Get started &rarr;"
 
+[color]
+
+bg = "gunpowder"
+fg = "white"
+
 +++
