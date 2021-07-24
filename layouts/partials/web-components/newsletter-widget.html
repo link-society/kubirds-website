@@ -1,0 +1,48 @@
+<template id="kubirds-webcomp-newsletter-widget">
+  <section class="hero has-background-slategray is-fullheight">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title has-text-white">Subscribe to our newsletter</h1>
+
+        <div class="columns is-centered">
+          <div class="column is-two-thirds">
+            <div class="field has-addons">
+              <div class="control has-icons-left is-expanded">
+                <input class="kubirds-newsletter-field-email input is-large is-success" type="email" placeholder="Email" />
+                <span class="icon is-small is-left">
+                  <i class="fas fa-envelope"></i>
+                </span>
+              </div>
+              <div class="control">
+                <button class="kubirds-newsletter-subscribe button is-large is-success">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<script type="application/javascript">
+  MicroWebComponent.extends({
+    tag: 'kubirds-newsletter-widget',
+    template: 'kubirds-webcomp-newsletter-widget',
+    render(instance) {
+      const el = $(instance)
+
+      const field = el.find('.kubirds-newsletter-field-email')
+      const button = el.find('.kubirds-newsletter-subscribe')
+
+      button.on('click', () => {
+        const mail = field.val()
+
+        if (mail.length > 0) {
+          alert('SUBSCRIBE:' + field.val())
+        }
+      })
+    }
+  })
+</script>

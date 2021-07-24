@@ -1,0 +1,71 @@
+<section class="hero is-fullheight">
+  <div class="hero-head">
+    <nav class="navbar is-spaced">
+      <div class="navbar-brand">
+        <a class="navbar-item is-hidden-tablet" href="/">
+          <img src="{{ .Site.Params.Layout.Logo }}" alt="Kubirds" />
+        </a>
+
+        <span class="navbar-burger" data-target="navbar-kubirds-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </div>
+      <div id="navbar-kubirds-menu" class="navbar-menu">
+        <div class="navbar-start">
+          <div class="navbar-item">
+            <a class="button call-to-action" href="/contact/?kind=demo">
+              Book a demo &rarr;
+            </a>
+          </div>
+        </div>
+        <div class="navbar-end">
+          <a class="navbar-item" href="https://kubernetes.io">
+            <img src="/img/logo-kubernetes.svg" alt="Kubernetes" />
+          </a>
+          <span class="navbar-item is-hidden-touch">|</span>
+          <a class="navbar-item" href="/contact/">
+            Contact
+          </a>
+          <span class="navbar-item is-hidden-touch">|</span>
+          <a class="navbar-item" href="/about/">
+            About us
+          </a>
+          <span class="navbar-item is-hidden-touch">|</span>
+          <a class="navbar-item" href="/legals/">
+            Legals
+          </a>
+          <span class="navbar-item is-hidden-touch">|</span>
+          <a class="navbar-item" href="https://github.com/link-society">
+            <img src="/img/logo-github.svg" alt="View on Github" />
+          </a>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <img class="title is-spaced" src="{{ .Site.Params.Layout.Logo }}" alt="Kubirds" width="50%" />
+      <p class="title">{{ .Site.Params.Metadata.Description }}</p>
+      <p class="subtitle" style="color: #BCBCBC;">
+        {{ range .Site.Params.Metadata.Tags }}
+          #{{ . }}
+        {{ end }}
+      </p>
+    </div>
+  </div>
+
+  <div class="hero-foot has-background-slategray">
+    <nav class="tabs is-boxed is-fullwidth is-landing-nav">
+      <div class="container is-uppercase pb-1">
+        <ul>
+          <li><a href="/getting-started/">Getting Started</a></li>
+          <li><a href="/offers/">Products and Services</a></li>
+          <li><a href="/docs/">Documentation</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</section>
