@@ -44,18 +44,6 @@ const process_request = async mail => {
         Email: mail
       })
 
-    await client
-      .post('send', {version: 'v3'})
-      .request({
-        FromEmail: 'no-reply@link-society.com',
-        FromName: 'Link Society',
-        Recipients: [
-          { Email: mail }
-        ],
-        Subject: 'Confirmation to your subscription to Kubirds\' Newsletter',
-        'Text-part': 'Thank you for your subscription to our newsletter :)'
-      })
-
     return {
       statusCode: 200,
       headers: {'Content-Type': 'application/json'},
