@@ -300,7 +300,9 @@
                 dataType: 'json'
               })
                 .done(() => form.find('.pageloader').removeClass('is-active'))
-                .fail(() => {
+                .fail(err => {
+                  console.error(err.responseJSON)
+
                   form.find('.pageloader span').toggleClass('is-hidden')
 
                   setTimeout(
