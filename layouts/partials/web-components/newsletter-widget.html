@@ -1,4 +1,9 @@
 <template id="kubirds-webcomp-newsletter-widget">
+  <div class="pageloader is-bottom-to-top">
+    <span class="title has-text-link">Subscribing</span>
+    <span class="title has-text-link is-hidden">An error occured</span>
+  </div>
+
   <section class="hero has-background-slategray is-fullheight">
     <div class="hero-body">
       <div class="container has-text-centered">
@@ -37,10 +42,35 @@
       const button = el.find('.kubirds-newsletter-subscribe')
 
       button.on('click', () => {
-        const mail = field.val()
+        const email = field.val()
 
-        if (mail.length > 0) {
-          alert('SUBSCRIBE:' + field.val())
+        if (email.length > 0) {
+          el.find('.pageloader').addClass('is-active')
+          field.val('')
+
+          setTimeout(
+            () => {
+              $.get({
+                url: '/.netlify/functions/newsletter-subscribe',
+                data: { email }
+              })
+                .done(() => el.find('.pageloader').removeClass('is-active'))
+                .fail(err => {
+                  console.error(err.responseJSON)
+
+                  el.find('.pageloader span').toggleClass('is-hidden')
+
+                  setTimeout(
+                    () => {
+                      el.find('.pageloader span').toggleClass('is-hidden')
+                      el.find('.pageloader').removeClass('is-active')
+                    },
+                    2000 // this let's the message "an error occured" be seen
+                  )
+                })
+            },
+            1000 // this let's the message "subscribing" be seen
+          )
         }
       })
     }
