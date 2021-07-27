@@ -114,7 +114,7 @@ kind = "event"
 icon = "fas fa-building"
 date = "March 2017"
 event = """
-**David** joins [Scille](https://scille.fr) to work with the *Ministère de la
+**David** joins [Scille](https://scille.eu) to work with the *Ministère de la
 Défense* and the *Ministère de l'intérieur*
 """
 
