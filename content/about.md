@@ -161,7 +161,7 @@ kind = "event"
 icon = "fas fa-sign-out-alt"
 date = "March 2018"
 event = """
-**David** terminates his contract with [Scille](https://scille.fr)
+**David** terminates his contract with [Scille](https://scille.eu)
 """
 
 [[timeline]]
