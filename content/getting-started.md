@@ -624,6 +624,12 @@ spec:
     command: >
       curl -X POST $HOST -H "Content-Type: application/json" \
            -d "{ \"text\": \"$UNIT_NAME reported state $UNIT_STATE\" }"
+  env:
+    - name: HOST
+      valueFrom:
+        secretKeyRef:
+          name: my-slack-webhook
+          key: URL
 ```
 
 Once the site is down, you'll receive the following notification on **Slack**:
