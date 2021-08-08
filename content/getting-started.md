@@ -53,10 +53,43 @@ Thanks to [Kubernetes](https://kubernetes.io), your workload is as scalable as
 your infrastructure.
 """
 
-[schema]
+[schema.carousel]
+
+infinite = true
+pagination = false
+autoplay = true
+autoplay_speed = 5000
+duration = "750"
+
+[[schema.slides]]
 
 caption = "Use generic concepts to represent your supervision"
-url = "/img/getting-started/schema.svg"
+url = "/img/getting-started/schemas/generic.svg"
+
+[[schema.slides]]
+
+caption = "Upgrade and scale your monitoring"
+url = "/img/getting-started/schemas/monitoring.svg"
+
+[[schema.slides]]
+
+caption = "Operate your cluster the GitOps way"
+url = "/img/getting-started/schemas/gitops.svg"
+
+[[schema.slides]]
+
+caption = "Automate your Backups for durability"
+url = "/img/getting-started/schemas/backup.svg"
+
+[[schema.slides]]
+
+caption = "Make your own trading bot"
+url = "/img/getting-started/schemas/fintech.svg"
+
+[[schema.slides]]
+
+caption = "Integrate your Machine Learning workflow"
+url = "/img/getting-started/schemas/machine-learning.svg"
 
 [concepts]
 
