@@ -340,6 +340,11 @@ buffer-from@^1.0.0:
   resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.1.tgz#32713bc028f75c02fdb710d7c7bcec1f2c6070ef"
   integrity sha512-MQcXEUbCKtEo7bhqEs6560Hyd4XaovZlO/k9V3hjVUF/zwW7KBVdSK4gIt/bzwS9MbR5qob+F5jusZsb0YQK2A==
 
+bulma-carousel@^4.0.24:
+  version "4.0.24"
+  resolved "https://registry.yarnpkg.com/bulma-carousel/-/bulma-carousel-4.0.24.tgz#fa0e56650fccc77d44b05628a941287ba7aadc5b"
+  integrity sha512-DLYKmf/iHH8yAQSo8+O/cQvSVSAo15f+XmbiQvAvu5hUJs5O8I40RbZqrF9OougNs4n4JMokPEIBUiDGAsFuRA==
+
 bulma-checkradio@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/bulma-checkradio/-/bulma-checkradio-1.1.1.tgz#d94c4bce810089957102670b19cafb194bcb97be"
