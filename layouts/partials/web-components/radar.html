@@ -6,12 +6,12 @@
 </template>
 
 <script type="application/javascript">
-  const capitalize = str => `${str.slice(0, 1).toUpperCase()}${str.slice(1)}`
-
   MicroWebComponent.extends({
     tag: 'kubirds-radar',
     template: 'kubirds-webcomp-radar',
     render(instance) {
+      const capitalize = str => `${str.slice(0, 1).toUpperCase()}${str.slice(1)}`
+
       $(instance).parent().css('display', 'block')
       $(instance).css('display', 'block')
       const radar = $(instance).find('.radar-chart')

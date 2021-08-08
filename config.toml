@@ -23,4 +23,3 @@ license
 
 [markup.goldmark.renderer]
 unsafe=true
-

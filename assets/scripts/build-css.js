@@ -2,7 +2,7 @@ const sass = require('sass')
 const fs = require('fs')
 
 const result = sass.renderSync({
-  file: './assets/styles/kubirds.scss',
+  file: './assets/styles/main.scss',
   quietDeps: true,
   importer: [
     url => {
