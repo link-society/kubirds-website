@@ -60,8 +60,8 @@ autoplay = false
 autoplay_speed = 5000
 duration = "750"
 navigation = true
-navigationKeys = true
-navigationSwap = true
+navigation_keys = true
+navigation_swap = true
 loop = true
 
 [schema.generic]
