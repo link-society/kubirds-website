@@ -70,37 +70,37 @@ domain = "⚙️ Generic use"
 caption = "Use generic concepts to represent your supervision"
 url = "/img/getting-started/schemas/generic.svg"
 
-[[schema.uc]]
+[[schema.useCase]]
 
 domain = "👀 Monitoring"
 caption = "Upgrade and scale your monitoring"
 url = "/img/getting-started/schemas/monitoring.svg"
 
-[[schema.uc]]
+[[schema.useCase]]
 
 domain = "🧑🏻‍💻 GitOps"
 caption = "Operate your cluster the GitOps way"
 url = "/img/getting-started/schemas/gitops.svg"
 
-[[schema.uc]]
+[[schema.useCase]]
 
 domain = "💾 Backup"
 caption = "Automate your Backups for durability"
 url = "/img/getting-started/schemas/backup.svg"
 
-[[schema.uc]]
+[[schema.useCase]]
 
 domain = "💸 FinTech"
 caption = "Make your own trading bot"
 url = "/img/getting-started/schemas/fintech.svg"
 
-[[schema.uc]]
+[[schema.useCase]]
 
 domain = "🤖 AI"
 caption = "Integrate your Machine Learning workflow"
 url = "/img/getting-started/schemas/machine-learning.svg"
 
-[[schema.uc]]
+[[schema.useCase]]
 
 domain = "🍃 Green IT"
 caption = "Optimize your resource consumption"
