@@ -1,0 +1,63 @@
+<template id="kubirds-webcomp-schemas">
+  <div class="schema-navs">
+    {{ range $index, $schema := .Page.Params.schema.uc }}
+      <a class="button schema-nav schema-nav-{{ add $index 1 }}" data-schema="{{ $schema | jsonify }}">{{ $schema.domain }}</a>
+    {{ end }}
+  </div>
+
+  <section class="hero is-large has-carousel is-hidden-touch">
+    <div id="schema-carousel" class="carousel hero-carousel" data-carousel-options="{{ .Page.Params.schema.carousel | jsonify }}">
+      <div class="item-0">
+        <div class="container has-text-centered">
+          <p class="title is-size-3 is-spaced">{{ .Page.Params.schema.generic.caption }}</p>
+          <p class="subtitle"><img src="{{ .Page.Params.schema.generic.url }}" /></p>
+        </div>
+      </div>
+      {{ range $slideIndex, $slide := .Page.Params.schema.uc }}
+        <div class="item-{{ add $slideIndex 1 }}">
+          <div class="container has-text-centered">
+            <p class="title is-size-3 is-spaced">{{ $slide.caption }}</p>
+            <p class="subtitle"><img src="{{ $slide.url }}" /></p>
+          </div>
+        </div>
+      {{ end }}
+    </div>
+
+    <div class="hero-head"></div>
+    <div class="hero-body"></div>
+    <div class="hero-foot"></div>
+    <a class="button schema-nav schema-nav-0" data-schema="{{ .Page.Params.schema.generic | jsonify }}">{{ .Page.Params.schema.generic.domain }}</a>
+  </section>
+</template>
+
+<script type="application/javascript">
+  MicroWebComponent.extends({
+    tag: 'kubirds-schemas',
+    template: 'kubirds-webcomp-schemas',
+    render (instance) {
+      const schemas = $(instance)
+
+      const [carousel] = bulmaCarousel.attach('#schema-carousel')
+
+      carousel.on('show', () => {
+        const index = carousel.state.next
+
+        schemas.find('.schema-nav').removeClass('is-focused')
+        schemas.find('.schema-nav-' + index).addClass('is-focused')
+      })
+
+      const navs = schemas.find('.schema-nav')
+
+      navs.each(function (idx) {
+        const button = $(this)
+
+        const index = idx === (navs.length - 1) ? 0 : idx + 1
+
+        button.on('click', event => {
+          carousel.show(index)
+          event.stopImmediatePropagation()
+        })
+      })
+    }
+  })
+</script>

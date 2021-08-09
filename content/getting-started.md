@@ -55,40 +55,55 @@ your infrastructure.
 
 [schema.carousel]
 
-infinite = true
-pagination = false
-autoplay = true
+pagination = true
+autoplay = false
 autoplay_speed = 5000
 duration = "750"
+navigation = true
+navigationKeys = true
+navigationSwap = true
+loop = true
 
-[[schema.slides]]
+[schema.generic]
 
+domain = "⚙️ Generic use"
 caption = "Use generic concepts to represent your supervision"
 url = "/img/getting-started/schemas/generic.svg"
 
-[[schema.slides]]
+[[schema.uc]]
 
+domain = "👀 Monitoring"
 caption = "Upgrade and scale your monitoring"
 url = "/img/getting-started/schemas/monitoring.svg"
 
-[[schema.slides]]
+[[schema.uc]]
 
+domain = "🧑🏻‍💻 GitOps"
 caption = "Operate your cluster the GitOps way"
 url = "/img/getting-started/schemas/gitops.svg"
 
-[[schema.slides]]
+[[schema.uc]]
 
+domain = "💾 Backup"
 caption = "Automate your Backups for durability"
 url = "/img/getting-started/schemas/backup.svg"
 
-[[schema.slides]]
+[[schema.uc]]
 
+domain = "💸 FinTech"
 caption = "Make your own trading bot"
 url = "/img/getting-started/schemas/fintech.svg"
 
-[[schema.slides]]
+[[schema.uc]]
 
+domain = "🤖 AI"
 caption = "Integrate your Machine Learning workflow"
+url = "/img/getting-started/schemas/machine-learning.svg"
+
+[[schema.uc]]
+
+domain = "🍃 Green IT"
+caption = "Optimize your resource consumption"
 url = "/img/getting-started/schemas/machine-learning.svg"
 
 [concepts]
