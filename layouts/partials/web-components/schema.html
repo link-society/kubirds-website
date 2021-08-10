@@ -12,7 +12,7 @@
   <section class="hero is-large has-carousel is-hidden-touch">
     <div class="carousel hero-carousel" data-carousel-options="{{ .Page.Params.carousel | jsonify }}">
       {{ range $slideIndex, $schema := .Page.Params.schema }}
-        <div class="item-{{ add $slideIndex 1 }}">
+        <div class="item-{{ $slideIndex }}">
           <div class="container has-text-centered">
             <p class="title is-size-3 is-spaced">{{ $schema.caption }}</p>
             <p class="subtitle"><img src="{{ $schema.url }}" /></p>
@@ -21,9 +21,20 @@
       {{ end }}
     </div>
 
-    <div class="hero-head"></div>
-    <div class="hero-body"></div>
-    <div class="hero-foot"></div>
+    <div class="hero-head" style="padding: 3rem"></div>
+    <div class="hero-body" style="padding-bottom: 1rem"></div>
+    <div class="hero-foot" style="padding: 3rem">
+      <div class="tabs is-centered is-large is-toggle is-toggle-rounded">
+        <ul>
+          {{ range $index, $schema := .Page.Params.schema }}
+            <li class="schema-nav schema-nav-{{ $index }}">
+              <a>{{ $schema.domain }}</a>
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+
   </section>
 </template>
 
@@ -71,6 +82,9 @@
 
         schemas.find('.schema-nav').removeClass('is-active')
         schemas.find(`.schema-nav-${index}`).addClass('is-active')
+        schemas.find('.slider-navigation-previous').addClass('is-hidden')
+        schemas.find('.slider-navigation-next').addClass('is-hidden')
+        schemas.find('.slider-pagination').addClass('is-hidden')
       })
 
       const navs = schemas.find('.schema-nav')
@@ -79,13 +93,16 @@
         const button = $(this)
 
         button.on('click', event => {
-          show.call(carousel, index)
+          show.call(carousel, index % (navs.length / 2))
           event.stopImmediatePropagation()
         })
       })
 
       show.call(carousel, 0)
       schemas.find('.schema-nav-0').addClass('is-active')
+      schemas.find('.slider-navigation-previous').addClass('is-hidden')
+      schemas.find('.slider-navigation-next').addClass('is-hidden')
+      schemas.find('.slider-pagination').addClass('is-hidden')
     }
   })
 </script>

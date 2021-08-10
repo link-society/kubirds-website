@@ -65,7 +65,7 @@ navigation = false
 
 [[schema]]
 
-domain = "⚙️ Generic use"
+domain = "⚙️ Generic usage"
 caption = "Use generic concepts to represent your supervision"
 url = "/img/getting-started/schemas/generic.svg"
 
@@ -102,7 +102,7 @@ url = "/img/getting-started/schemas/machine-learning.svg"
 [[schema]]
 
 domain = "🍃 Green IT"
-caption = "Optimize your resource consumption"
+caption = "Optimize the consumption of your resources"
 url = "/img/getting-started/schemas/machine-learning.svg"
 
 [concepts]
