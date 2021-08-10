@@ -53,54 +53,53 @@ Thanks to [Kubernetes](https://kubernetes.io), your workload is as scalable as
 your infrastructure.
 """
 
-[schema.carousel]
+[carousel]
 
-pagination = true
 autoplay = false
 autoplay_speed = 5000
 duration = "750"
-navigation = true
 navigation_keys = true
 navigation_swap = true
-loop = true
+pagination = false
+navigation = false
 
-[schema.generic]
+[[schema]]
 
 domain = "⚙️ Generic use"
 caption = "Use generic concepts to represent your supervision"
 url = "/img/getting-started/schemas/generic.svg"
 
-[[schema.useCase]]
+[[schema]]
 
 domain = "👀 Monitoring"
 caption = "Upgrade and scale your monitoring"
 url = "/img/getting-started/schemas/monitoring.svg"
 
-[[schema.useCase]]
+[[schema]]
 
 domain = "🧑🏻‍💻 GitOps"
 caption = "Operate your cluster the GitOps way"
 url = "/img/getting-started/schemas/gitops.svg"
 
-[[schema.useCase]]
+[[schema]]
 
 domain = "💾 Backup"
 caption = "Automate your Backups for durability"
 url = "/img/getting-started/schemas/backup.svg"
 
-[[schema.useCase]]
+[[schema]]
 
 domain = "💸 FinTech"
 caption = "Make your own trading bot"
 url = "/img/getting-started/schemas/fintech.svg"
 
-[[schema.useCase]]
+[[schema]]
 
 domain = "🤖 AI"
 caption = "Integrate your Machine Learning workflow"
 url = "/img/getting-started/schemas/machine-learning.svg"
 
-[[schema.useCase]]
+[[schema]]
 
 domain = "🍃 Green IT"
 caption = "Optimize your resource consumption"
