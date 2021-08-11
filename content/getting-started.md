@@ -103,7 +103,7 @@ url = "/img/getting-started/schemas/machine-learning.svg"
 
 domain = "🍃 Green IT"
 caption = "Optimize the consumption of your resources"
-url = "/img/getting-started/schemas/machine-learning.svg"
+url = "/img/getting-started/schemas/green-it.svg"
 
 [concepts]
 

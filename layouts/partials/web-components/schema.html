@@ -1,14 +1,4 @@
 <template id="kubirds-webcomp-schemas">
-  <div class="tabs is-centered is-large is-toggle is-toggle-rounded">
-    <ul>
-      {{ range $index, $schema := .Page.Params.schema }}
-        <li class="schema-nav schema-nav-{{ $index }}">
-          <a>{{ $schema.domain }}</a>
-        </li>
-      {{ end }}
-    </ul>
-  </div>
-
   <section class="hero is-large has-carousel is-hidden-touch">
     <div class="carousel hero-carousel" data-carousel-options="{{ .Page.Params.carousel | jsonify }}">
       {{ range $slideIndex, $schema := .Page.Params.schema }}
@@ -93,7 +83,7 @@
         const button = $(this)
 
         button.on('click', event => {
-          show.call(carousel, index % (navs.length / 2))
+          show.call(carousel, index)
           event.stopImmediatePropagation()
         })
       })
