@@ -1,0 +1,98 @@
+<template id="kubirds-webcomp-schemas">
+  <section class="hero is-large has-carousel is-hidden-touch">
+    <div class="carousel hero-carousel" data-carousel-options="{{ .Page.Params.carousel | jsonify }}">
+      {{ range $slideIndex, $schema := .Page.Params.schema }}
+        <div class="item-{{ $slideIndex }}">
+          <div class="container has-text-centered">
+            <p class="title is-size-3 is-spaced">{{ $schema.caption }}</p>
+            <p class="subtitle"><img src="{{ $schema.url }}" /></p>
+          </div>
+        </div>
+      {{ end }}
+    </div>
+
+    <div class="hero-head" style="padding: 3rem"></div>
+    <div class="hero-body" style="padding-bottom: 1rem"></div>
+    <div class="hero-foot" style="padding: 3rem">
+      <div class="tabs is-centered is-large is-toggle is-toggle-rounded">
+        <ul>
+          {{ range $index, $schema := .Page.Params.schema }}
+            <li class="schema-nav schema-nav-{{ $index }}">
+              <a>{{ $schema.domain }}</a>
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+
+  </section>
+</template>
+
+<script type="application/javascript">
+  function show (index, force = false) {
+    // If all slides are already visible then return
+    if (!this.state.length || this.state.length <= this.slidesToShow) {
+      return
+    }
+
+    if (typeof index === 'number') {
+      this.state.next = index
+    }
+
+    if (this.options.loop) {
+      this._loop.apply()
+    }
+    if (this.options.infinite) {
+      this._infinite.apply()
+    }
+
+    // If new slide is already the current one then return
+    if (this.state.index === this.state.next) {
+      return
+    }
+
+    this.emit('before:show', this.state)
+    this._transitioner.apply(force, this._setHeight.bind(this))
+    this.emit('after:show', this.state)
+
+    this.emit('show', this)
+  }
+
+  MicroWebComponent.extends({
+    tag: 'kubirds-schemas',
+    template: 'kubirds-webcomp-schemas',
+    render (instance) {
+      const schemas = $(instance)
+
+      const [schemaCarousel] = schemas.find('.carousel')
+      const [carousel] = bulmaCarousel.attach(schemaCarousel)
+
+      carousel.on('show', () => {
+        const index = carousel.state.next
+
+        schemas.find('.schema-nav').removeClass('is-active')
+        schemas.find(`.schema-nav-${index}`).addClass('is-active')
+        schemas.find('.slider-navigation-previous').addClass('is-hidden')
+        schemas.find('.slider-navigation-next').addClass('is-hidden')
+        schemas.find('.slider-pagination').addClass('is-hidden')
+      })
+
+      const navs = schemas.find('.schema-nav')
+
+      navs.each(function (index) {
+        const button = $(this)
+
+        button.on('click', event => {
+          show.call(carousel, index)
+          event.stopImmediatePropagation()
+        })
+      })
+
+      show.call(carousel, 0)
+      schemas.find('.schema-nav-0').addClass('is-active')
+      schemas.find('.slider-navigation-previous').addClass('is-hidden')
+      schemas.find('.slider-navigation-next').addClass('is-hidden')
+      schemas.find('.slider-pagination').addClass('is-hidden')
+    }
+  })
+</script>

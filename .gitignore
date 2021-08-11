@@ -1,3 +1,4 @@
 node_modules
 ./resources/
 yarn-error.log
+public/*
