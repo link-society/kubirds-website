@@ -46,15 +46,17 @@
   </div>
 
   <div class="hero-body">
-    <div class="container has-text-centered">
-      <img class="title is-spaced" src="{{ .Site.Params.Layout.Logo }}" alt="Kubirds" width="50%" />
-      <p class="title">{{ .Site.Params.Metadata.Description }}</p>
-      <p class="subtitle" style="color: #BCBCBC;">
-        {{ range .Site.Params.Metadata.Tags }}
-          #{{ . }}
-        {{ end }}
-      </p>
-    </div>
+    <a href="/getting-started">
+      <div class="container has-text-centered">
+        <img class="title is-spaced" src="{{ .Site.Params.Layout.Logo }}" alt="Kubirds" width="50%" />
+        <p class="title">{{ .Site.Params.Metadata.Description }}</p>
+        <p class="subtitle" style="color: #BCBCBC;">
+          {{ range .Site.Params.Metadata.Tags }}
+            #{{ . }}
+          {{ end }}
+        </p>
+      </div>
+    </a>
   </div>
 
   <div class="hero-foot has-background-slategray">
