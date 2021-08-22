@@ -1,0 +1,61 @@
+<section class="container my-6">
+  <div class="columns is-variable is-8">
+    <div class="column is-one-third">
+      <div class="panel is-radiusless is-full-height">
+        <a
+          class="panel-block button call-to-action has-text-centered is-justify-content-center"
+          href="/getting-started/"
+        >
+          Getting Started
+        </a>
+        <div class="panel-block">
+          <div class="container">
+            <div class="content p-3">
+              <p class="has-text-centered has-text-grey is-size-4">
+                {{ .Page.Params.nav.gettingStarted | markdownify }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="column is-one-third">
+      <div class="panel is-radiusless is-full-height">
+        <a
+          class="panel-block button call-to-action has-text-centered is-justify-content-center"
+          href="/offers/"
+        >
+          Product and services
+        </a>
+        <div class="panel-block">
+          <div class="container">
+            <div class="content p-3">
+              <p class="has-text-centered has-text-grey is-size-4">
+                {{ .Page.Params.nav.offers | markdownify }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="column is-one-third">
+      <div class="panel is-radiusless is-full-height">
+        <a
+          class="panel-block button call-to-action has-text-centered is-justify-content-center"
+          href="/docs/"
+        >
+          Documentation
+        </a>
+        <div class="panel-block">
+          <div class="container">
+            <div class="content p-3">
+              <p class="has-text-centered has-text-grey is-size-4">
+                {{ .Page.Params.nav.documentation | markdownify }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
