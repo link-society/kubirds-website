@@ -15330,8 +15330,8 @@ html, body {
 
 .call-to-action {
   cursor: pointer;
-  background-color: #68B5B7;
-  color: white;
+  background-color: #68B5B7 !important;
+  color: white !important;
   transition: all 0.3s ease-in-out;
   padding: 2em 2.5em;
   border-radius: 0;
@@ -15342,8 +15342,8 @@ html, body {
 }
 
 .call-to-action:hover {
-  background-color: #464159;
-  color: white;
+  background-color: #464159 !important;
+  color: white !important;
 }
 
 .kubirds-description-banner {
