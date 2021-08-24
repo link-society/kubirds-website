@@ -57,7 +57,7 @@ your infrastructure.
 
 domain = "⚙️ Generic usage"
 caption = "Use generic concepts to represent your supervision"
-url = "/img/getting-started/schemas/generic.svg"
+url = "/img/schemas/generic.svg"
 
 [concepts]
 
