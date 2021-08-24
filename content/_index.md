@@ -69,4 +69,51 @@ documentation = "I wish to learn more about **Kubirds** and how it works."
 
 root = true
 icon = "<i class=\"fas fa-home\"></i>"
+
+[carousel]
+
+autoplay = false
+autoplay_speed = 5000
+duration = "750"
+navigation_keys = true
+navigation_swap = true
+pagination = false
+navigation = false
+
+[[carousel.slides]]
+
+domain = "👀 Monitoring"
+caption = "Upgrade and scale your monitoring"
+url = "/img/schemas/monitoring.svg"
+
+[[carousel.slides]]
+
+domain = "🧑🏻‍💻 GitOps"
+caption = "Operate your cluster the GitOps way"
+url = "/img/schemas/gitops.svg"
+
+[[carousel.slides]]
+
+domain = "💾 Backup"
+caption = "Automate your Backups for durability"
+url = "/img/schemas/backup.svg"
+
+[[carousel.slides]]
+
+domain = "💸 FinTech"
+caption = "Make your own trading bot"
+url = "/img/schemas/fintech.svg"
+
+[[carousel.slides]]
+
+domain = "🤖 AI"
+caption = "Integrate your Machine Learning workflow"
+url = "/img/schemas/machine-learning.svg"
+
+[[carousel.slides]]
+
+domain = "🍃 Green IT"
+caption = "Optimize the consumption of your resources"
+url = "/img/schemas/green-it.svg"
+
 +++

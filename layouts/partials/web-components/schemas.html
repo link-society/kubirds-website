@@ -1,24 +1,20 @@
-{{ $page := $.Site.GetPage "/getting-started" }}
-
 <template id="kubirds-webcomp-schemas">
   <section class="hero is-large has-carousel is-hidden-touch">
-    <div class="carousel hero-carousel" data-carousel-options="{{ $page.Params.carousel | jsonify }}">
-      {{ range $slideIndex, $schema := $page.Params.schema }}
+    <div class="carousel hero-carousel" data-carousel-options="{{ .Page.Params.carousel | jsonify }}">
+      {{ range $slideIndex, $schema := .Page.Params.carousel.slides }}
         <div class="item-{{ $slideIndex }}">
-          <div class="container has-text-centered">
+          <div class="container has-text-centered pt-6">
+            <p class="pt-6"><img src="{{ $schema.url }}" /></p>
             <p class="title is-size-3 is-spaced">{{ $schema.caption }}</p>
-            <p class="subtitle"><img src="{{ $schema.url }}" /></p>
           </div>
         </div>
       {{ end }}
     </div>
 
-    <div class="hero-head" style="padding: 3rem"></div>
-    <div class="hero-body" style="padding-bottom: 1rem"></div>
-    <div class="hero-foot" style="padding: 3rem">
+    <div class="hero-head">
       <div class="tabs is-centered is-large is-toggle is-toggle-rounded">
         <ul>
-          {{ range $index, $schema := $page.Params.schema }}
+          {{ range $index, $schema := .Page.Params.carousel.slides }}
             <li class="schema-nav schema-nav-{{ $index }}">
               <a>{{ $schema.domain }}</a>
             </li>
@@ -26,6 +22,8 @@
         </ul>
       </div>
     </div>
+    <div class="hero-body"></div>
+    <div class="hero-foot"></div>
 
   </section>
 </template>
