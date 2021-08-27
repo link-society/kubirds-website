@@ -284,7 +284,7 @@ installing [RBAC Manager](https://rbac-manager.docs.fairwinds.com/) to
 facilitate RBAC definitions, you can do so by running the commands below:
 
 ```shell
-kubectl create namspace rbac-manager
+kubectl create namespace rbac-manager
 helm repo add fairwinds "https://charts.fairwinds.com/stable"
 helm repo update
 helm upgrade --install \
