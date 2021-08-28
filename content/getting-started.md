@@ -53,57 +53,11 @@ Thanks to [Kubernetes](https://kubernetes.io), your workload is as scalable as
 your infrastructure.
 """
 
-[carousel]
-
-autoplay = false
-autoplay_speed = 5000
-duration = "750"
-navigation_keys = true
-navigation_swap = true
-pagination = false
-navigation = false
-
-[[schema]]
+[schema]
 
 domain = "⚙️ Generic usage"
 caption = "Use generic concepts to represent your supervision"
-url = "/img/getting-started/schemas/generic.svg"
-
-[[schema]]
-
-domain = "👀 Monitoring"
-caption = "Upgrade and scale your monitoring"
-url = "/img/getting-started/schemas/monitoring.svg"
-
-[[schema]]
-
-domain = "🧑🏻‍💻 GitOps"
-caption = "Operate your cluster the GitOps way"
-url = "/img/getting-started/schemas/gitops.svg"
-
-[[schema]]
-
-domain = "💾 Backup"
-caption = "Automate your Backups for durability"
-url = "/img/getting-started/schemas/backup.svg"
-
-[[schema]]
-
-domain = "💸 FinTech"
-caption = "Make your own trading bot"
-url = "/img/getting-started/schemas/fintech.svg"
-
-[[schema]]
-
-domain = "🤖 AI"
-caption = "Integrate your Machine Learning workflow"
-url = "/img/getting-started/schemas/machine-learning.svg"
-
-[[schema]]
-
-domain = "🍃 Green IT"
-caption = "Optimize the consumption of your resources"
-url = "/img/getting-started/schemas/green-it.svg"
+url = "/img/schemas/generic.svg"
 
 [concepts]
 
@@ -330,7 +284,7 @@ installing [RBAC Manager](https://rbac-manager.docs.fairwinds.com/) to
 facilitate RBAC definitions, you can do so by running the commands below:
 
 ```shell
-kubectl create namspace rbac-manager
+kubectl create namespace rbac-manager
 helm repo add fairwinds "https://charts.fairwinds.com/stable"
 helm repo update
 helm upgrade --install \

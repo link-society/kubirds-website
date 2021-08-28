@@ -1,0 +1,32 @@
+<section class="columns is-centered is-variable is-8 mb-0 pb-5">
+  <div class="column is-two-fifths">
+    <div class="container">
+      <div class="content is-size-4 has-text-grey">
+        {{ .Page.Params.preview.description1 | markdownify }}
+      </div>
+    </div>
+  </div>
+  <div class="column is-one-third">
+    <div class="container">
+      <div class="content">
+        {{ .Page.Params.preview.examples.unit | markdownify }}
+      </div>
+    </div>
+  </div>
+</section>
+<section class="columns is-centered is-variable is-8 my-0 pb-6 pt-5">
+  <div class="column is-one-third">
+    <div class="container">
+      <div class="content">
+        {{ .Page.Params.preview.examples.reactor | markdownify }}
+      </div>
+    </div>
+  </div>
+  <div class="column is-two-fifths">
+    <div class="container">
+      <div class="content is-size-4 has-text-grey has-text-right">
+        {{ .Page.Params.preview.description2 | markdownify }}
+      </div>
+    </div>
+  </div>
+</section>
