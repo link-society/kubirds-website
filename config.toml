@@ -1,6 +1,7 @@
 baseURL = "https://kubirds.com/"
 languageCode = "en-us"
 title = "Kubirds"
+enableRobotsTXT = true
 
 [params]
 
