@@ -5,14 +5,16 @@ enableRobotsTXT = true
 
 [params]
 
+description = "Cloud-native supervision engine"
+tags = ["automated", "declarative", "scalable", "interoperable"]
+
 [params.backend]
 zapier = "https://hooks.zapier.com/hooks/catch/7255418/ow4b2ez/silent/"
 
 [params.metadata]
 icon = "/img/favicon-kubirds.svg"
-author = "Link-Society"
-description = "Cloud Native Supervision Engine"
-tags = ["automated", "declarative", "scalable", "interoperable"]
+author = "Link Society"
+description = "Kubirds is the first Cloud-Native supervision engine for Kubernetes dedicated to Alerting, Monitoring, Backup, GreenIT, FinTech, AI and many more."
 
 [params.layout]
 logo = "/img/logo-kubirds.png"

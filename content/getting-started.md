@@ -5,6 +5,9 @@ markup = "mmark"
 
 toc = true
 
+[metadata]
+description = "Getting started guide of the first Cloud-Native supervision engine for Kubernetes dedicated to Alerting, Monitoring and many more."
+
 [description_banner]
 
 text = """

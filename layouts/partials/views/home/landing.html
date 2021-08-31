@@ -52,9 +52,9 @@
             <img src="{{ .Site.Params.Layout.Logo }}" alt="Kubirds" width="50%" />
           </a>
         </p>
-        <p class="title">{{ .Site.Params.Metadata.Description }}</p>
+        <p class="title">{{ .Site.Params.Description }}</p>
         <p class="subtitle" style="color: #BCBCBC;">
-          {{ range .Site.Params.Metadata.Tags }}
+          {{ range .Site.Params.Tags }}
             #{{ . }}
           {{ end }}
         </p>

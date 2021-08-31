@@ -6,9 +6,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="author" content="{{ .Site.Params.Metadata.Author }}" />
 <meta name="title" content="{{ .Site.Title }}" />
-<meta name="description" content="{{ .Site.Params.Metadata.Description }}" />
+<meta name="description" content="{{ or .Page.Params.Metadata.Description .Site.Params.Metadata.Description }}" />
 <meta name="og:title" content="{{ .Site.Title }}" />
-<meta name="og:description" content="{{ .Site.Params.Metadata.Description }}" />
+<meta name="og:description" content="{{ or .Page.Params.Metadata.Description .Site.Params.Metadata.Description }}" />
 <meta name="og:logo" content="{{ .Site.Params.Layout.Logo }}" />
 <meta name="twitter:title" content="{{ .Site.Title }}" />
 
