@@ -534,10 +534,10 @@ controller:
 Finally, deploy the *Helm Chart* by running the following commands:
 
 ```shell
-helm repo add link-society-incubator "https://charts.link-society.com/incubator"
+helm repo add link-society "https://charts.link-society.com/stable"
 helm repo update
 helm upgrade --install \
-    kubirds link-society-incubator/kubirds \
+    kubirds link-society/kubirds \
     -f kubirds-operator-values.yaml \
     --namespace monitoring-system \
     --wait
