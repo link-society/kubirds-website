@@ -1,12 +1,17 @@
 +++
 title = "Home"
 
+[video]
+
+title = "Kubirds: Cloud Native Supervision Engine"
+url = "https://www.youtube.com/embed/tZR-sreYmZo"
+
 [preview]
 
 description1 = """
 **Kubirds** is a powerful and flexible **Cloud-Native framework to operate your
 supervision**, allowing developers and operators to **observe and react to events
-in their infrastructure** accross cloud providers and on-premise systems.
+in their infrastructure** across cloud providers and on-premise systems.
 
 **[Get started with the installation guide.](/getting-started/)**
 """
