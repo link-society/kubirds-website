@@ -121,4 +121,65 @@ domain = "🍃 Green IT"
 caption = "Optimize the consumption of your resources"
 url = "/img/schemas/green-it.svg"
 
+[[integrations]]
+
+image = "/img/integrations/prometheus.png"
+url = "https://prometheus.io/"
+
+[[integrations]]
+
+image = "/img/integrations/nagios.png"
+url = "https://www.nagios.org/"
+
+[[integrations]]
+
+image = "/img/integrations/datadog.png"
+url = "https://www.datadoghq.com/"
+
+[[integrations]]
+
+image = "/img/integrations/splunk.png"
+url = "https://www.splunk.com/"
+
+[[integrations]]
+
+image = "/img/integrations/postgresql.png"
+url = "https://www.postgresql.org/"
+
+[[integrations]]
+
+image = "/img/integrations/mysql.png"
+url = "https://www.mysql.com/"
+
+[[integrations]]
+
+image = "/img/integrations/mongodb.png"
+url = "https://www.mongodb.com/"
+
+[[integrations]]
+
+image = "/img/integrations/hasura.png"
+url = "https://hasura.io"
+
+
+[[integrations]]
+
+image = "/img/integrations/slack.png"
+url = "https://slack.com/"
+
+[[integrations]]
+
+image = "/img/integrations/discord.png"
+url = "https://discord.com/"
+
+[[integrations]]
+
+image = "/img/integrations/telegram.png"
+url = "https://telegram.org/"
+
+[[integrations]]
+
+image = "/img/integrations/mailjet.png"
+url = "https://mailjet.com/"
+
 +++

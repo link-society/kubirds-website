@@ -1,0 +1,17 @@
+<section class="container">
+  <h1 class="title has-text-centered">Integrate with any technologies</h1>
+
+  <div class="columns is-centered is-vcentered is-multiline">
+    {{ range .Params.integrations }}
+      <div class="column is-3 p-6">
+        <a href="{{ .url }}">
+          <img src="{{ .image }}" />
+        </a>
+      </div>
+    {{ end }}
+  </div>
+
+  <p class="subtitle is-size-4 has-text-weight-bold has-text-centered">
+    <a href="#">Or learn how to make your own...</a>
+  </p>
+</section>
