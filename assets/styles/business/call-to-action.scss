@@ -18,3 +18,12 @@
   background-color: $gun-powder !important;
   color: white !important;
 }
+
+.call-to-action-container {
+  cursor: pointer;
+}
+
+.call-to-action-container:hover .call-to-action {
+  background-color: $gun-powder !important;
+  color: white !important;
+}

@@ -15346,6 +15346,15 @@ html, body {
   color: white !important;
 }
 
+.call-to-action-container {
+  cursor: pointer;
+}
+
+.call-to-action-container:hover .call-to-action {
+  background-color: #464159 !important;
+  color: white !important;
+}
+
 .kubirds-description-banner {
   background-image: url("/img/getting-started/description-background.jpg");
   background-attachment: fixed;
