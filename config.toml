@@ -5,7 +5,7 @@ enableRobotsTXT = true
 
 [params]
 
-description = "Cloud-native supervision engine"
+description = "Cloud-Native Supervision Engine"
 tags = ["automated", "declarative", "scalable", "interoperable"]
 
 [params.backend]
