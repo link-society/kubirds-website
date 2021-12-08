@@ -6,6 +6,9 @@ weight = 1
 features = ["operator", "kubectl"]
 services = ["upgrades"]
 
+[metadata]
+description = "Free Kubirds edition for the most basic use cases of Cloud-native supervision needs for Kubernetes"
+
 [call_to_action]
 
 url = "/getting-started/"
