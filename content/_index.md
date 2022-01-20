@@ -158,9 +158,8 @@ url = "https://www.mongodb.com/"
 
 [[integrations]]
 
-image = "/img/integrations/hasura.png"
-url = "https://hasura.io"
-
+image = "/img/integrations/teams.png"
+url = "https://www.microsoft.com/microsoft-teams"
 
 [[integrations]]
 
