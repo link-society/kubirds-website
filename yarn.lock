@@ -341,10 +341,6 @@ buffer-from@^1.0.0:
   resolved "https://registry.npmjs.org/buffer-from/-/buffer-from-1.1.2.tgz#2b146a6fd72e80b4f55d255f35ed59a3a9a41bd5"
   integrity sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==
 
-"bulma-carousel@git://github.com/Wikiki/bulma-carousel":
-  version "4.0.24"
-  resolved "git://github.com/Wikiki/bulma-carousel#3de42c029917536d2f4867fd469f8187c56bcd41"
-
 bulma-checkradio@^1.1.1:
   version "1.1.1"
   resolved "https://registry.npmjs.org/bulma-checkradio/-/bulma-checkradio-1.1.1.tgz#d94c4bce810089957102670b19cafb194bcb97be"
