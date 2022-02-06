@@ -1,0 +1,28 @@
+{{ define "main" }}
+  <section class="container p-6">
+    <div class="is-size-4 is-pulled-left">
+      <a class="has-text-dark" href="{{ .Parent.RelPermalink }}">
+        <i class="fas fa-chevron-left"></i>
+      </a>
+    </div>
+    <h2 class="title has-text-centered is-family-monospace has-text-dark">
+      {{ partial "components/breadcrumbs.html" (dict "context" . "url" .RelPermalink) }}
+    </h2>
+  </section>
+  <section class="container p-6">
+
+  </section>
+  <section class="container p-6">
+    <div class="columns is-centered is-vcentered is-multiline">
+      {{ range .Pages }}
+        <div class="column is-one-quarter">
+          <div class="container has-background-white p-6 has-text-centered">
+            <a href="{{ .RelPermalink }}">
+              <img src="{{ .Params.logo }}" alt="{{ .Title }}" style="height: 50px;" />
+            </a>
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}
