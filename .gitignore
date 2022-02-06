@@ -2,3 +2,4 @@ node_modules
 ./resources/
 yarn-error.log
 public/
+.hugo_build.lock
