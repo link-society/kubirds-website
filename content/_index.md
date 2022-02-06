@@ -6,28 +6,45 @@ title = "Home"
 title = "Kubirds: Cloud Native Supervision Engine"
 url = "https://www.youtube.com/embed/tZR-sreYmZo"
 
-[preview]
+[introduction.engine]
 
-description1 = """
+title = "The first Cloud-Native Supervision Engine"
+
+description = """
 **Kubirds** is a powerful and flexible **Cloud-Native framework to operate your
 supervision**, allowing developers and operators to **observe and react to events
 in their infrastructure** across cloud providers and on-premise systems.
-
-**[Get started with the installation guide.](/getting-started/)**
 """
 
-description2 = """
+call_to_action = { name = "Get started &rarr;", url = "/getting-started/" }
+
+image = "/img/home/engine.png"
+
+[introduction.reusable]
+
+title = "Built for reusability"
+description = """
 Encapsulate your workflow in **Docker images** and **reuse them heavily** in
 any job. Kubirds' reactivity is **Plug'n'play**, allowing you to **attach,
 update and remove** your automated incident-response workflow **without**
 interfering with your observability workflow.
-
-**[Learn more about this in our tutorials.](/docs/dockerized-supervision/)**
 """
 
-[preview.examples]
+call_to_action = { name = "Learn more &rarr;", url = "/docs/dockerized-supervision/" }
 
-unit = """
+image = "/img/home/reuse.svg"
+
+[example.unit]
+
+title = "Better observability"
+description = """
+Use Kubirds' **Units** to modelize the core of your supervision. **Observe** for
+changes in your infratructure with **little to zero** configuration.
+**Schedule** your workflows with ease, and let your supervision **scale** with
+your Kubernetes cluster.
+"""
+
+code = """
 ```yaml
 ---
 apiVersion: kubirds.com/v1
@@ -46,7 +63,17 @@ spec:
 ```
 """
 
-reactor = """
+[example.reactor]
+
+title = "Fine-grained reactivity"
+description = """
+**React** to the results of many Units with Kubirds' **Reactors**. Select
+**precisely** what you're reacting to and **when** a response should be
+triggered. **Notify or mutate** external systems based on changes detected by
+your supervision.
+"""
+
+code = """
 ```yaml
 ---
 apiVersion: kubirds.com/v1
@@ -75,110 +102,12 @@ documentation = "I wish to learn more about **Kubirds** and how it works."
 root = true
 icon = "<i class=\"fas fa-home\"></i>"
 
-[carousel]
+[integrations]
 
-autoplay = false
-autoplay_speed = 5000
-duration = "750"
-navigation_keys = true
-navigation_swap = true
-pagination = false
-navigation = false
-
-[[carousel.slides]]
-
-domain = "👀 Monitoring"
-caption = "Upgrade and scale your monitoring"
-url = "/img/schemas/monitoring.svg"
-
-[[carousel.slides]]
-
-domain = "🧑🏻‍💻 GitOps"
-caption = "Operate your cluster the GitOps way"
-url = "/img/schemas/gitops.svg"
-
-[[carousel.slides]]
-
-domain = "💾 Backup"
-caption = "Automate your Backups for durability"
-url = "/img/schemas/backup.svg"
-
-[[carousel.slides]]
-
-domain = "💸 FinTech"
-caption = "Make your own trading bot"
-url = "/img/schemas/fintech.svg"
-
-[[carousel.slides]]
-
-domain = "🤖 AI"
-caption = "Integrate your Machine Learning workflow"
-url = "/img/schemas/machine-learning.svg"
-
-[[carousel.slides]]
-
-domain = "🍃 Green IT"
-caption = "Optimize the consumption of your resources"
-url = "/img/schemas/green-it.svg"
-
-[[integrations]]
-
-image = "/img/integrations/prometheus.png"
-url = "https://prometheus.io/"
-
-[[integrations]]
-
-image = "/img/integrations/nagios.png"
-url = "https://www.nagios.org/"
-
-[[integrations]]
-
-image = "/img/integrations/datadog.png"
-url = "https://www.datadoghq.com/"
-
-[[integrations]]
-
-image = "/img/integrations/splunk.png"
-url = "https://www.splunk.com/"
-
-[[integrations]]
-
-image = "/img/integrations/postgresql.png"
-url = "https://www.postgresql.org/"
-
-[[integrations]]
-
-image = "/img/integrations/mysql.png"
-url = "https://www.mysql.com/"
-
-[[integrations]]
-
-image = "/img/integrations/mongodb.png"
-url = "https://www.mongodb.com/"
-
-[[integrations]]
-
-image = "/img/integrations/teams.png"
-url = "https://www.microsoft.com/microsoft-teams"
-
-[[integrations]]
-
-image = "/img/integrations/slack.png"
-url = "https://slack.com/"
-
-[[integrations]]
-
-image = "/img/integrations/discord.png"
-url = "https://discord.com/"
-
-[[integrations]]
-
-image = "/img/integrations/telegram.png"
-url = "https://telegram.org/"
-
-[[integrations]]
-
-image = "/img/integrations/mailjet.png"
-url = "https://mailjet.com/"
-
+title = "Integrated with systems you already use"
+description = """
+Choose from tons of the **ready-to-use** units and reactors to connect
+**Kubirds** to your preferred monitoring, alerting, database, and custom
+systems.
+"""
 +++
