@@ -1,0 +1,45 @@
+<section class="section has-background-white">
+  <div class="columns is-vcentered">
+    <div class="column is-half p-6">
+      <p class="title">{{ .Page.Params.introduction.engine.title }}</p>
+
+      <div class="content is-size-4 has-text-grey">
+        {{ .Page.Params.introduction.engine.description | markdownify }}
+      </div>
+
+      <div class="has-text-centered">
+        <a class="button call-to-action" href="{{ .Page.Params.introduction.engine.call_to_action.url }}">
+          {{ .Page.Params.introduction.engine.call_to_action.name | safeHTML }}
+        </a>
+      </div>
+    </div>
+    <div class="column is-half">
+      <figure class="image">
+        <img src="{{ .Page.Params.introduction.engine.image }}" alt="Kubirds Engine Schema" />
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="columns is-vcentered">
+    <div class="column is-half">
+      <figure class="image m-auto" style="width: 66%;">
+        <img src="{{ .Page.Params.introduction.reusable.image }}" alt="Recycle Icon" />
+      </figure>
+    </div>
+    <div class="column is-half p-6">
+      <p class="title">{{ .Page.Params.introduction.reusable.title }}</p>
+
+      <div class="content is-size-4 has-text-grey">
+        {{ .Page.Params.introduction.reusable.description | markdownify }}
+      </div>
+
+      <div class="has-text-centered">
+        <a class="button call-to-action" href="{{ .Page.Params.introduction.reusable.call_to_action.url }}">
+          {{ .Page.Params.introduction.reusable.call_to_action.name | safeHTML }}
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

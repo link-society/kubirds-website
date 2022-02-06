@@ -46,19 +46,34 @@
   </div>
 
   <div class="hero-body">
-      <div class="container has-text-centered">
-        <p class="title is-spaced">
+    <div class="columns is-vcentered">
+      <div class="column is-half p-5">
+        <p>
           <a href="/getting-started">
-            <img src="{{ .Site.Params.Layout.Logo }}" alt="Kubirds" width="50%" />
+            <img src="{{ .Site.Params.Layout.Logo }}" alt="Kubirds" />
           </a>
         </p>
-        <p class="title">{{ .Site.Params.Description }}</p>
-        <p class="subtitle" style="color: #BCBCBC;">
+        <p class="title has-text-centered">{{ .Site.Params.Description }}</p>
+        <p class="subtitle has-text-centered" style="color: #BCBCBC;">
           {{ range .Site.Params.Tags }}
             #{{ . }}
           {{ end }}
         </p>
       </div>
+      <div class="column is-half">
+        <figure class="image is-16by9">
+          <iframe
+            class="has-ratio"
+            width="560" height="315"
+            src="{{ .Params.video.url }}"
+            title="{{ .Params.video.title }}"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </figure>
+      </div>
+    </div>
   </div>
   <div class="hero-foot"></div>
 </section>
