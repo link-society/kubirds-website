@@ -9,7 +9,8 @@
     "build:css": "node ./assets/scripts/build-css.js",
     "build:apidoc": "sh ./assets/scripts/build-apidoc.sh",
     "build:html": "hugo --minify",
-    "build": "npm run build:css && npm run build:apidoc && npm run build:html",
+    "build:index": "node ./assets/scripts/build-index.js",
+    "build": "npm run build:css && npm run build:apidoc && npm run build:html && npm run build:index",
     "watch:css": "watch \"yarn build:css\" ./assets/styles"
   },
   "devDependencies": {
