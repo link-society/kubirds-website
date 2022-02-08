@@ -1,0 +1,34 @@
+.tag-cloud {
+  .tag-cloud-item {
+    &[data-tag-weight="1"] { --size: 1; }
+    &[data-tag-weight="2"] { --size: 2; }
+    &[data-tag-weight="3"] { --size: 3; }
+    &[data-tag-weight="4"] { --size: 4; }
+    &[data-tag-weight="5"] { --size: 5; }
+    &[data-tag-weight="6"] { --size: 6; }
+    &[data-tag-weight="7"] { --size: 7; }
+    &[data-tag-weight="8"] { --size: 8; }
+    &[data-tag-weight="9"] { --size: 9; }
+
+    .tag {
+      font-size: calc(var(--size) * 0.75rem) !important;
+
+      &.is-term {
+        @extend .is-dark;
+      }
+
+      &.is-count {
+        @extend .is-success;
+        transition: all .3s ease-in-out;
+      }
+    }
+
+    &:hover {
+      .tag {
+        &.is-count {
+          @extend .is-danger;
+        }
+      }
+    }
+  }
+}
