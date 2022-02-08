@@ -10,7 +10,7 @@
     "build:apidoc": "sh ./assets/scripts/build-apidoc.sh",
     "build:html": "hugo --minify",
     "build:index": "node ./assets/scripts/build-index.js",
-    "build": "npm run build:css && npm run build:apidoc && npm run build:html && npm run build:index",
+    "build": "npm run build:css && npm run build:apidoc && npm run build:index && npm run build:html",
     "watch:css": "watch \"yarn build:css\" ./assets/styles"
   },
   "devDependencies": {
