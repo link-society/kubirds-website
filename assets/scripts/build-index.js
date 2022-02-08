@@ -14,7 +14,7 @@ const getRelPermalink = filename => {
 
 const getMetadata = async filename => {
   const content = await fs.readFile(filename, { encoding: 'utf-8' })
-  const parsed = matter(content.replaceAll('\r\n', '\n'), {
+  const parsed = matter(content.replace(/\r\n/g, '\n'), {
     language: 'toml',
     delimiters: '+++',
     engines: {
