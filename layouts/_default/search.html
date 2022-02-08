@@ -5,17 +5,18 @@
         <i class="fas fa-chevron-left"></i>
       </a>
     </div>
-    <h2 class="title has-text-centered is-family-monospace has-text-dark">
+    <h2 class="title is-spaced has-text-centered is-family-monospace has-text-dark">
       {{ partial "components/breadcrumbs.html" (dict "context" . "url" .RelPermalink) }}
     </h2>
   </section>
+
   <section class="container p-6">
     <form action="/search">
-      <input name="s" value="integrations" type="hidden" />
+      <input id="search-index" name="s" value="" type="hidden" />
 
       <div class="field has-addons">
         <div class="control has-icons-left is-expanded">
-          <input name="q" class="input is-large is-success" type="text" placeholder="Type your search" />
+          <input id="search-query" name="q" class="input is-large is-success" type="text" placeholder="Type your search" />
           <span class="icon is-small is-left">
             <i class="fas fa-search"></i>
           </span>
@@ -28,17 +29,20 @@
       </div>
     </form>
   </section>
-  <section class="container p-6">
-    <div class="columns is-centered is-vcentered is-multiline">
-      {{ range .Pages }}
-        <div class="column is-one-quarter">
-          <div class="container has-background-white p-6 has-text-centered">
-            <a href="{{ .RelPermalink }}">
-              <img src="{{ .Params.logo }}" alt="{{ .Title }}" style="height: 50px;" />
-            </a>
-          </div>
-        </div>
-      {{ end }}
+
+  <section class="container document-container">
+    <div class="content p-6" id="document">
+      <progress class="progress is-small is-danger"></progress>
     </div>
   </section>
+
+  <script
+    type="application/javascript"
+    src="/js/lunr.js"
+  ></script>
+
+  <script
+    type="application/javascript"
+    src="/js/search.js"
+  ></script>
 {{ end }}

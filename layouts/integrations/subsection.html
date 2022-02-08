@@ -8,9 +8,9 @@
     <h2 class="title is-spaced has-text-centered is-family-monospace has-text-dark">
       {{ partial "components/breadcrumbs.html" (dict "context" . "url" .RelPermalink) }}
     </h2>
-    <h3 class="subtitle has-text-centered has-text-lightgray">
+    <h3 class="subtitle has-text-centered">
       {{ range .Params.tags }}
-        #{{ . }}
+        <a href="/tags/{{ . }}/" class="has-text-lightgray">#{{ . }}</a>
       {{ end }}
     </h3>
   </section>

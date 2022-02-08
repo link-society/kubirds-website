@@ -1,6 +1,5 @@
 +++
 title = "Legal terms"
-nav = "simple"
 
 [breadcrumbs]
 
