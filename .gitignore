@@ -3,3 +3,5 @@ node_modules
 yarn-error.log
 public/
 .hugo_build.lock
+/static/search-docs.json
+/static/search-integrations.json
