@@ -13,8 +13,11 @@
     "watch:css": "watch \"yarn build:css\" ./assets/styles"
   },
   "devDependencies": {
+    "glob": "^7.2.0",
+    "gray-matter": "^4.0.3",
     "sass": "^1.35.1",
     "spectaql": "^0.3.1",
+    "toml": "^3.0.0",
     "watch": "^1.0.2"
   },
   "dependencies": {
