@@ -24,7 +24,7 @@ spec:
   unitSelector:
     unit-output-format: prometheus
   image:
-    name: ghcr.io/link-society/kubirds-reactor-prometheus-pusher:latest
+    name: linksociety/kubirds-reactor-prometheus-pusher:latest
     pullPolicy: Always
     command: prometheus-pusher
   env:
