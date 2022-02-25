@@ -2,5 +2,5 @@
 layout = "subsection"
 title = "Slack"
 logo = "/img/integrations/slack.png"
-weight = 9
+weight = 11
 +++
