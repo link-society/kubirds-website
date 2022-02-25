@@ -39,6 +39,7 @@ kind: Unit
 metadata:
   name: get-mongo-usercount
 spec:
+  schedule: every 5 minutes
   image:
     name: linksociety/kubirds-unit-mongosh:latest
     pullPolicy: Always
