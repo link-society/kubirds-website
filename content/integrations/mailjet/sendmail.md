@@ -25,7 +25,7 @@ in your templates:
 <pre>{{ readFile .Env.UNIT_OUTPUT }}</pre>
 ```
 
-The mail is send with the [mailjetctl](https://github.com/link-society/mailjetctl)
+The mail is sent with the [mailjetctl](https://github.com/link-society/mailjetctl)
 utility.
 
 ## Environment
@@ -99,6 +99,7 @@ spec:
   envFrom:
     - secretRef:
       name: mailjet-credentials  # provides MJ_APIKEY_PUBLIC and MJ_APIKEY_PRIVATE
+  env:
     - name: SENDER_ADDRESS
       value: "Notification <noreply@example.com>"
     - name: RECIPIENT_LIST_TEMPLATE
