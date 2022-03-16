@@ -10,5 +10,5 @@ Mailjet is a cloud-based email delivery and tracking system.
 logo = "/img/integrations/mailjet.png"
 upstream = "https://mailjet.com"
 
-weight = 15
+weight = 18
 +++

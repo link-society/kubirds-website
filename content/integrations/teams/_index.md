@@ -11,5 +11,5 @@ logo = "/img/integrations/teams.png"
 upstream = "https://teams.com"
 
 wip = true
-weight = 14
+weight = 15
 +++
