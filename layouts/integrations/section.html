@@ -32,10 +32,20 @@
     <div class="columns is-centered is-vcentered is-multiline">
       {{ range .Pages }}
         <div class="column is-one-quarter">
-          <div class="container has-background-white p-6 has-text-centered">
-            <a href="{{ .RelPermalink }}">
-              <img src="{{ .Params.logo }}" alt="{{ .Title }}" style="height: 50px;" />
-            </a>
+          <div class="container has-background-white">
+            {{ if .Params.wip }}
+              <div style="position: absolute; bottom: 0; right: 0;">
+                <span class="tag is-danger is-radiusless">
+                  Coming soon
+                </span>
+              </div>
+            {{ end }}
+
+            <div class="p-6 has-text-centered">
+              <a href="{{ .RelPermalink }}">
+                <img src="{{ .Params.logo }}" alt="{{ .Title }}" style="height: 50px;" />
+              </a>
+            </div>
           </div>
         </div>
       {{ end }}

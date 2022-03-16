@@ -26,7 +26,7 @@
         <div class="level-right">
           <div class="level-item">
             <p class="has-text-right">
-              {{ .Params.Description }}<br/>
+              {{ .Params.Description | safeHTML }}<br/>
               <a href="{{ .Params.upstream }}">{{ .Params.upstream }}</a>
             </p>
           </div>
