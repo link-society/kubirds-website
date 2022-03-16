@@ -1,17 +1,22 @@
-<section class="container mb-6 py-6">
-  <h1 class="title has-text-centered">Integrate with any technologies...</h1>
+<section class="section my-6">
+  <div class="columns is-vcentered">
+    <div class="column is-half">
+      <h1 class="title">
+        {{ .Page.Params.integrations.title }}
+      </h1>
 
-  <div class="columns is-centered is-vcentered is-multiline">
-    {{ range .Params.integrations }}
-      <div class="column is-3 p-6">
-        <a href="{{ .url }}">
-          <img src="{{ .image }}" />
+      <div class="content is-size-4 has-text-grey">
+        {{ .Page.Params.integrations.description | markdownify }}
+      </div>
+
+      <div class="has-text-centered">
+        <a class="button call-to-action" href="/integrations">
+          Browse our catalog &rarr;
         </a>
       </div>
-    {{ end }}
+    </div>
+    <div class="column is-half">
+      <img src="/img/integrations/_highlighted.png" />
+    </div>
   </div>
-
-  <p class="subtitle is-size-4 has-text-weight-bold has-text-centered">
-    <a href="#">...or learn how to make your own</a>
-  </p>
 </section>

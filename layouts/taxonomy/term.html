@@ -1,0 +1,39 @@
+{{ define "main" }}
+  <section class="container p-6">
+    <div class="is-size-4 is-pulled-left">
+      <a class="has-text-dark" href="{{ .Parent.RelPermalink }}">
+        <i class="fas fa-chevron-left"></i>
+      </a>
+    </div>
+    <h2 class="title is-spaced has-text-centered is-family-monospace has-text-dark">
+      {{ partial "components/breadcrumbs.html" (dict "context" . "url" .RelPermalink) }}
+    </h2>
+  </section>
+
+  <section class="container document-container">
+    <div class="content p-6" id="document">
+      <table class="table is-hoverable">
+        <tbody>
+          {{ range .Data.Pages }}
+            <tr>
+              <td class="is-vcentered is-narrow">
+                {{ if hasPrefix .RelPermalink "/docs/" }}
+                  {{ ($.GetPage "/docs/").Params.breadcrumbs.icon }}
+                {{ else if hasPrefix .RelPermalink "/integrations/" }}
+                  {{ ($.GetPage "/integrations/").Params.breadcrumbs.icon }}
+                {{ else }}
+                  🌐
+                {{ end }}
+              </td>
+              <td class="is-vcentered">
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                <br />
+                {{ .Params.description | markdownify }}
+              </td>
+            </tr>
+          {{ end }}
+        </tbody>
+      </table>
+    </div>
+  </section>
+{{ end }}

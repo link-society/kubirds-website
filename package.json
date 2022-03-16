@@ -6,21 +6,23 @@
   "author": "Link Society <contact@link-society.com>",
   "license": "Apache-2.0",
   "scripts": {
-    "build:js": "sh ./assets/scripts/build-js.sh",
     "build:css": "node ./assets/scripts/build-css.js",
     "build:apidoc": "sh ./assets/scripts/build-apidoc.sh",
     "build:html": "hugo --minify",
-    "build": "npm run build:js && npm run build:css && npm run build:apidoc && npm run build:html",
+    "build:index": "node ./assets/scripts/build-index.js",
+    "build": "npm run build:css && npm run build:apidoc && npm run build:index && npm run build:html",
     "watch:css": "watch \"yarn build:css\" ./assets/styles"
   },
   "devDependencies": {
+    "glob": "^7.2.0",
+    "gray-matter": "^4.0.3",
     "sass": "^1.35.1",
     "spectaql": "^0.3.1",
+    "toml": "^3.0.0",
     "watch": "^1.0.2"
   },
   "dependencies": {
     "bulma": "^0.9.3",
-    "bulma-carousel": "git://github.com/Wikiki/bulma-carousel",
     "bulma-checkradio": "^1.1.1",
     "bulma-pageloader": "^0.3.0",
     "bulma-switch": "^2.0.0",

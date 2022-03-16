@@ -5,8 +5,8 @@ enableRobotsTXT = true
 
 [params]
 
-description = "Cloud-Native Supervision Engine"
-tags = ["automated", "declarative", "scalable", "interoperable"]
+description = "Effortless Supervision"
+tags = ["cloud-native", "declarative", "scalable", "interoperable"]
 
 [params.backend]
 zapier = "https://hooks.zapier.com/hooks/catch/7255418/ow4b2ez/silent/"

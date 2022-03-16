@@ -1,0 +1,28 @@
+{{ define "main" }}
+  <section class="container p-6">
+    <div class="is-size-4 is-pulled-left">
+      <a class="has-text-dark" href="{{ .Parent.RelPermalink }}">
+        <i class="fas fa-chevron-left"></i>
+      </a>
+    </div>
+    <h2 class="title is-spaced has-text-centered is-family-monospace has-text-dark">
+      {{ partial "components/breadcrumbs.html" (dict "context" . "url" .RelPermalink) }}
+    </h2>
+  </section>
+  <section class="container document-container">
+    <div class="content p-6" id="document">
+      <div class="tag-cloud is-flex is-justify-content-center">
+        {{ range .Data.Terms.ByCount }}
+          <a
+            class="tag-cloud-item tags has-addons m-1"
+            data-tag-weight="{{ .Count }}"
+            href="/tags/{{ .Term }}/"
+          >
+            <span class="tag is-term">{{ .Term }}</span>
+            <span class="tag is-count">{{ .Count }}</span>
+          </a>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+{{ end }}

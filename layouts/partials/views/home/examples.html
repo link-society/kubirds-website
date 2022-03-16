@@ -1,0 +1,30 @@
+<section class="section has-background-white">
+  <div class="columns is-vcentered">
+    <div class="column is-half p-6">
+      <p class="title">{{ .Page.Params.example.unit.title }}</p>
+
+      <div class="content is-size-4 has-text-grey">
+        {{ .Page.Params.example.unit.description | markdownify }}
+      </div>
+    </div>
+    <div class="column is-half">
+      <div class="content">
+        {{ .Page.Params.example.unit.code | markdownify }}
+      </div>
+    </div>
+  </div>
+  <div class="columns is-vcentered is-flex-direction-row-reverse">
+    <div class="column is-half p-6">
+      <p class="title">{{ .Page.Params.example.reactor.title }}</p>
+
+      <div class="content is-size-4 has-text-grey">
+        {{ .Page.Params.example.reactor.description | markdownify }}
+      </div>
+    </div>
+    <div class="column is-half">
+      <div class="content">
+        {{ .Page.Params.example.reactor.code | markdownify }}
+      </div>
+    </div>
+  </div>
+</section>

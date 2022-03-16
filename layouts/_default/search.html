@@ -1,0 +1,48 @@
+{{ define "main" }}
+  <section class="container p-6">
+    <div class="is-size-4 is-pulled-left">
+      <a class="has-text-dark" href="{{ .Parent.RelPermalink }}">
+        <i class="fas fa-chevron-left"></i>
+      </a>
+    </div>
+    <h2 class="title is-spaced has-text-centered is-family-monospace has-text-dark">
+      {{ partial "components/breadcrumbs.html" (dict "context" . "url" .RelPermalink) }}
+    </h2>
+  </section>
+
+  <section class="container p-6">
+    <form action="/search">
+      <input id="search-index" name="s" value="" type="hidden" />
+
+      <div class="field has-addons">
+        <div class="control has-icons-left is-expanded">
+          <input id="search-query" name="q" class="input is-large is-success" type="text" placeholder="Type your search" />
+          <span class="icon is-small is-left">
+            <i class="fas fa-search"></i>
+          </span>
+        </div>
+        <div class="control">
+          <button type="submit" class="button is-large is-success">
+            Search
+          </button>
+        </div>
+      </div>
+    </form>
+  </section>
+
+  <section class="container document-container">
+    <div class="content p-6" id="document">
+      <progress class="progress is-small is-danger"></progress>
+    </div>
+  </section>
+
+  <script
+    type="application/javascript"
+    src="/js/lunr.js"
+  ></script>
+
+  <script
+    type="application/javascript"
+    src="/js/search.js"
+  ></script>
+{{ end }}

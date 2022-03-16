@@ -1,0 +1,72 @@
+{{ define "main" }}
+  <section class="container p-6">
+    <div class="is-size-4 is-pulled-left">
+      <a class="has-text-dark" href="{{ .Parent.RelPermalink }}">
+        <i class="fas fa-chevron-left"></i>
+      </a>
+    </div>
+    <h2 class="title is-spaced has-text-centered is-family-monospace has-text-dark">
+      {{ partial "components/breadcrumbs.html" (dict "context" . "url" .RelPermalink) }}
+    </h2>
+    <h3 class="subtitle has-text-centered">
+      {{ range .Params.tags }}
+        <a href="/tags/{{ . }}/" class="has-text-lightgray">#{{ . }}</a>
+      {{ end }}
+    </h3>
+  </section>
+
+  <section class="container mb-6">
+    <div class="content p-6" id="document">
+      <div class="level">
+        <div class="level-left">
+          <div class="level-item">
+            <img src="{{ .Params.logo }}" alt="{{ .Title }}" style="height: 50px;" />
+          </div>
+        </div>
+        <div class="level-right">
+          <div class="level-item">
+            <p class="has-text-right">
+              {{ .Params.Description | safeHTML }}<br/>
+              <a href="{{ .Params.upstream }}">{{ .Params.upstream }}</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+
+      <h1 class="mb-5">Available solutions:</h1>
+
+      <div class="table-container">
+        <table class="table is-bordered is-hoverable">
+          <thead>
+            <tr class="has-background-light">
+              <th class="is-narrow">Name</th>
+              <th class="is-narrow has-text-centered">Kind</th>
+              <th>Description</th>
+              <th class="is-narrow has-text-centered">Pricing</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            {{ range .Pages }}
+              <tr>
+                <td class="is-vcentered is-narrow">
+                  {{ .Title }}<br/>
+                  <a href="{{ .RelPermalink }}">See more</a>
+                </td>
+                <td class="is-vcentered is-narrow has-text-centered">
+                  <span class="tag is-success is-medium is-rounded">{{ .Params.kind }}</span>
+                </td>
+                <td class="is-vcentered">{{ .Params.description }}</td>
+                <td class="is-vcentered is-narrow has-text-centered">
+                  <span class="tag is-danger is-medium is-rounded">{{ .Params.pricing }}</span>
+                </td>
+              </tr>
+            {{ end }}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+{{ end }}
