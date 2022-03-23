@@ -10,27 +10,25 @@
 
     <div class="columns is-centered">
       {{ range $service := (first $col_count (after $offset $list)) }}
-        {{ if (in $.Params.services $service.key) }}
-          <div class="column is-one-quarter">
-            <div class="card is-full-height">
-              <div class="card-image">
-                <figure class="image is-5by3">
-                  <img src="{{ $service.cover }}" alt="Placeholder" />
-                </figure>
-              </div>
-              <div class="card-content">
-                <h2 class="title has-text-success is-size-4">
-                  <i class="{{ $service.icon }}"></i>
-                  <span class="ml-2">{{ $service.displayName}}</span>
-                </h2>
-                <hr/>
-                <div class="content has-text-justified">
-                  {{ $service.description | markdownify }}
-                </div>
+        <div class="column is-one-quarter">
+          <div class="card is-full-height">
+            <div class="card-image">
+              <figure class="image is-5by3">
+                <img src="{{ $service.cover }}" alt="Placeholder" />
+              </figure>
+            </div>
+            <div class="card-content">
+              <h2 class="title has-text-success is-size-4">
+                <i class="{{ $service.icon }}"></i>
+                <span class="ml-2">{{ $service.displayName}}</span>
+              </h2>
+              <hr/>
+              <div class="content has-text-justified">
+                {{ $service.description | markdownify }}
               </div>
             </div>
           </div>
-        {{ end }}
+        </div>
       {{ end }}
     </div>
   {{ end }}

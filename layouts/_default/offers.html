@@ -1,0 +1,12 @@
+{{ define "main" }}
+  {{ partial "views/offers/features.html" . }}
+  {{ partial "views/offers/services.html" . }}
+
+  <section class="container mt-6">
+    <div class="document-container">
+      <div class="content p-6" id="document">
+        {{ .Content }}
+      </div>
+    </div>
+  </section>
+{{ end }}
