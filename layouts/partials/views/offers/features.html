@@ -12,13 +12,17 @@
   {{ $scratch.Set "feature-index" 0 }}
 
   {{ range $feature := .Site.Data.product.features.available }}
-    {{ if (in $.Params.features $feature.key) }}
-      {{ $index := ($scratch.Get "feature-index") }}
+    {{ $index := ($scratch.Get "feature-index") }}
 
-      {{ partial "views/offers/features/wide.html" (dict "index" $index "feature" $feature) }}
-      {{ partial "views/offers/features/mobile.html" (dict "index" $index "feature" $feature) }}
+    {{ partial "views/offers/features/wide.html" (dict "index" $index "feature" $feature) }}
+    {{ partial "views/offers/features/mobile.html" (dict "index" $index "feature" $feature) }}
 
-      {{ $scratch.Add "feature-index" 1 }}
-    {{ end }}
+    {{ $scratch.Add "feature-index" 1 }}
   {{ end }}
+
+  <div class="has-text-centered m-6">
+    <a class="button call-to-action" href="/integrations/">
+      Discover our integrations &rarr;
+    </a>
+  </div>
 </section>

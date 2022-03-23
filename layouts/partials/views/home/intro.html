@@ -8,9 +8,11 @@
       </div>
 
       <div class="has-text-centered">
-        <a class="button call-to-action" href="{{ .Page.Params.introduction.engine.call_to_action.url }}">
-          {{ .Page.Params.introduction.engine.call_to_action.name | safeHTML }}
-        </a>
+        {{ range .Page.Params.introduction.engine.calls_to_action }}
+          <a class="button call-to-action" href="{{ .url }}">
+            {{ .name | safeHTML }}
+          </a>
+        {{ end }}
       </div>
     </div>
     <div class="column is-half">
@@ -36,9 +38,11 @@
       </div>
 
       <div class="has-text-centered">
-        <a class="button call-to-action" href="{{ .Page.Params.introduction.reusable.call_to_action.url }}">
-          {{ .Page.Params.introduction.reusable.call_to_action.name | safeHTML }}
-        </a>
+        {{ range .Page.Params.introduction.reusable.calls_to_action }}
+          <a class="button call-to-action" href="{{ .url }}">
+            {{ .name | safeHTML }}
+          </a>
+        {{ end }}
       </div>
     </div>
   </div>

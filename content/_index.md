@@ -16,7 +16,10 @@ supervision**, allowing developers and operators to **observe and react to event
 in their infrastructure** across cloud providers and on-premise systems.
 """
 
-call_to_action = { name = "Get started &rarr;", url = "/getting-started/" }
+calls_to_action = [
+  { name = "Get started &rarr;", url = "/getting-started/" },
+  { name = "Compare with others &rarr;", url = "/compare/" },
+]
 
 image = "/img/home/engine.png"
 
@@ -30,7 +33,9 @@ update and remove** your automated incident-response workflow **without**
 interfering with your observability workflow.
 """
 
-call_to_action = { name = "Learn more &rarr;", url = "/docs/dockerized-supervision/" }
+calls_to_action = [
+  { name = "Learn more &rarr;", url = "/docs/dockerized-supervision/" }
+]
 
 image = "/img/home/reuse.svg"
 

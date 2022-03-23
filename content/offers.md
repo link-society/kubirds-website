@@ -1,6 +1,6 @@
 +++
 title = "Products and Services"
-markup = "mmark"
+layout = "offers"
 +++
 
 ## Cloud Provider Marketplace

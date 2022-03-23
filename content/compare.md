@@ -1,0 +1,4 @@
++++
+title = "Comparison"
+layout = "compare"
++++

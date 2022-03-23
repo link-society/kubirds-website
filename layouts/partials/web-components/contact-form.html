@@ -56,8 +56,6 @@
                 <option value="other">I would like to contact you</option>
                 <option value="services">I would like to know more about your services</option>
                 <option value="offers">I want to know more about your offers</option>
-                <option value="offer-teams">I would like to know more about the Teams offer</option>
-                <option value="offer-enterprise">I would like to know more about the Enterprise offer</option>
                 <option value="demo">I would like to schedule a demo</option>
               </select>
             </div>
@@ -330,20 +328,7 @@
           break
 
         case 'offers':
-          switch (url.searchParams.get('offer')) {
-            case 'teams':
-              fields.subject.val('offer-teams')
-              break
-
-            case 'enterprise':
-              fields.subject.val('offer-enterprise')
-              break
-
-            default:
-              fields.subject.val('offers')
-              break
-          }
-
+          fields.subject.val('offers')
           break
 
         case 'demo':
