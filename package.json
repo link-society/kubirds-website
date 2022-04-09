@@ -8,6 +8,7 @@
   "scripts": {
     "build:css": "node ./assets/scripts/build-css.js",
     "build:html": "hugo --minify",
+    "build:diagrams": "plantuml -tsvg ./assets/diagrams",
     "build:index": "node ./assets/scripts/build-index.js",
     "build": "npm run build:css && npm run build:index && npm run build:html",
     "watch:css": "watch \"yarn build:css\" ./assets/styles"
