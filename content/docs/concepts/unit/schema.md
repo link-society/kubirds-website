@@ -1,7 +1,7 @@
 +++
 title = "Schema"
 description = "Custom Resource Definition"
-weight = 3
+weight = 4
 markup = "mmark"
 +++
 

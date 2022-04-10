@@ -4,4 +4,4 @@ description = "Application Level Architecture"
 weight = 3
 +++
 
-![Components Diagram](/img/docs/architecture/components.svg)
+{{< figure "/img/docs/architecture/components.svg" "Components Diagram" >}}
