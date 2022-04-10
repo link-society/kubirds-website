@@ -1,4 +1,4 @@
-@startuml admission_workflow_reactor
+@startuml ../../static/img/docs/workflows/reactor-admission
 skinparam defaultTextAlignment center
 
 start

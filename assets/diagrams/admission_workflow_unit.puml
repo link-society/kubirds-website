@@ -1,4 +1,4 @@
-@startuml admission_workflow_unit
+@startuml ../../static/img/docs/workflows/unit-admission
 skinparam defaultTextAlignment center
 
 start

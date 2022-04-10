@@ -1,0 +1,32 @@
+@startuml ../../static/img/docs/workflows/unit-scheduling
+skinparam defaultTextAlignment center
+
+start
+
+repeat
+  :fetch Unit;
+
+  if (failed?) then (yes)
+    stop
+  endif
+
+  :list Inhibitor resources\nmatching the Unit;
+
+  if (within an Inhibitor time window?) then (yes)
+    :ignore;
+  else (no)
+    :create PipelineRun;
+    fork
+      :set condition Completed\nto FALSE;
+      :set condition Pending\nto TRUE;
+    fork again
+      :wait for PipelineRun completion;
+      :set condition Completed\nto TRUE;
+      :set condition Pending\nto FALSE;
+      :set status.lastState\nand status.lastStateSeen;
+      :publish Kubernetes event;
+    end fork
+  endif
+repeat while (interval between\nexecutions elapsed?);
+
+@enduml

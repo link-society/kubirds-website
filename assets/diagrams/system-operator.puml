@@ -1,4 +1,4 @@
-@startuml system_operator
+@startuml ../../static/img/docs/architecture/systems
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 
 Person(ops, "OPS", "In charge of cluster management and maintainance")

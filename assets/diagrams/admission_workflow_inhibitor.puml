@@ -1,4 +1,4 @@
-@startuml admission_workflow_inhibitor
+@startuml ../../static/img/docs/workflows/inhibitor-admission
 skinparam defaultTextAlignment center
 
 start
