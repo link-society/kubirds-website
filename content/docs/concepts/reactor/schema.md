@@ -1,7 +1,7 @@
 +++
 title = "Schema"
 description = "Custom Resource Definition"
-weight = 2
+weight = 3
 markup = "mmark"
 +++
 
@@ -16,6 +16,7 @@ markup = "mmark"
 | Name | Type | Description |
 | ---- | ---- | ----------- |
 | spec | [ReactorSpec](#reactorspec) | Specification of the desired behavior |
+| status | [ReactorStatus](#reactorstatus) | Status filled by the operator |
 
 ## ReactorSpec
 
@@ -23,6 +24,7 @@ markup = "mmark"
 | Name | Type | Description |
 | ---- | ---- | ----------- |
 | image | [Image](#image) | Describe the Docker image to use for the reactor |
+| serviceAccountName | string | Name of the service account used to run the pod (defaults to `default`) |
 | env | [EnvVar](https://v1-20.docs.kubernetes.io/docs/reference/generated/kubernetes-api/v1.20/#envvar-v1-core) array | List of environment variables to set in the container |
 | envFrom | [EnvFromSource](https://v1-20.docs.kubernetes.io/docs/reference/generated/kubernetes-api/v1.20/#envfromsource-v1-core) array | List of sources to populate environment variables in the container |
 | volumes | [Volume](#volume) array | List of volumes to mount in the container |
@@ -74,3 +76,18 @@ If not set, this defaults to `MatchAll`.
 | failure | boolean | true | If true, will be triggered for every failed unit |
 | fixed | boolean | false | If true, will be trigger on a successful unit, previously failed |
 | regression | boolean | false | If true, will be trigger on a failed unit, previously successful |
+
+## UnitStatus
+
+{.table .is-hoverable .is-fullwidth}
+| Name | Type | Description |
+| ---- | ---- | ----------- |
+| phase | [AdmissionPhase](#admissionphase) | Current status of the Reactor admission workflow |
+| failureReasons | string array | Errors encountered during the Reactor admission workflow |
+
+## AdmissionPhase
+
+One of:
+
+ - `Accepted`
+ - `Rejected`
