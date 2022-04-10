@@ -1,0 +1,26 @@
+@startuml admission_workflow_unit
+skinparam defaultTextAlignment center
+
+start
+
+repeat
+  :Unit changed;
+  ->ADDED, MODIFIED event;
+  if (ServiceAccount exists?\nSchedule is a valid RRule?) then (yes)
+    if (status.phase\n==\nAccepted) then (yes)
+      :Store in Cache;
+      :Reconciliation\nand\nScheduling;
+      stop
+    endif
+  else (no)
+    if (status.phase\n==\nRejected) then (yes)
+      if (status.failureReasons\n==\nnew failureReasons) then (yes)
+        :do nothing;
+        stop
+      endif
+    endif
+  endif
+  :update status\nand\ndo nothing;
+
+
+@enduml
