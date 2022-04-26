@@ -5,4 +5,4 @@ weight = 1
 markup = "mmark"
 +++
 
-{{< figure "/img/docs/architecture/systems.svg" "Systems Diagram" >}}
+{{< figure-gallery "/img/docs/architecture/systems.svg" "Systems Diagram" >}}
