@@ -28,7 +28,7 @@
     "bulma-timeline": "^3.0.4",
     "bulma-tooltip": "^3.0.2",
     "jsonschema": "^1.4.0",
-    "node-fetch": "^2.6.1",
+    "node-fetch": "^2.6.7",
     "node-mailjet": "^3.3.4"
   }
 }
