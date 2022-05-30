@@ -2,7 +2,7 @@
 title = "Web Oriented"
 description = "Monitor your Web Service and receive Slack notifications in a few minutes"
 layout = "chapter"
-weight = 1
+weight = 2
 +++
 
 # Introduction

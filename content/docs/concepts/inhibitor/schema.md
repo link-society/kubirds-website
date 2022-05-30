@@ -16,6 +16,7 @@ markup = "mmark"
 | Name | Type | Description |
 | ---- | ---- | ----------- |
 | spec | [InhibitorSpec](#inhibitorspec) | Specification of the desired behavior |
+| status | [InhibitorStatus](#inhibitorstatus) | Status filled by the operator |
 
 ## InhibitorSpec
 
@@ -36,3 +37,18 @@ One of:
  - `MatchNone`: will match no units
 
 If not set, this defaults to `MatchAll`.
+
+## InhibitorStatus
+
+{.table .is-hoverable .is-fullwidth}
+| Name | Type | Description |
+| ---- | ---- | ----------- |
+| phase | [AdmissionPhase](#admissionphase) | Current status of the Inhibitor admission workflow |
+| failureReasons | string array | Errors encountered during the Inhibitor admission workflow |
+
+## AdmissionPhase
+
+One of:
+
+ - `Accepted`
+ - `Rejected`

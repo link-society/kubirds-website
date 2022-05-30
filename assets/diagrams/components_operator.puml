@@ -1,0 +1,81 @@
+@startuml ../../static/img/docs/architecture/components
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+Person(ops, "OPS", "In charge of cluster management and maintainance")
+Person(cibot, "CI Bot", "Automatic deployment process")
+
+System_Boundary(sys_kubirds, "Kubirds") {
+  Container_Boundary(c_kubirds_operator, "Operator") {
+    Boundary(c_kubirds_operator_coresup, "Core Supervision") {
+      Component(c_kubirds_operator_watcher_unit, "Unit Watcher", "Datapio Controller", "Observe changes made on Unit resources")
+      Component(c_kubirds_operator_watcher_reactor, "Reactor Watcher", "Datapio Controller", "Observe changes made on Unit resources")
+      Component(c_kubirds_operator_watcher_inhibitor, "Inhibitor Watcher", "Datapio Controller", "Observe changes made on Inhibitor resources")
+      Component(c_kubirds_operator_watcher_pipelinerun, "PipelineRun Watcher", "Datapio Controller", "Observe changes made on PipelineRun resources")
+    }
+
+    Boundary(c_kubirds_operator_controller, "Controller") {
+      Component(c_kubirds_operator_cache_server, "Resource Cache", "GenServer", "Store resources in Mnesia")
+      ComponentDb(c_kubirds_operator_cache_table, "Mnesia table", "Mnesia", "Native distributed key/value database")
+      Component(c_kubirds_operator_reconciler, "Reconciler", "GenServer", "Update Pipelines and remove old PipelineRuns")
+
+      Boundary(c_kubirds_operator_scheduler, "Scheduler") {
+        Component(c_kubirds_operator_workerpool, "Worker Pool", "Horde.DynamicSupervisor", "Distribute workload across nodes")
+        Component(c_kubirds_operator_worker, "Worker", "GenServer", "Manage a single Unit")
+      }
+    }
+
+    Boundary(c_kubirds_operator_cachelog, "CacheLog") {
+      Component(c_kubirds_operator_cachelog_server, "CacheLog Server", "GenServer", "Temporarily store logs from Units")
+      ComponentDb(c_kubirds_operator_cachelog_table, "Mnesia table", "Mnesia", "Native distributed key/value database")
+    }
+
+    Boundary(c_kubirds_operator_api, "API") {
+      Component(c_kubirds_operator_api_service, "Kubernetes APIService", "Phoenix.Controller", "Answer to discovery checks")
+      Component(c_kubirds_operator_api_healthcheck, "HealthCheck", "Phoenix.Controller", "Ensure that all components are up and running")
+      Component(c_kubirds_operator_api_graphql, "GraphQL API", "Phoenix.Controller", "Provide Units history and logs")
+      Component(c_kubirds_operator_api_livedashboard, "Live Dashboard", "Phoenix.LiveDashboard", "Visualize operator's internal state (development mode only)")
+    }
+  }
+
+  Container(c_kubirds_dashboard, "Dashboard", "Visualize current cluster state")
+}
+
+System_Ext(sys_tekton, "TektonCD", "Task Scheduling System")
+System_Ext(sys_k8s, "Kubernetes", "Cluster Workload Management System")
+
+Rel_R(sys_tekton, sys_k8s, "schedule workload", "HTTPS")
+
+Rel_L(cibot, sys_k8s, "setup the monitoring configuration", "HTTPS")
+Rel_D(ops, sys_k8s, "setup the monitoring configuration", "kubectl")
+Rel_D(ops, c_kubirds_dashboard, "visit the dashboard", "kubectl proxy")
+
+Lay_L(c_kubirds_operator_watcher_reactor, c_kubirds_operator_watcher_unit)
+Lay_L(c_kubirds_operator_watcher_inhibitor, c_kubirds_operator_watcher_reactor)
+Lay_L(c_kubirds_operator_watcher_pipelinerun, c_kubirds_operator_watcher_inhibitor)
+Lay_U(c_kubirds_dashboard, c_kubirds_operator)
+Lay_U(c_kubirds_operator_controller, c_kubirds_operator_coresup)
+Lay_L(c_kubirds_operator_controller, c_kubirds_operator_api)
+Lay_U(c_kubirds_operator_cachelog, c_kubirds_operator_api)
+
+Rel_D(c_kubirds_operator_watcher_unit, c_kubirds_operator_cache_server, "populates")
+Rel_D(c_kubirds_operator_watcher_reactor, c_kubirds_operator_cache_server, "populates")
+Rel_D(c_kubirds_operator_watcher_inhibitor, c_kubirds_operator_cache_server, "populates")
+Rel_D(c_kubirds_operator_watcher_pipelinerun, c_kubirds_operator_cache_server, "populates")
+Rel_R(c_kubirds_operator_cache_server, c_kubirds_operator_cache_table, "stores")
+Rel_L(c_kubirds_operator_cache_server, c_kubirds_operator_reconciler, "notify")
+
+Rel_D(c_kubirds_operator_reconciler, c_kubirds_operator_workerpool, "reschedule workers")
+Rel_R(c_kubirds_operator_workerpool, c_kubirds_operator_worker, "monitor")
+Rel_D(c_kubirds_operator_worker, sys_tekton, "run monitoring task", "HTTPS")
+Rel_D(c_kubirds_operator_worker, sys_k8s, "update Unit status", "HTTPS")
+
+Rel_L(c_kubirds_operator_cachelog_server, c_kubirds_operator_cachelog_table, "stores logs")
+Rel_U(sys_k8s, c_kubirds_operator_cachelog_server, "push, fetch, delete logs", "Redis Protocol")
+
+Rel_U(sys_k8s, c_kubirds_operator_api_healthcheck, "query", "HTTPS")
+Rel_U(sys_k8s, c_kubirds_operator_api_service, "ping", "HTTPS")
+Rel_D(c_kubirds_operator_api_graphql, sys_k8s, "fetch", "HTTPS")
+Rel_D(c_kubirds_dashboard, c_kubirds_operator_api_graphql, "query", "HTTPS")
+
+@enduml

@@ -212,6 +212,9 @@ helm upgrade --install \
     --wait
 ```
 
+> **NB:** For more information about the chart options, read
+> [this document](/docs/helm/).
+
 # Implement your supervision
 
 In this example, we'll set up monitoring for this website.

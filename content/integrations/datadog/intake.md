@@ -13,7 +13,7 @@ output to [Datadog](https://datadoghq.com/).
 By default, it assumes the logs are `text/plain` but this can be easily
 configured through environment variables.
 
-For more informations about Datadog, please consult
+For more information about Datadog, please consult
 [their documentation](https://docs.datadoghq.com/fr/api/latest/logs/#send-logs).
 
 # Usage

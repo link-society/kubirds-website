@@ -2,7 +2,7 @@
 title = "Data Oriented"
 description = "Build complex monitoring pipelines"
 layout = "chapter"
-weight = 2
+weight = 3
 +++
 
 # Introduction

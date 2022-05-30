@@ -1,0 +1,31 @@
+@startuml ../../static/img/docs/workflows/unit-pipeline
+skinparam defaultTextAlignment center
+
+start
+
+group Unit Task
+  :Run Unit script]
+  #pink:Capture exit code|
+  #palegreen:Save Unit logs>
+end group
+
+fork
+  group Reactor A Task
+    #palegreen:Fetch Unit logs<
+    :Run Reactor script]
+  end group
+fork again
+  group Reactor B Task
+    #palegreen:Fetch Unit logs<
+    :Run Reactor script]
+  end group
+end fork
+
+group Status Task
+  #palegreen:Purge Unit logs|
+  #pink:Return with exit code|
+end group
+
+stop
+
+@enduml

@@ -1,0 +1,34 @@
+@startuml ../../static/img/docs/workflows/unit-scheduling
+skinparam defaultTextAlignment center
+
+start
+
+repeat
+  #palegreen:fetch Unit>
+
+  if (failed?) then (yes)
+    stop
+  else (no)
+  endif
+
+  #palegreen:list Inhibitor resources\nmatching the Unit>
+
+  if (within an Inhibitor time window?) then (yes)
+  else (no)
+    #cyan:create PipelineRun>
+    fork
+      #pink:update status.conditions\ntype=Completed to FALSE|
+      #pink:update status.conditions\ntype=Pending to TRUE|
+    fork again
+      #yellow:wait for PipelineRun completion]
+      #pink:update status.conditions\ntype=Completed to TRUE|
+      #pink:update status.conditions\ntype=Pending to FALSE|
+      #pink:update status.lastState|
+      #pink:update status.lastStateSeen|
+      #cyan:publish Kubernetes event>
+    end fork
+  endif
+  #pink:get next occurence of spec.schedule|
+  #yellow:wait for next occurence]
+
+@enduml

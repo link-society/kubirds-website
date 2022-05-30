@@ -64,7 +64,7 @@ users' movement on the website, and gathering demographic information.
 
 kubirds.com does not have access to those log files and therefore does not
 process any data. Please consult [Github's Privacy Policy](https://docs.github.com/en/github/site-policy/github-privacy-statement#github-pages)
-for more informations.
+for more information.
 
 ## Privacy Policies
 

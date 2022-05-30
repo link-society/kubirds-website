@@ -1,0 +1,22 @@
+@startuml ../../static/img/docs/workflows/inhibitor-admission
+skinparam defaultTextAlignment center
+
+start
+
+repeat
+  #yellow:Inhibitor added or modified]
+  if (spec.schedule is a valid RRule?) then (no)
+  elseif(spec.duration is a valid time range?) then (no)
+  elseif (status.phase == Accepted) then (no)
+  else (yes)
+    #palegreen:Store in Cache>
+    stop
+  endif
+  #pink:update status.failureReasons|
+  if (status.phase == Rejected) then (no)
+  elseif (status.failureReasons changed) then (yes)
+  else (no)
+    stop
+  endif
+  #pink:update status.phase|
+@enduml

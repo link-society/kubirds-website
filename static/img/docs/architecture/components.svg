@@ -1,0 +1,1347 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1335px" preserveAspectRatio="none" style="width:2443px;height:1335px;background:#FFFFFF;" version="1.1" viewBox="0 0 2443 1335" width="2443px" zoomAndPan="magnify"><defs/><g><!--MD5=[623019680a192d54dde87b0f411969ee]
+cluster sys_kubirds--><g id="cluster_sys_kubirds"><rect height="1104" rx="2.5" ry="2.5" style="stroke:#444444;stroke-width:1.0;fill:none;stroke-dasharray:7.0,7.0;" width="2196" x="7" y="7"/><text fill="#444444" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="76" x="1067" y="23.5332">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="61" x="1074.5" y="43.2188">Kubirds</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="51" x="1079.5" y="59.1914">[System]</text></g><!--MD5=[c3d4b6e723c91d806113d8aa0268cd15]
+cluster c_kubirds_operator--><g id="cluster_c_kubirds_operator"><rect height="985" rx="2.5" ry="2.5" style="stroke:#444444;stroke-width:1.0;fill:none;stroke-dasharray:7.0,7.0;" width="1938" x="39" y="94"/><text fill="#444444" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="76" x="970" y="110.5332">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="67" x="974.5" y="130.2188">Operator</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="63" x="976.5" y="146.1914">[Container]</text></g><!--MD5=[e4cc0472db52cf7de513613ff034b214]
+cluster c_kubirds_operator_coresup--><g id="cluster_c_kubirds_operator_coresup"><rect height="214" rx="2.5" ry="2.5" style="stroke:#444444;stroke-width:1.0;fill:none;stroke-dasharray:7.0,7.0;" width="1001" x="79" y="189"/><text fill="#444444" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="76" x="541.5" y="205.5332">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="133" x="513" y="225.2188">Core Supervision</text></g><!--MD5=[de4f5387083ad1440a26183eb816fe83]
+cluster c_kubirds_operator_controller--><g id="cluster_c_kubirds_operator_controller"><rect height="556" rx="2.5" ry="2.5" style="stroke:#444444;stroke-width:1.0;fill:none;stroke-dasharray:7.0,7.0;" width="801" x="79" y="483"/><text fill="#444444" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="76" x="441.5" y="499.5332">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="76" x="441.5" y="519.2188">Controller</text></g><!--MD5=[978dfdcba988b1207ca87c097e3cbd4a]
+cluster c_kubirds_operator_scheduler--><g id="cluster_c_kubirds_operator_scheduler"><rect height="198" rx="2.5" ry="2.5" style="stroke:#444444;stroke-width:1.0;fill:none;stroke-dasharray:7.0,7.0;" width="455" x="374" y="809"/><text fill="#444444" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="76" x="563.5" y="825.5332">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="78" x="562.5" y="845.2188">Scheduler</text></g><!--MD5=[393e11c1aa7e30a168e3b7203de122bf]
+cluster c_kubirds_operator_cachelog--><g id="cluster_c_kubirds_operator_cachelog"><rect height="223" rx="2.5" ry="2.5" style="stroke:#444444;stroke-width:1.0;fill:none;stroke-dasharray:7.0,7.0;" width="563" x="920" y="796.5"/><text fill="#444444" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="76" x="1163.5" y="813.0332">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="79" x="1162" y="832.7188">CacheLog</text></g><!--MD5=[4646ee664f55b7ffdcf2bcd574c2790d]
+cluster c_kubirds_operator_api--><g id="cluster_c_kubirds_operator_api"><rect height="214" rx="2.5" ry="2.5" style="stroke:#444444;stroke-width:1.0;fill:none;stroke-dasharray:7.0,7.0;" width="1009" x="920" y="487.5"/><text fill="#444444" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="76" x="1386.5" y="504.0332">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="26" x="1411.5" y="523.7188">API</text></g><!--MD5=[70d7f33ccd0ee97edbddfc2bdac0ab09]
+entity c_kubirds_dashboard--><g id="elem_c_kubirds_dashboard"><rect fill="#438DD5" height="72.8281" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="186" x="2001" y="578"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="75" x="2056.5" y="602.5332">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="85" x="2051.5" y="622.2188">Dashboard</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="166" x="2011" y="638.1914">[Visualize current cluster state]</text></g><!--MD5=[fcae23f122afe6794eac7955774be4e4]
+entity c_kubirds_operator_watcher_unit--><g id="elem_c_kubirds_operator_watcher_unit"><rect fill="#85BBF0" height="125.6563" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="219" x="103.5" y="253"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="86" x="170" y="277.5332">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="98" x="164" y="297.2188">Unit Watcher</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="106" x="160" y="313.1914">[Datapio Controller]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="211" y="330.3613"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="199" x="113.5" y="347.9707">Observe changes made on Unit</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="181.5" y="365.5801">resources</text></g><!--MD5=[69c13f260933b4d98b0285c8dc6418da]
+entity c_kubirds_operator_watcher_reactor--><g id="elem_c_kubirds_operator_watcher_reactor"><rect fill="#85BBF0" height="125.6563" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="219" x="357.5" y="253"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="86" x="424" y="277.5332">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="127" x="403.5" y="297.2188">Reactor Watcher</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="106" x="414" y="313.1914">[Datapio Controller]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="465" y="330.3613"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="199" x="367.5" y="347.9707">Observe changes made on Unit</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="435.5" y="365.5801">resources</text></g><!--MD5=[b21462f618664d27ffbabf76923ef8c4]
+entity c_kubirds_operator_watcher_inhibitor--><g id="elem_c_kubirds_operator_watcher_inhibitor"><rect fill="#85BBF0" height="125.6563" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="195" x="611.5" y="253"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="86" x="666" y="277.5332">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="130" x="644" y="297.2188">Inhibitor Watcher</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="106" x="656" y="313.1914">[Datapio Controller]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="707" y="330.3613"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="621.5" y="347.9707">Observe changes made on</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="650.5" y="365.5801">Inhibitor resources</text></g><!--MD5=[7c368c22c342cedbca292be75a5370d8]
+entity c_kubirds_operator_watcher_pipelinerun--><g id="elem_c_kubirds_operator_watcher_pipelinerun"><rect fill="#85BBF0" height="125.6563" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="195" x="841.5" y="253"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="86" x="896" y="277.5332">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="160" x="859" y="297.2188">PipelineRun Watcher</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="106" x="886" y="313.1914">[Datapio Controller]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="937" y="330.3613"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="851.5" y="347.9707">Observe changes made on</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="143" x="867.5" y="365.5801">PipelineRun resources</text></g><!--MD5=[612518d83027e8144a56c491ef7c1405]
+entity c_kubirds_operator_cache_server--><g id="elem_c_kubirds_operator_cache_server"><rect fill="#85BBF0" height="108.0469" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="185" x="380.5" y="560.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="86" x="430" y="585.0332">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="127" x="409.5" y="604.7188">Resource Cache</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="65" x="440.5" y="620.6914">[GenServer]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="471" y="637.8613"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="165" x="390.5" y="655.4707">Store resources in Mnesia</text></g><!--MD5=[40e6528362af6d16e7308c44eb76a1fb]
+entity c_kubirds_operator_cache_table--><g id="elem_c_kubirds_operator_cache_table"><path d="M639.5,557 C639.5,547 738,547 738,547 C738,547 836.5,547 836.5,557 L836.5,671.6563 C836.5,681.6563 738,681.6563 738,681.6563 C738,681.6563 639.5,681.6563 639.5,671.6563 L639.5,557 " fill="#85BBF0" style="stroke:#78A8D8;stroke-width:0.5;"/><path d="M639.5,557 C639.5,567 738,567 738,567 C738,567 836.5,567 836.5,557 " fill="none" style="stroke:#78A8D8;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="86" x="695" y="585.5332">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="95" x="690.5" y="605.2188">Mnesia table</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="45" x="715.5" y="621.1914">[Mnesia]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="736" y="638.3613"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="173" x="649.5" y="655.9707">Native distributed key/value</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="708.5" y="673.5801">database</text></g><!--MD5=[cb9d1892e8cfa5efc46b8c712c318564]
+entity c_kubirds_operator_reconciler--><g id="elem_c_kubirds_operator_reconciler"><rect fill="#85BBF0" height="125.6563" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="209" x="103.5" y="551.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="86" x="165" y="576.0332">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="82" x="167" y="595.7188">Reconciler</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="65" x="175.5" y="611.6914">[GenServer]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="206" y="628.8613"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="185" x="113.5" y="646.4707">Update Pipelines and remove</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="155" y="664.0801">old PipelineRuns</text></g><!--MD5=[ecf2dc38ea2a651127dc0d448406d71a]
+entity c_kubirds_operator_workerpool--><g id="elem_c_kubirds_operator_workerpool"><rect fill="#85BBF0" height="125.6563" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="190" x="390" y="865"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="86" x="442" y="889.5332">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="94" x="438" y="909.2188">Worker Pool</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="151" x="409.5" y="925.1914">[Horde.DynamicSupervisor]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="483" y="942.3613"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="166" x="400" y="959.9707">Distribute workload across</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="39" x="465.5" y="977.5801">nodes</text></g><!--MD5=[e6880e0d3a83c08a6177657b23f933ff]
+entity c_kubirds_operator_worker--><g id="elem_c_kubirds_operator_worker"><rect fill="#85BBF0" height="108.0469" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="152" x="661" y="874"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="86" x="694" y="898.5332">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="55" x="709.5" y="918.2188">Worker</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="65" x="704.5" y="934.1914">[GenServer]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="735" y="951.3613"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="671" y="968.9707">Manage a single Unit</text></g><!--MD5=[72becfe8cfaf509774cd692408f8db5c]
+entity c_kubirds_operator_cachelog_server--><g id="elem_c_kubirds_operator_cachelog_server"><rect fill="#85BBF0" height="125.6563" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="197" x="1261.5" y="865"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="86" x="1317" y="889.5332">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="133" x="1293.5" y="909.2188">CacheLog Server</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="65" x="1327.5" y="925.1914">[GenServer]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="1358" y="942.3613"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="173" x="1271.5" y="959.9707">Temporarily store logs from</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31" x="1344.5" y="977.5801">Units</text></g><!--MD5=[3db943602fdb5db1c90627479e5d673b]
+entity c_kubirds_operator_cachelog_table--><g id="elem_c_kubirds_operator_cachelog_table"><path d="M963.5,870.5 C963.5,860.5 1062,860.5 1062,860.5 C1062,860.5 1160.5,860.5 1160.5,870.5 L1160.5,985.1563 C1160.5,995.1563 1062,995.1563 1062,995.1563 C1062,995.1563 963.5,995.1563 963.5,985.1563 L963.5,870.5 " fill="#85BBF0" style="stroke:#78A8D8;stroke-width:0.5;"/><path d="M963.5,870.5 C963.5,880.5 1062,880.5 1062,880.5 C1062,880.5 1160.5,880.5 1160.5,870.5 " fill="none" style="stroke:#78A8D8;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="86" x="1019" y="899.0332">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="95" x="1014.5" y="918.7188">Mnesia table</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="45" x="1039.5" y="934.6914">[Mnesia]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="1060" y="951.8613"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="173" x="973.5" y="969.4707">Native distributed key/value</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="1032.5" y="987.0801">database</text></g><!--MD5=[441195795247a24b95e46854f9221bb5]
+entity c_kubirds_operator_api_service--><g id="elem_c_kubirds_operator_api_service"><rect fill="#85BBF0" height="108.0469" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="196" x="1214" y="560.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="86" x="1269" y="585.0332">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="176" x="1224" y="604.7188">Kubernetes APIService</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="108" x="1258" y="620.6914">[Phoenix.Controller]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="1310" y="637.8613"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="174" x="1225" y="655.4707">Answer to discovery checks</text></g><!--MD5=[79c193fec25d6aa66dfdf7781dafda6a]
+entity c_kubirds_operator_api_healthcheck--><g id="elem_c_kubirds_operator_api_healthcheck"><rect fill="#85BBF0" height="125.6563" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="217" x="1445.5" y="551.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="86" x="1511" y="576.0332">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="98" x="1505" y="595.7188">HealthCheck</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="108" x="1500" y="611.6914">[Phoenix.Controller]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="1552" y="628.8613"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="197" x="1455.5" y="646.4707">Ensure that all components are</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="1506" y="664.0801">up and running</text></g><!--MD5=[d56ab9bde2a6054fe8caa8ee5d0b7e01]
+entity c_kubirds_operator_api_graphql--><g id="elem_c_kubirds_operator_api_graphql"><rect fill="#85BBF0" height="108.0469" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="207" x="1697.5" y="560.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="86" x="1758" y="585.0332">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="99" x="1751.5" y="604.7188">GraphQL API</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="108" x="1747" y="620.6914">[Phoenix.Controller]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="1799" y="637.8613"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="187" x="1707.5" y="655.4707">Provide Units history and logs</text></g><!--MD5=[9b4a158fb2fcc94a9cc206e21d875b2d]
+entity c_kubirds_operator_api_livedashboard--><g id="elem_c_kubirds_operator_api_livedashboard"><rect fill="#85BBF0" height="125.6563" rx="2.5" ry="2.5" style="stroke:#78A8D8;stroke-width:0.5;" width="215" x="963.5" y="551.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="86" x="1028" y="576.0332">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="121" x="1010.5" y="595.7188">Live Dashboard</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="139" x="1001.5" y="611.6914">[Phoenix.LiveDashboard]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="1069" y="628.8613"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="174" x="982" y="646.4707">Visualize operator's internal</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="195" x="973.5" y="664.0801">state (development mode only)</text></g><!--MD5=[5a9f12e3433feb7a47fb7cbcc8ee5d5d]
+entity ops--><g id="elem_ops"><rect fill="#08427B" height="158.5625" rx="2.5" ry="2.5" style="stroke:#073B6F;stroke-width:0.5;" width="218" x="2219" y="236.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="60" x="2298" y="261.0332">«person»</text><image height="48" width="48" x="2304" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="264.1094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="34" x="2311" y="328.7188">OPS</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="2326" y="346.7676"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="2267.5" y="364.377">In charge of cluster</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="198" x="2229" y="381.9863">management and maintainance</text></g><!--MD5=[806f04db72ce5d5161c0223b715e3a85]
+entity cibot--><g id="elem_cibot"><rect fill="#08427B" height="140.9531" rx="2.5" ry="2.5" style="stroke:#073B6F;stroke-width:0.5;" width="217" x="1808.5" y="1189"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="60" x="1887" y="1213.5332">«person»</text><image height="48" width="48" x="1893" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="1216.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="47" x="1893.5" y="1281.2188">CI Bot</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="1915" y="1299.2676"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="193" x="1822.5" y="1316.877">Automatic deployment process</text></g><!--MD5=[967707176a1fb464178835fefa892717]
+entity sys_tekton--><g id="elem_sys_tekton"><rect fill="#999999" height="92.9531" rx="2.5" ry="2.5" style="stroke:#8A8A8A;stroke-width:0.5;" width="179" x="915.5" y="1213"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="118" x="946" y="1237.5332">«external_system»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="77" x="966.5" y="1257.2188">TektonCD</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="1003" y="1275.2676"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="155" x="929.5" y="1292.877">Task Scheduling System</text></g><!--MD5=[c2cd1dc1f54744afe0a96ba5f1e77655]
+entity sys_k8s--><g id="elem_sys_k8s"><rect fill="#999999" height="110.5625" rx="2.5" ry="2.5" style="stroke:#8A8A8A;stroke-width:0.5;" width="219" x="1432.5" y="1204"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="118" x="1483" y="1228.5332">«external_system»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="89" x="1497.5" y="1248.2188">Kubernetes</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="1540" y="1266.2676"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="195" x="1446.5" y="1283.877">Cluster Workload Management</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="1519" y="1301.4863">System</text></g><!--MD5=[12e46627b2707f6142e22244aaaa2265]
+link sys_tekton to sys_k8s--><g id="link_sys_tekton_sys_k8s"><path d="M1094.58,1259.5 C1184.85,1259.5 1324.63,1259.5 1423.91,1259.5 " fill="none" id="sys_tekton-to-sys_k8s" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1432.18,1259.5,1424.18,1256.5,1424.18,1262.5,1432.18,1259.5" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="108" x="1209.5" y="1237.957">schedule workload</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="45" x="1241" y="1253.0508">[HTTPS]</text></g><!--MD5=[4f94663275b148861ff7b0a97760cc20]
+reverse link sys_k8s to cibot--><g id="link_sys_k8s_cibot"><path d="M1659.89,1259.5 C1707.33,1259.5 1761.69,1259.5 1808.18,1259.5 " fill="none" id="sys_k8s-backto-cibot" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1651.73,1259.5,1659.73,1262.5,1659.73,1256.5,1651.73,1259.5" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="117" x="1670" y="1222.957">setup the monitoring</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="75" x="1692.5" y="1238.0508">configuration</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="45" x="1707.5" y="1253.1445">[HTTPS]</text></g><!--MD5=[9e3600cb0f6c8c1c35ee914f771f277a]
+link ops to sys_k8s--><g id="link_ops_sys_k8s"><path d="M2314.18,395.7 C2297.07,479.63 2262.61,614.4 2203,717.5 C2081.39,927.83 2027.37,974.57 1832,1119 C1779.44,1157.86 1714.35,1190.34 1659.16,1214.15 " fill="none" id="ops-to-sys_k8s" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1651.79,1217.3,1660.3247,1216.9021,1657.9586,1211.3883,1651.79,1217.3" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="117" x="2198" y="738.957">setup the monitoring</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="75" x="2220.5" y="754.0508">configuration</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="47" x="2234.5" y="769.1445">[kubectl]</text></g><!--MD5=[6ecab77bb28ad873c15f59a016ad9405]
+link ops to c_kubirds_dashboard--><g id="link_ops_c_kubirds_dashboard"><path d="M2218.99,370.19 C2195.32,385.82 2172.25,404.79 2155,427 C2122.36,469.04 2106.84,529.23 2099.7,569.76 " fill="none" id="ops-to-c_kubirds_dashboard" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="2098.34,577.84,2102.6252,570.4483,2096.7083,569.4533,2098.34,577.84" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="108" x="2156" y="440.457">visit the dashboard</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="80" x="2170" y="455.5508">[kubectl proxy]</text></g><!--MD5=[de53098f2215df4d40dcc17fe8b28764]
+link c_kubirds_operator_watcher_unit to c_kubirds_operator_watcher_reactor--><!--MD5=[7b01e0d2a3c2ef657e1e3e45813c715e]
+link c_kubirds_operator_watcher_reactor to c_kubirds_operator_watcher_inhibitor--><!--MD5=[4d39deaa9a587c1ab7de17fd77e7dffc]
+link c_kubirds_operator_watcher_inhibitor to c_kubirds_operator_watcher_pipelinerun--><!--MD5=[c5720bc8ed5e8b38bd2a9039b00a5387]
+link c_kubirds_operator to c_kubirds_dashboard--><!--MD5=[2ee7cf096cd18e9836065969814f24a8]
+link c_kubirds_operator_coresup to c_kubirds_operator_controller--><!--MD5=[be8268cbf8eb072647653ed41c36e8e6]
+link c_kubirds_operator_api to c_kubirds_operator_controller--><!--MD5=[f257bd0f67ce1eedee280d36a35fecd7]
+link c_kubirds_operator_api to c_kubirds_operator_cachelog--><!--MD5=[23197d55df90b0dc44349fd99ba7f7c3]
+link c_kubirds_operator_watcher_unit to c_kubirds_operator_cache_server--><g id="link_c_kubirds_operator_watcher_unit_c_kubirds_operator_cache_server"><path d="M267.5,379.16 C312.72,430.72 376.59,503.55 421.07,554.28 " fill="none" id="c_kubirds_operator_watcher_unit-to-c_kubirds_operator_cache_server" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="426.4,560.36,423.383,552.3664,418.8708,556.3212,426.4,560.36" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="56" x="337" y="447.957">populates</text></g><!--MD5=[412590edbac9066bc43a7d42c5d9bddb]
+link c_kubirds_operator_watcher_reactor to c_kubirds_operator_cache_server--><g id="link_c_kubirds_operator_watcher_reactor_c_kubirds_operator_cache_server"><path d="M468.26,379.16 C469.29,429.99 470.73,501.48 471.76,552.1 " fill="none" id="c_kubirds_operator_watcher_reactor-to-c_kubirds_operator_cache_server" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="471.92,560.36,474.7479,552.2976,468.7493,552.4261,471.92,560.36" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="56" x="471" y="447.957">populates</text></g><!--MD5=[e04892257528bb8bc3e0bb757ee7639e]
+link c_kubirds_operator_watcher_inhibitor to c_kubirds_operator_cache_server--><g id="link_c_kubirds_operator_watcher_inhibitor_c_kubirds_operator_cache_server"><path d="M659.53,379.16 C618.57,430.62 560.75,503.25 520.38,553.97 " fill="none" id="c_kubirds_operator_watcher_inhibitor-to-c_kubirds_operator_cache_server" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="515.3,560.36,522.6255,555.9626,517.9277,552.2301,515.3,560.36" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="56" x="621" y="447.957">populates</text></g><!--MD5=[23698550375b14ff589621041aab7c18]
+link c_kubirds_operator_watcher_pipelinerun to c_kubirds_operator_cache_server--><g id="link_c_kubirds_operator_watcher_pipelinerun_c_kubirds_operator_cache_server"><path d="M879,379.14 C862.31,393.82 843.4,408.31 824,419 C768.08,449.83 748.54,446.11 686,459 C657.92,464.79 647.8,454.51 622,467 C580.82,486.92 544.06,522.76 517.35,554 " fill="none" id="c_kubirds_operator_watcher_pipelinerun-to-c_kubirds_operator_cache_server" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="512.15,560.19,519.6011,556.009,515.0147,552.1406,512.15,560.19" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="56" x="809" y="447.957">populates</text></g><!--MD5=[91cfef9c1a3fa76826a657e2841775d9]
+link c_kubirds_operator_cache_server to c_kubirds_operator_cache_table--><g id="link_c_kubirds_operator_cache_server_c_kubirds_operator_cache_table"><path d="M565.68,614.5 C586.73,614.5 609.25,614.5 630.84,614.5 " fill="none" id="c_kubirds_operator_cache_server-to-c_kubirds_operator_cache_table" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="639.06,614.5,631.06,611.5,631.06,617.5,639.06,614.5" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="37" x="584" y="607.957">stores</text></g><!--MD5=[dfcf8b1a3e079e7d5bc1c939a4697c8d]
+reverse link c_kubirds_operator_reconciler to c_kubirds_operator_cache_server--><g id="link_c_kubirds_operator_reconciler_c_kubirds_operator_cache_server"><path d="M320.87,614.5 C340.65,614.5 361.03,614.5 380.19,614.5 " fill="none" id="c_kubirds_operator_reconciler-backto-c_kubirds_operator_cache_server" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="312.74,614.5,320.7453,617.4857,320.7346,611.4857,312.74,614.5" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="31" x="331" y="607.957">notify</text></g><!--MD5=[809b1f19bb7c0acba32e60d8d809311b]
+link c_kubirds_operator_reconciler to c_kubirds_operator_workerpool--><g id="link_c_kubirds_operator_reconciler_c_kubirds_operator_workerpool"><path d="M263.39,677.79 C309.91,730.1 376.28,804.74 424.24,858.68 " fill="none" id="c_kubirds_operator_reconciler-to-c_kubirds_operator_workerpool" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="429.71,864.82,426.6326,856.8495,422.1505,860.8383,429.71,864.82" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="115" x="348" y="753.957">reschedule workers</text></g><!--MD5=[236e0d615241b8ec0aa3c31c1c12a2ec]
+link c_kubirds_operator_workerpool to c_kubirds_operator_worker--><g id="link_c_kubirds_operator_workerpool_c_kubirds_operator_worker"><path d="M580.27,928 C604.08,928 629.46,928 652.7,928 " fill="none" id="c_kubirds_operator_workerpool-to-c_kubirds_operator_worker" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="660.82,928,652.82,925,652.82,931,660.82,928" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="44" x="598.5" y="921.457">monitor</text></g><!--MD5=[9ff4cf3e4c569497fa5955e4622cfa25]
+link c_kubirds_operator_worker to sys_tekton--><g id="link_c_kubirds_operator_worker_sys_tekton"><path d="M780.36,982.31 C830.6,1044.08 912.85,1145.2 962.65,1206.44 " fill="none" id="c_kubirds_operator_worker-to-sys_tekton" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="967.97,1212.97,965.2382,1204.8745,960.5887,1208.6669,967.97,1212.97" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="111" x="919" y="1140.457">run monitoring task</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="45" x="952" y="1155.5508">[HTTPS]</text></g><!--MD5=[fd968e6a034b58566f7445584b224840]
+link c_kubirds_operator_worker to sys_k8s--><g id="link_c_kubirds_operator_worker_sys_k8s"><path d="M769.11,982.19 C799.65,1027.38 850.06,1089.48 912,1119 C937.53,1131.16 1011.08,1122.51 1039,1127 C1173.19,1148.56 1323.55,1190.25 1424.62,1220.93 " fill="none" id="c_kubirds_operator_worker-to-sys_k8s" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1432.42,1223.31,1425.6389,1218.1122,1423.8932,1223.8526,1432.42,1223.31" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="103" x="1193" y="1140.457">update Unit status</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="45" x="1222" y="1155.5508">[HTTPS]</text></g><!--MD5=[672a858b93c3659efc66bc0b1db9b241]
+reverse link c_kubirds_operator_cachelog_table to c_kubirds_operator_cachelog_server--><g id="link_c_kubirds_operator_cachelog_table_c_kubirds_operator_cachelog_server"><path d="M1168.85,928 C1199.05,928 1231.76,928 1261.45,928 " fill="none" id="c_kubirds_operator_cachelog_table-backto-c_kubirds_operator_cachelog_server" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1160.82,928,1168.82,931,1168.82,925,1160.82,928" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="64" x="1179" y="921.457">stores logs</text></g><!--MD5=[066cc75d6ba3c18aba17d2b7ea63d058]
+reverse link c_kubirds_operator_cachelog_server to sys_k8s--><g id="link_c_kubirds_operator_cachelog_server_sys_k8s"><path d="M1351.59,999.31 C1349.31,1047.7 1353.53,1111.54 1383,1159 C1395.28,1178.78 1413.11,1195.27 1432.42,1208.77 " fill="none" id="c_kubirds_operator_cachelog_server-backto-sys_k8s" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1352.05,991.08,1348.6116,998.9016,1354.6024,999.2338,1352.05,991.08" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="131" x="1384" y="1140.457">push, fetch, delete logs</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="86" x="1406.5" y="1155.5508">[Redis Protocol]</text></g><!--MD5=[05c997a1a71476f9757b01eb31678fef]
+reverse link c_kubirds_operator_api_healthcheck to sys_k8s--><g id="link_c_kubirds_operator_api_healthcheck_sys_k8s"><path d="M1576.56,685.87 C1584.74,714.85 1592.96,748.96 1597,780.5 C1616.12,929.72 1625.08,971.2 1597,1119 C1591.48,1148.03 1580.05,1178.74 1569.03,1203.93 " fill="none" id="c_kubirds_operator_api_healthcheck-backto-sys_k8s" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1574.26,677.83,1573.592,686.3479,1579.3575,684.6868,1574.26,677.83" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="32" x="1621.5" y="925.457">query</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="45" x="1615" y="940.5508">[HTTPS]</text></g><!--MD5=[afd2252b60538b805bb165c832efa256]
+reverse link c_kubirds_operator_api_service to sys_k8s--><g id="link_c_kubirds_operator_api_service_sys_k8s"><path d="M1378.51,674.7 C1418.11,711.41 1462.93,756.09 1475,780.5 C1511.36,854.02 1531.29,1094.59 1538.66,1203.75 " fill="none" id="c_kubirds_operator_api_service-backto-sys_k8s" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1372.21,668.88,1376.0474,676.5138,1380.1207,672.1082,1372.21,668.88" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="24" x="1543.5" y="925.457">ping</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="45" x="1533" y="940.5508">[HTTPS]</text></g><!--MD5=[18f68683ed940d0c27c4141ea1eb0d20]
+link c_kubirds_operator_api_graphql to sys_k8s--><g id="link_c_kubirds_operator_api_graphql_sys_k8s"><path d="M1795.54,668.56 C1783.96,763.85 1750.93,968.11 1669,1119 C1653.51,1147.53 1630.96,1174.89 1609.16,1197.7 " fill="none" id="c_kubirds_operator_api_graphql-to-sys_k8s" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1603.34,1203.7,1611.0637,1200.047,1606.7573,1195.8692,1603.34,1203.7" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="29" x="1786" y="925.457">fetch</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="45" x="1778" y="940.5508">[HTTPS]</text></g><!--MD5=[00913b3c5cda2fa5eaa65d41acd2f593]
+link c_kubirds_dashboard to c_kubirds_operator_api_graphql--><g id="link_c_kubirds_dashboard_c_kubirds_operator_api_graphql"><path d="M2000.68,614.5 C1972.75,614.5 1941.83,614.5 1912.84,614.5 " fill="none" id="c_kubirds_dashboard-to-c_kubirds_operator_api_graphql" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1904.71,614.5,1912.71,617.5,1912.71,611.5,1904.71,614.5" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="32" x="1936.75" y="592.957">query</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="45" x="1930.25" y="608.0508">[HTTPS]</text></g><!--MD5=[2571165511b37ff0b79ef1d905392fa5]
+@startuml ../../static/img/docs/architecture/components
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+Person(ops, "OPS", "In charge of cluster management and maintainance")
+Person(cibot, "CI Bot", "Automatic deployment process")
+
+System_Boundary(sys_kubirds, "Kubirds") {
+  Container_Boundary(c_kubirds_operator, "Operator") {
+    Boundary(c_kubirds_operator_coresup, "Core Supervision") {
+      Component(c_kubirds_operator_watcher_unit, "Unit Watcher", "Datapio Controller", "Observe changes made on Unit resources")
+      Component(c_kubirds_operator_watcher_reactor, "Reactor Watcher", "Datapio Controller", "Observe changes made on Unit resources")
+      Component(c_kubirds_operator_watcher_inhibitor, "Inhibitor Watcher", "Datapio Controller", "Observe changes made on Inhibitor resources")
+      Component(c_kubirds_operator_watcher_pipelinerun, "PipelineRun Watcher", "Datapio Controller", "Observe changes made on PipelineRun resources")
+    }
+
+    Boundary(c_kubirds_operator_controller, "Controller") {
+      Component(c_kubirds_operator_cache_server, "Resource Cache", "GenServer", "Store resources in Mnesia")
+      ComponentDb(c_kubirds_operator_cache_table, "Mnesia table", "Mnesia", "Native distributed key/value database")
+      Component(c_kubirds_operator_reconciler, "Reconciler", "GenServer", "Update Pipelines and remove old PipelineRuns")
+
+      Boundary(c_kubirds_operator_scheduler, "Scheduler") {
+        Component(c_kubirds_operator_workerpool, "Worker Pool", "Horde.DynamicSupervisor", "Distribute workload across nodes")
+        Component(c_kubirds_operator_worker, "Worker", "GenServer", "Manage a single Unit")
+      }
+    }
+
+    Boundary(c_kubirds_operator_cachelog, "CacheLog") {
+      Component(c_kubirds_operator_cachelog_server, "CacheLog Server", "GenServer", "Temporarily store logs from Units")
+      ComponentDb(c_kubirds_operator_cachelog_table, "Mnesia table", "Mnesia", "Native distributed key/value database")
+    }
+
+    Boundary(c_kubirds_operator_api, "API") {
+      Component(c_kubirds_operator_api_service, "Kubernetes APIService", "Phoenix.Controller", "Answer to discovery checks")
+      Component(c_kubirds_operator_api_healthcheck, "HealthCheck", "Phoenix.Controller", "Ensure that all components are up and running")
+      Component(c_kubirds_operator_api_graphql, "GraphQL API", "Phoenix.Controller", "Provide Units history and logs")
+      Component(c_kubirds_operator_api_livedashboard, "Live Dashboard", "Phoenix.LiveDashboard", "Visualize operator's internal state (development mode only)")
+    }
+  }
+
+  Container(c_kubirds_dashboard, "Dashboard", "Visualize current cluster state")
+}
+
+System_Ext(sys_tekton, "TektonCD", "Task Scheduling System")
+System_Ext(sys_k8s, "Kubernetes", "Cluster Workload Management System")
+
+Rel_R(sys_tekton, sys_k8s, "schedule workload", "HTTPS")
+
+Rel_L(cibot, sys_k8s, "setup the monitoring configuration", "HTTPS")
+Rel_D(ops, sys_k8s, "setup the monitoring configuration", "kubectl")
+Rel_D(ops, c_kubirds_dashboard, "visit the dashboard", "kubectl proxy")
+
+Lay_L(c_kubirds_operator_watcher_reactor, c_kubirds_operator_watcher_unit)
+Lay_L(c_kubirds_operator_watcher_inhibitor, c_kubirds_operator_watcher_reactor)
+Lay_L(c_kubirds_operator_watcher_pipelinerun, c_kubirds_operator_watcher_inhibitor)
+Lay_U(c_kubirds_dashboard, c_kubirds_operator)
+Lay_U(c_kubirds_operator_controller, c_kubirds_operator_coresup)
+Lay_L(c_kubirds_operator_controller, c_kubirds_operator_api)
+Lay_U(c_kubirds_operator_cachelog, c_kubirds_operator_api)
+
+Rel_D(c_kubirds_operator_watcher_unit, c_kubirds_operator_cache_server, "populates")
+Rel_D(c_kubirds_operator_watcher_reactor, c_kubirds_operator_cache_server, "populates")
+Rel_D(c_kubirds_operator_watcher_inhibitor, c_kubirds_operator_cache_server, "populates")
+Rel_D(c_kubirds_operator_watcher_pipelinerun, c_kubirds_operator_cache_server, "populates")
+Rel_R(c_kubirds_operator_cache_server, c_kubirds_operator_cache_table, "stores")
+Rel_L(c_kubirds_operator_cache_server, c_kubirds_operator_reconciler, "notify")
+
+Rel_D(c_kubirds_operator_reconciler, c_kubirds_operator_workerpool, "reschedule workers")
+Rel_R(c_kubirds_operator_workerpool, c_kubirds_operator_worker, "monitor")
+Rel_D(c_kubirds_operator_worker, sys_tekton, "run monitoring task", "HTTPS")
+Rel_D(c_kubirds_operator_worker, sys_k8s, "update Unit status", "HTTPS")
+
+Rel_L(c_kubirds_operator_cachelog_server, c_kubirds_operator_cachelog_table, "stores logs")
+Rel_U(sys_k8s, c_kubirds_operator_cachelog_server, "push, fetch, delete logs", "Redis Protocol")
+
+Rel_U(sys_k8s, c_kubirds_operator_api_healthcheck, "query", "HTTPS")
+Rel_U(sys_k8s, c_kubirds_operator_api_service, "ping", "HTTPS")
+Rel_D(c_kubirds_operator_api_graphql, sys_k8s, "fetch", "HTTPS")
+Rel_D(c_kubirds_dashboard, c_kubirds_operator_api_graphql, "query", "HTTPS")
+
+@enduml
+
+@startuml ../../static/img/docs/architecture/components
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam shadowing<<legendArea>> false
+skinparam rectangle<<legendArea>> {
+    backgroundcolor #00000000
+    bordercolor #00000000
+}
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam actor {
+    StereotypeFontSize 12
+    shadowing false
+    style awesome
+}
+
+skinparam person {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam package {
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontStyle plain
+    BackgroundColor transparent
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontColor #444444
+    BorderColor #444444
+    BackgroundColor transparent
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam actor<<person>> {
+    StereotypeFontColor #08427B
+    FontColor #08427B
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam person<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam database<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_person>> {
+    StereotypeFontColor #686868
+    FontColor #686868
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam person<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam queue<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam actor<<system>> {
+    StereotypeFontColor #1168BD
+    FontColor #1168BD
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam person<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_system>> {
+    StereotypeFontColor #999999
+    FontColor #999999
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam person<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+sprite $person2 [48x48/16] {
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000002578888300000000005888864100000000000
+0000000007DFFFFFFFFD9643347BFFFFFFFFFB4000000000
+00000004EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB10000000
+0000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD2000000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+00003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+0000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF50000
+0003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD0000
+0009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+0009FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF2000
+0003FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFD0000
+0000BFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFF50000
+00003FFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFB00000
+000006FFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFE100000
+0000007FFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFD2000000
+00000004EFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFB10000000
+0000000007DF8FFFFFFFFFFFFFFFFFFFFFF8FB4000000000
+000000000002578888888888888888888864100000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam actor<<container>> {
+    StereotypeFontColor #438DD5
+    FontColor #438DD5
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam person<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam actor<<external_container>> {
+    StereotypeFontColor #B3B3B3
+    FontColor #B3B3B3
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam person<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam shadowing<<legendArea>> false
+skinparam rectangle<<legendArea>> {
+    backgroundcolor #00000000
+    bordercolor #00000000
+}
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam actor {
+    StereotypeFontSize 12
+    shadowing false
+    style awesome
+}
+
+skinparam person {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam package {
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontStyle plain
+    BackgroundColor transparent
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontColor #444444
+    BorderColor #444444
+    BackgroundColor transparent
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam actor<<person>> {
+    StereotypeFontColor #08427B
+    FontColor #08427B
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam person<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam database<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_person>> {
+    StereotypeFontColor #686868
+    FontColor #686868
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam person<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam queue<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam actor<<system>> {
+    StereotypeFontColor #1168BD
+    FontColor #1168BD
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam person<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_system>> {
+    StereotypeFontColor #999999
+    FontColor #999999
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam person<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+sprite $person2 [48x48/16] {
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000002578888300000000005888864100000000000
+0000000007DFFFFFFFFD9643347BFFFFFFFFFB4000000000
+00000004EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB10000000
+0000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD2000000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+00003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+0000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF50000
+0003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD0000
+0009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+0009FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF2000
+0003FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFD0000
+0000BFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFF50000
+00003FFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFB00000
+000006FFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFE100000
+0000007FFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFD2000000
+00000004EFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFB10000000
+0000000007DF8FFFFFFFFFFFFFFFFFFFFFF8FB4000000000
+000000000002578888888888888888888864100000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam actor<<container>> {
+    StereotypeFontColor #438DD5
+    FontColor #438DD5
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam person<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam actor<<external_container>> {
+    StereotypeFontColor #B3B3B3
+    FontColor #B3B3B3
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam person<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+skinparam database<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+skinparam queue<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+skinparam actor<<component>> {
+    StereotypeFontColor #85BBF0
+    FontColor #85BBF0
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+skinparam person<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+
+skinparam rectangle<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+skinparam database<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+skinparam queue<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+skinparam actor<<external_component>> {
+    StereotypeFontColor #CCCCCC
+    FontColor #CCCCCC
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+skinparam person<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rectangle "<$person>\n==OPS\n\n In charge of cluster management and maintainance" <<person>> as ops 
+rectangle "<$person>\n==CI Bot\n\n Automatic deployment process" <<person>> as cibot 
+
+rectangle "==Kubirds\n<size:12>[System]</size>" <<boundary>> as sys_kubirds  {
+rectangle "==Operator\n<size:12>[Container]</size>" <<boundary>> as c_kubirds_operator  {
+    rectangle "==Core Supervision" <<boundary>> as c_kubirds_operator_coresup  {
+      rectangle "==Unit Watcher\n//<size:12>[Datapio Controller]</size>//\n\nObserve changes made on Unit resources" <<component>> as c_kubirds_operator_watcher_unit 
+      rectangle "==Reactor Watcher\n//<size:12>[Datapio Controller]</size>//\n\nObserve changes made on Unit resources" <<component>> as c_kubirds_operator_watcher_reactor 
+      rectangle "==Inhibitor Watcher\n//<size:12>[Datapio Controller]</size>//\n\nObserve changes made on Inhibitor resources" <<component>> as c_kubirds_operator_watcher_inhibitor 
+      rectangle "==PipelineRun Watcher\n//<size:12>[Datapio Controller]</size>//\n\nObserve changes made on PipelineRun resources" <<component>> as c_kubirds_operator_watcher_pipelinerun 
+    }
+
+    rectangle "==Controller" <<boundary>> as c_kubirds_operator_controller  {
+      rectangle "==Resource Cache\n//<size:12>[GenServer]</size>//\n\nStore resources in Mnesia" <<component>> as c_kubirds_operator_cache_server 
+      database "==Mnesia table\n//<size:12>[Mnesia]</size>//\n\nNative distributed key/value database" <<component>> as c_kubirds_operator_cache_table 
+      rectangle "==Reconciler\n//<size:12>[GenServer]</size>//\n\nUpdate Pipelines and remove old PipelineRuns" <<component>> as c_kubirds_operator_reconciler 
+
+      rectangle "==Scheduler" <<boundary>> as c_kubirds_operator_scheduler  {
+        rectangle "==Worker Pool\n//<size:12>[Horde.DynamicSupervisor]</size>//\n\nDistribute workload across nodes" <<component>> as c_kubirds_operator_workerpool 
+        rectangle "==Worker\n//<size:12>[GenServer]</size>//\n\nManage a single Unit" <<component>> as c_kubirds_operator_worker 
+      }
+    }
+
+    rectangle "==CacheLog" <<boundary>> as c_kubirds_operator_cachelog  {
+      rectangle "==CacheLog Server\n//<size:12>[GenServer]</size>//\n\nTemporarily store logs from Units" <<component>> as c_kubirds_operator_cachelog_server 
+      database "==Mnesia table\n//<size:12>[Mnesia]</size>//\n\nNative distributed key/value database" <<component>> as c_kubirds_operator_cachelog_table 
+    }
+
+    rectangle "==API" <<boundary>> as c_kubirds_operator_api  {
+      rectangle "==Kubernetes APIService\n//<size:12>[Phoenix.Controller]</size>//\n\nAnswer to discovery checks" <<component>> as c_kubirds_operator_api_service 
+      rectangle "==HealthCheck\n//<size:12>[Phoenix.Controller]</size>//\n\nEnsure that all components are up and running" <<component>> as c_kubirds_operator_api_healthcheck 
+      rectangle "==GraphQL API\n//<size:12>[Phoenix.Controller]</size>//\n\nProvide Units history and logs" <<component>> as c_kubirds_operator_api_graphql 
+      rectangle "==Live Dashboard\n//<size:12>[Phoenix.LiveDashboard]</size>//\n\nVisualize operator's internal state (development mode only)" <<component>> as c_kubirds_operator_api_livedashboard 
+    }
+  }
+
+  rectangle "==Dashboard\n//<size:12>[Visualize current cluster state]</size>//" <<container>> as c_kubirds_dashboard 
+}
+
+rectangle "==TektonCD\n\n Task Scheduling System" <<external_system>> as sys_tekton 
+rectangle "==Kubernetes\n\n Cluster Workload Management System" <<external_system>> as sys_k8s 
+
+sys_tekton -RIGHT->> sys_k8s : **schedule workload**\n//<size:12>[HTTPS]</size>//
+
+cibot -LEFT->> sys_k8s : **setup the monitoring configuration**\n//<size:12>[HTTPS]</size>//
+ops -DOWN->> sys_k8s : **setup the monitoring configuration**\n//<size:12>[kubectl]</size>//
+ops -DOWN->> c_kubirds_dashboard : **visit the dashboard**\n//<size:12>[kubectl proxy]</size>//
+
+c_kubirds_operator_watcher_reactor -[hidden]L- c_kubirds_operator_watcher_unit
+c_kubirds_operator_watcher_inhibitor -[hidden]L- c_kubirds_operator_watcher_reactor
+c_kubirds_operator_watcher_pipelinerun -[hidden]L- c_kubirds_operator_watcher_inhibitor
+c_kubirds_dashboard -[hidden]U- c_kubirds_operator
+c_kubirds_operator_controller -[hidden]U- c_kubirds_operator_coresup
+c_kubirds_operator_controller -[hidden]L- c_kubirds_operator_api
+c_kubirds_operator_cachelog -[hidden]U- c_kubirds_operator_api
+
+c_kubirds_operator_watcher_unit -DOWN->> c_kubirds_operator_cache_server : **populates**
+c_kubirds_operator_watcher_reactor -DOWN->> c_kubirds_operator_cache_server : **populates**
+c_kubirds_operator_watcher_inhibitor -DOWN->> c_kubirds_operator_cache_server : **populates**
+c_kubirds_operator_watcher_pipelinerun -DOWN->> c_kubirds_operator_cache_server : **populates**
+c_kubirds_operator_cache_server -RIGHT->> c_kubirds_operator_cache_table : **stores**
+c_kubirds_operator_cache_server -LEFT->> c_kubirds_operator_reconciler : **notify**
+
+c_kubirds_operator_reconciler -DOWN->> c_kubirds_operator_workerpool : **reschedule workers**
+c_kubirds_operator_workerpool -RIGHT->> c_kubirds_operator_worker : **monitor**
+c_kubirds_operator_worker -DOWN->> sys_tekton : **run monitoring task**\n//<size:12>[HTTPS]</size>//
+c_kubirds_operator_worker -DOWN->> sys_k8s : **update Unit status**\n//<size:12>[HTTPS]</size>//
+
+c_kubirds_operator_cachelog_server -LEFT->> c_kubirds_operator_cachelog_table : **stores logs**
+sys_k8s -UP->> c_kubirds_operator_cachelog_server : **push, fetch, delete logs**\n//<size:12>[Redis Protocol]</size>//
+
+sys_k8s -UP->> c_kubirds_operator_api_healthcheck : **query**\n//<size:12>[HTTPS]</size>//
+sys_k8s -UP->> c_kubirds_operator_api_service : **ping**\n//<size:12>[HTTPS]</size>//
+c_kubirds_operator_api_graphql -DOWN->> sys_k8s : **fetch**\n//<size:12>[HTTPS]</size>//
+c_kubirds_dashboard -DOWN->> c_kubirds_operator_api_graphql : **query**\n//<size:12>[HTTPS]</size>//
+
+@enduml
+
+PlantUML version 1.2022.3(Tue Mar 29 18:10:57 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: fr
+Country: FR
+--></g></svg>

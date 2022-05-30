@@ -18,10 +18,27 @@ in their infrastructure** across cloud providers and on-premise systems.
 
 calls_to_action = [
   { name = "Get started &rarr;", url = "/getting-started/" },
-  { name = "Compare with others &rarr;", url = "/compare/" },
 ]
 
 image = "/img/home/engine.png"
+
+[introduction.dashboard]
+
+title = "Take your IT monitoring to the Cloud"
+
+description = """
+Do what you used to do until now, **without** the hassle of scaling, upgrading,
+maintaining your supervision infrastructure.
+
+**Kubirds** is like your old school supervisor/alerting system brought to
+the **Cloud era**.
+"""
+
+calls_to_action = [
+  { name = "Compare with others &rarr;", url = "/compare/" },
+]
+
+image = "/img/screenshots/dashboard-weather.png"
 
 [introduction.reusable]
 

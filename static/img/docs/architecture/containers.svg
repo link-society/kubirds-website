@@ -1,3 +1,592 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="761px" height="796px" viewBox="-0.5 -0.5 761 796" content="&lt;mxfile host=&quot;app.diagrams.net&quot; modified=&quot;2021-02-08T17:16:10.015Z&quot; agent=&quot;5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36&quot; etag=&quot;hbRSbBW8hTdNbip6j9nq&quot; version=&quot;14.3.0&quot; type=&quot;google&quot; pages=&quot;4&quot;&gt;&lt;diagram id=&quot;Hx49FjqfFFxdSWLKnJPy&quot; name=&quot;Page-1&quot;&gt;7ZtbU9s4FMc/jR9hfIkTeCQJvcyWXbZhhvapo9iKLZAtryyTpJ9+j2zJtzgkQICkhLZT60g6lnSkX/4+DoYzihafOUrCK+ZjatimvzCcsWHblumcwX/Ssiwsru0UhoATXzWqDBPyG+ueypoRH6eNhoIxKkjSNHosjrEnGjbEOZs3m80Ybd41QQFeMUw8RFett8QXYWE9sweV/QsmQajvbPXPi5oI6cZqJmmIfDavmZxLwxlxxkRxFS1GmMrF0+tS9Pu0prYcGMex6OjApndyPaAFRR4OYd6Yt5as9zeK1DT/yqb4gaSM66qbZaKqJmwm5nAXME+WqcCRbjLGqcdJIgiLi5ZXLCaCcRIHrbYUTWFb5G0Mu09huMMpXATywrBdNRDb1ZUwiVp9YfPJQ2lyi175GKGXO651rLfT9+KPOZOe6lNpDKPR0K4t/6/eFYv84O73v7ffsh89OiXf5ydWGdYyXKlY6q3EWRb7WPa3wN08JAJPEogNGOZweMAWioiq6nzJhsi7D/JuI0YhNs44ZjG0H84Ipdpk2A7surPhWNpZLGr2Wf4DdkRJIIPkwV7BXBq4p84aHDRnmArO7nGXxwgLdOkToYYli2MkkGw1kMv5Xyb371AHQ5cN56JRj8EFmtJmixmiKTYGY/nXGSaMxCLfoa6MsHkqAzEy838ywqPc2GUbrBotWdIemsYu28Dtcml13LttszuMnS477m22BumOy232gLnAi7Unvb7RPmMGUeFLaKI62KZbdFHMdc4VguYVway+soUNepmnZv1Hg1SBIyhvVXEGLtRm10VFnmdQ6AbfCxaPxi+B0A1K72UrL8R+Rj8ui5w3Y9EzmXMkyxuTpfWhcZ7/dMG/rNkBi3pNFLmHgiIpiHiMBWjPF8BoRLNUbn7bvGX8njLkw+UVikE1RnIBPyaaekc0HdH0/mhy+gfFpoo/3zFF8gymIUnKWuyFMaxToCbz5ebmerKWS2mhjiTBovpDmwDxlK6FUX7Ka0dV72oIgThRZ+pCdsUzUdvzXVDZwos6nGv9TLdD0wohu+H34lFp2FZx2AK5T0an+yg6sR/giSoqBFY0NZvkhHnw5Q9phwOqij9VszssxFIBEWWCgYlxEbKAxYh+YyxRPlaO58CUf8oanTGxV1lctrzLoqQ1Zh+lYfkB8HYsxgsiigWxXVX8qRcLrscLtTp5YVkrXGNOYFzyk6SwybWsmuelZb3U7lAEXkbvcZRBsFnGPbwpBSEPMg+w2PLxoIbGLvTxHDcPzbF1sU65u5afaRVmT+wWZk2z6aKYk+pVz3i1HFnOBkfFpFcc5egt57jfNJ6XMvHI4H1l8PkrMLhB4BzIH5vBGrrVehwOgp0tEVx/DHpdBDttBNvPRHDvbIOjQ0XwDAsvbKthjtOMwtMZTC+WD+7gDAp9mR6XW4ZjyelPclfLcIcratpj8YwEGUcFEY9E31eiW6axe6QfZXVbVg/+fFn9hkzfhOJtme62U7TvyfQqAftPResK9BDhVKO0g+JfY2kP5Xjhgs1kqczARvW0awH0CMGccIxiiP2HysBaj7+prvGshIY8UHkyNm0mY1upO/OsZw+mKxDbkJBNQ5SHOFoE8mskp17vNClC3ZGsbaFrJYW6LjG6FzlQV79UfyXaduXLjR28Um4pSMvuyJXaXblSt0WT/U+OPpC0pujkAZgyxCUv4CMb1pHgeSn7SjG4Wf4p5pSi8igH91YO2juTgx9d8r1M8e1SwG2r4NZw8BUUnDVY8zWdpyo4x9ng6H0U3OgrGIZMPFnGXcBBiWBlPYlfnFC2VKot4czDaYrX0/PPVGuPf5fnqNaOaq2p1voDu/lIp0lTp9ial9gN8dY7OPGWYpElnem4Uqod03KHosNe4W13WTi+aVEazTjcNy3W/r1q6VlNLdZrP/9unZYbbHC0K1EHxeqXUIre1a/yOJf/Aw==&lt;/diagram&gt;&lt;diagram id=&quot;H97yQRYUm11XGrZr3JEe&quot; name=&quot;Page-2&quot;&gt;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&lt;/diagram&gt;&lt;diagram id=&quot;7ALV8q-k9mc5ahPotRsG&quot; name=&quot;Page-3&quot;&gt;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&lt;/diagram&gt;&lt;diagram id=&quot;TjVxJYsOfwJo4ff7GU9B&quot; name=&quot;Page-4&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;"><defs/><g><ellipse cx="580" cy="25" rx="25" ry="25" fill="#08427b" stroke="none" pointer-events="all"/><path d="M 520 65 C 520 51.19 531.19 40 545 40 L 615 40 C 628.81 40 640 51.19 640 65 L 640 125 C 640 138.81 628.81 150 615 150 L 545 150 C 531.19 150 520 138.81 520 125 Z" fill="#08427b" stroke="none" pointer-events="all"/><ellipse cx="580" cy="25" rx="25" ry="25" fill="#08427b" stroke="none" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 95px; margin-left: 521px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; "><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #ffffff; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; "><b>OPS</b><div>[Person]</div><br /><div>In charge of cluster management and maintenance</div></div></div></div></foreignObject><text x="580" y="99" fill="#ffffff" font-family="Helvetica" font-size="12px" text-anchor="middle">OPS...</text></switch></g><rect x="0" y="270" width="720" height="320" fill="#ffffff" stroke="#000000" stroke-dasharray="3 3" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-end; justify-content: unsafe flex-start; width: 718px; height: 1px; padding-top: 587px; margin-left: 2px;"><div style="box-sizing: border-box; font-size: 0; text-align: left; "><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; "><div style="text-align: left">Kubirds</div><div style="text-align: left">[Software System]</div></div></div></div></foreignObject><text x="2" y="587" fill="#000000" font-family="Helvetica" font-size="12px">Kubirds...</text></switch></g><rect x="30" y="670" width="160" height="110" rx="11" ry="11" fill="#999999" stroke="#999999" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 158px; height: 1px; padding-top: 725px; margin-left: 31px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; "><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #ffffff; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; "><b>TektonCD</b><div>[Software System]</div><br /><div>Task Scheduling System</div></div></div></div></foreignObject><text x="110" y="729" fill="#ffffff" font-family="Helvetica" font-size="12px" text-anchor="middle">TektonCD...</text></switch></g><rect x="330" y="670" width="160" height="110" rx="11" ry="11" fill="#999999" stroke="#999999" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 158px; height: 1px; padding-top: 725px; margin-left: 331px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; "><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #ffffff; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; "><b>Kubernetes</b><div>[Software System]</div><br /><div>Cluster Workload Management System</div></div></div></div></foreignObject><text x="410" y="729" fill="#ffffff" font-family="Helvetica" font-size="12px" text-anchor="middle">Kubernetes...</text></switch></g><path d="M 190 725 L 321.76 725" fill="none" stroke="#707070" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="6 6" pointer-events="stroke"/><path d="M 327.76 725 L 319.76 729 L 321.76 725 L 319.76 721 Z" fill="#707070" stroke="#707070" stroke-width="2" stroke-miterlimit="10" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 725px; margin-left: 260px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; "><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #707070; line-height: 1.2; pointer-events: all; background-color: #ffffff; white-space: nowrap; "><div style="text-align: left"><div style="text-align: center"><b>schedule workload</b></div><div style="text-align: center">[HTTPS]</div></div></div></div></div></foreignObject><text x="260" y="728" fill="#707070" font-family="Helvetica" font-size="11px" text-anchor="middle">schedule workload...</text></switch></g><ellipse cx="705" cy="678.33" rx="23.333333333333332" ry="23.333333333333332" fill="#08427b" stroke="none" pointer-events="all"/><path d="M 650 715.67 C 650 702.78 660.45 692.33 673.33 692.33 L 736.67 692.33 C 742.86 692.33 748.79 694.79 753.17 699.17 C 757.54 703.54 760 709.48 760 715.67 L 760 771.67 C 760 784.55 749.55 795 736.67 795 L 673.33 795 C 660.45 795 650 784.55 650 771.67 Z" fill="#08427b" stroke="none" pointer-events="all"/><ellipse cx="705" cy="678.33" rx="23.333333333333332" ry="23.333333333333332" fill="#08427b" stroke="none" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 108px; height: 1px; padding-top: 744px; margin-left: 651px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; "><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #ffffff; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; "><b>CI Bot</b><div>[Person]</div><br /><div>Automatic deployment processes</div></div></div></div></foreignObject><text x="705" y="747" fill="#ffffff" font-family="Helvetica" font-size="12px" text-anchor="middle">CI Bot...</text></switch></g><path d="M 650 725 L 498.24 725" fill="none" stroke="#707070" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="6 6" pointer-events="stroke"/><path d="M 492.24 725 L 500.24 721 L 498.24 725 L 500.24 729 Z" fill="#707070" stroke="#707070" stroke-width="2" stroke-miterlimit="10" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 725px; margin-left: 570px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; "><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #707070; line-height: 1.2; pointer-events: all; background-color: #ffffff; white-space: nowrap; "><div style="text-align: left"><div style="text-align: center"><b>setup the monitoring<br />configuration</b></div><div style="text-align: center">[HTTPS]</div></div></div></div></div></foreignObject><text x="570" y="728" fill="#707070" font-family="Helvetica" font-size="11px" text-anchor="middle">setup the monitoring...</text></switch></g><rect x="70" y="310" width="160" height="110" rx="11" ry="11" fill="#85bbf0" stroke="#78a8d8" stroke-dasharray="3 3" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 158px; height: 1px; padding-top: 365px; margin-left: 71px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; "><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #ffffff; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; "><b>Operator</b><div>[Container: NodeJS, GraphQL]</div><br /><div>Schedule monitoring tasks according to the current monitoring configuration</div></div></div></div></foreignObject><text x="150" y="369" fill="#ffffff" font-family="Helvetica" font-size="12px" text-anchor="middle">Operator...</text></switch></g><rect x="500" y="310" width="160" height="110" rx="11" ry="11" fill="#85bbf0" stroke="#78a8d8" stroke-dasharray="3 3" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 158px; height: 1px; padding-top: 365px; margin-left: 501px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; "><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #ffffff; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; "><b>Dashboard</b><div>[Container: NGinX, VueJS]</div><br /><div>Provide a frontend interface to visualize the current cluster state</div></div></div></div></foreignObject><text x="580" y="369" fill="#ffffff" font-family="Helvetica" font-size="12px" text-anchor="middle">Dashboard...</text></switch></g><path d="M 500 337.5 L 238.24 337.5" fill="none" stroke="#707070" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="6 6" pointer-events="stroke"/><path d="M 232.24 337.5 L 240.24 333.5 L 238.24 337.5 L 240.24 341.5 Z" fill="#707070" stroke="#707070" stroke-width="2" stroke-miterlimit="10" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 338px; margin-left: 365px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; "><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #707070; line-height: 1.2; pointer-events: all; background-color: #ffffff; white-space: nowrap; "><div style="text-align: left"><div style="text-align: center"><b>make GraphQL API calls</b></div><div style="text-align: center">[HTTPS]</div></div></div></div></div></foreignObject><text x="365" y="341" fill="#707070" font-family="Helvetica" font-size="11px" text-anchor="middle">make GraphQL API calls...</text></switch></g><path d="M 190 420 L 190 475 L 261.76 475" fill="none" stroke="#707070" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="6 6" pointer-events="stroke"/><path d="M 267.76 475 L 259.76 479 L 261.76 475 L 259.76 471 Z" fill="#707070" stroke="#707070" stroke-width="2" stroke-miterlimit="10" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 475px; margin-left: 203px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; "><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #707070; line-height: 1.2; pointer-events: all; background-color: #ffffff; white-space: nowrap; "><div style="text-align: left"><div style="text-align: center"><b>schedule tasks</b></div><div style="text-align: center">[AMQP]</div></div></div></div></div></foreignObject><text x="203" y="478" fill="#707070" font-family="Helvetica" font-size="11px" text-anchor="middle">schedule tasks...</text></switch></g><path d="M 150 420 L 150 545 L 261.76 545" fill="none" stroke="#707070" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="6 6" pointer-events="stroke"/><path d="M 267.76 545 L 259.76 549 L 261.76 545 L 259.76 541 Z" fill="#707070" stroke="#707070" stroke-width="2" stroke-miterlimit="10" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 545px; margin-left: 167px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; "><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #707070; line-height: 1.2; pointer-events: all; background-color: #ffffff; white-space: nowrap; "><div style="text-align: left"><div style="text-align: center"><b>consume tasks<br />ready for execution</b></div><div style="text-align: center">[AMQP]</div></div></div></div></div></foreignObject><text x="167" y="548" fill="#707070" font-family="Helvetica" font-size="11px" text-anchor="middle">consume tasks...</text></switch></g><path d="M 110 420 L 110 661.76" fill="none" stroke="#707070" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="6 6" pointer-events="stroke"/><path d="M 110 667.76 L 106 659.76 L 110 661.76 L 114 659.76 Z" fill="#707070" stroke="#707070" stroke-width="2" stroke-miterlimit="10" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 630px; margin-left: 110px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; "><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #707070; line-height: 1.2; pointer-events: all; background-color: #ffffff; white-space: nowrap; "><div style="text-align: left"><div style="text-align: center"><b>run monitoring task</b></div><div style="text-align: center">[HTTPS]</div></div></div></div></div></foreignObject><text x="110" y="633" fill="#707070" font-family="Helvetica" font-size="11px" text-anchor="middle">run monitoring task...</text></switch></g><path d="M 230 392.5 L 450 392.5 L 450 661.76" fill="none" stroke="#707070" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="6 6" pointer-events="stroke"/><path d="M 450 667.76 L 446 659.76 L 450 661.76 L 454 659.76 Z" fill="#707070" stroke="#707070" stroke-width="2" stroke-miterlimit="10" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 621px; margin-left: 450px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; "><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #707070; line-height: 1.2; pointer-events: all; background-color: #ffffff; white-space: nowrap; "><div style="text-align: left"><div style="text-align: center"><b>fetch monitoring results/logs<br />read/edit monitoring configuration</b></div><div style="text-align: center">[HTTPS]</div></div></div></div></div></foreignObject><text x="450" y="624" fill="#707070" font-family="Helvetica" font-size="11px" text-anchor="middle">fetch monitoring results/logs...</text></switch></g><path d="M 580 150 L 580 301.76" fill="none" stroke="#707070" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="6 6" pointer-events="stroke"/><path d="M 580 307.76 L 576 299.76 L 580 301.76 L 584 299.76 Z" fill="#707070" stroke="#707070" stroke-width="2" stroke-miterlimit="10" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 230px; margin-left: 580px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; "><div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #707070; line-height: 1.2; pointer-events: all; background-color: #ffffff; white-space: nowrap; "><div style="text-align: left"><div style="text-align: center"><b>visit the dashboard to view/edit<br />the monitoring configuration and results</b></div><div style="text-align: center">[HTTPS]</div></div></div></div></div></foreignObject><text x="580" y="233" fill="#707070" font-family="Helvetica" font-size="11px" text-anchor="middle">visit the dashboard to view/ed...</text></switch></g><path d="M 270 468 C 270 430.67 430 430.67 430 468 L 430 552 C 430 589.33 270 589.33 270 552 Z" fill="#438dd5" stroke="#3c7fc0" stroke-miterlimit="10" pointer-events="all"/><path d="M 270 468 C 270 496 430 496 430 468" fill="none" stroke="#3c7fc0" stroke-miterlimit="10" pointer-events="all"/><g transform="translate(-0.5 -0.5)"><switch><foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 158px; height: 1px; padding-top: 530px; margin-left: 271px;"><div style="box-sizing: border-box; font-size: 0; text-align: center; "><div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #ffffff; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">Message Exchange<div>[Container: RabbitMQ]</div><br /><div>Queue messages and deliver them when/where needed</div></div></div></div></foreignObject><text x="350" y="534" fill="#ffffff" font-family="Helvetica" font-size="12px" text-anchor="middle">Message Exchange...</text></switch></g></g><switch><g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/><a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank"><text text-anchor="middle" font-size="10px" x="50%" y="100%">Viewer does not support full SVG 1.1</text></a></switch></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="673px" preserveAspectRatio="none" style="width:963px;height:673px;background:#FFFFFF;" version="1.1" viewBox="0 0 963 673" width="963px" zoomAndPan="magnify"><defs/><g><!--MD5=[623019680a192d54dde87b0f411969ee]
+cluster sys_kubirds--><g id="cluster_sys_kubirds"><rect height="190" rx="2.5" ry="2.5" style="stroke:#444444;stroke-width:1.0;fill:none;stroke-dasharray:7.0,7.0;" width="575" x="7" y="244"/><text fill="#444444" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="76" x="256.5" y="260.5332">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="61" x="264" y="280.2188">Kubirds</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="51" x="269" y="296.1914">[System]</text></g><!--MD5=[7e230539ba579b916ef19fa359dd372b]
+entity c_kubirds_operator--><g id="elem_c_kubirds_operator"><rect fill="#438DD5" height="103.0156" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="213" x="23.5" y="315"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="75" x="92.5" y="339.5332">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="67" x="96.5" y="359.2188">Operator</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="149" x="54" y="375.1914">[Schedule monitoring tasks</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="190" x="33.5" y="390.2852">according to the current monitoring</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="93" y="405.3789">configuration]</text></g><!--MD5=[70d7f33ccd0ee97edbddfc2bdac0ab09]
+entity c_kubirds_dashboard--><g id="elem_c_kubirds_dashboard"><rect fill="#438DD5" height="72.8281" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="186" x="380" y="330"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="75" x="435.5" y="354.5332">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="85" x="430.5" y="374.2188">Dashboard</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="166" x="390" y="390.1914">[Visualize current cluster state]</text></g><!--MD5=[5a9f12e3433feb7a47fb7cbcc8ee5d5d]
+entity ops--><g id="elem_ops"><rect fill="#08427B" height="158.5625" rx="2.5" ry="2.5" style="stroke:#073B6F;stroke-width:0.5;" width="218" x="445" y="7"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="60" x="524" y="31.5332">«person»</text><image height="48" width="48" x="530" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="34.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="34" x="537" y="99.2188">OPS</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="552" y="117.2676"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="493.5" y="134.877">In charge of cluster</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="198" x="455" y="152.4863">management and maintainance</text></g><!--MD5=[806f04db72ce5d5161c0223b715e3a85]
+entity cibot--><g id="elem_cibot"><rect fill="#08427B" height="140.9531" rx="2.5" ry="2.5" style="stroke:#073B6F;stroke-width:0.5;" width="217" x="740.5" y="527"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="60" x="819" y="551.5332">«person»</text><image height="48" width="48" x="825" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="554.6094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="47" x="825.5" y="619.2188">CI Bot</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="847" y="637.2676"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="193" x="754.5" y="654.877">Automatic deployment process</text></g><!--MD5=[967707176a1fb464178835fefa892717]
+entity sys_tekton--><g id="elem_sys_tekton"><rect fill="#999999" height="92.9531" rx="2.5" ry="2.5" style="stroke:#8A8A8A;stroke-width:0.5;" width="179" x="40.5" y="551"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="118" x="71" y="575.5332">«external_system»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="77" x="91.5" y="595.2188">TektonCD</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="128" y="613.2676"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="155" x="54.5" y="630.877">Task Scheduling System</text></g><!--MD5=[c2cd1dc1f54744afe0a96ba5f1e77655]
+entity sys_k8s--><g id="elem_sys_k8s"><rect fill="#999999" height="110.5625" rx="2.5" ry="2.5" style="stroke:#8A8A8A;stroke-width:0.5;" width="219" x="364.5" y="542"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="118" x="415" y="566.5332">«external_system»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="89" x="429.5" y="586.2188">Kubernetes</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="472" y="604.2676"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="195" x="378.5" y="621.877">Cluster Workload Management</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="451" y="639.4863">System</text></g><!--MD5=[12e46627b2707f6142e22244aaaa2265]
+link sys_tekton to sys_k8s--><g id="link_sys_tekton_sys_k8s"><path d="M219.93,597.5 C261.54,597.5 311.51,597.5 356.08,597.5 " fill="none" id="sys_tekton-to-sys_k8s" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="364.34,597.5,356.34,594.5,356.34,600.5,364.34,597.5" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="108" x="238" y="575.957">schedule workload</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="45" x="269.5" y="591.0508">[HTTPS]</text></g><!--MD5=[13c33fa5bdd9e1e3bedfa7335c57bb7b]
+link c_kubirds_operator to sys_tekton--><g id="link_c_kubirds_operator_sys_tekton"><path d="M130,418.04 C130,454.9 130,504.78 130,542.43 " fill="none" id="c_kubirds_operator-to-sys_tekton" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="130,550.75,133,542.75,127,542.75,130,550.75" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="111" x="131" y="470.957">run monitoring task</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="45" x="164" y="486.0508">[HTTPS]</text></g><!--MD5=[61a6f79d2e2c864f583930851d322d04]
+link c_kubirds_operator to sys_k8s--><g id="link_c_kubirds_operator_sys_k8s"><path d="M205.92,418.04 C258.87,453.29 329.71,500.45 385.27,537.43 " fill="none" id="c_kubirds_operator-to-sys_k8s" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="391.97,541.89,386.9708,534.9612,383.6476,539.9568,391.97,541.89" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="99" x="324" y="463.457">watch monitoring</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="75" x="337.5" y="478.5508">configuration</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="45" x="352.5" y="493.6445">[HTTPS]</text></g><!--MD5=[4f94663275b148861ff7b0a97760cc20]
+reverse link sys_k8s to cibot--><g id="link_sys_k8s_cibot"><path d="M591.89,597.5 C639.33,597.5 693.69,597.5 740.18,597.5 " fill="none" id="sys_k8s-backto-cibot" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="583.73,597.5,591.73,600.5,591.73,594.5,583.73,597.5" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="117" x="602" y="560.957">setup the monitoring</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="75" x="624.5" y="576.0508">configuration</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="45" x="639.5" y="591.1445">[HTTPS]</text></g><!--MD5=[9e3600cb0f6c8c1c35ee914f771f277a]
+link ops to sys_k8s--><g id="link_ops_sys_k8s"><path d="M603.35,166.17 C607.7,175.93 611.42,186 614,196 C631.41,263.48 654.98,258.88 582,442 C568.71,475.35 546.97,508.49 526.48,535.48 " fill="none" id="ops-to-sys_k8s" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="521.57,541.84,528.827,537.3305,524.0725,533.6707,521.57,541.84" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="117" x="632" y="356.457">setup the monitoring</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="75" x="654.5" y="371.5508">configuration</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="47" x="668.5" y="386.6445">[kubectl]</text></g><!--MD5=[6ecab77bb28ad873c15f59a016ad9405]
+link ops to c_kubirds_dashboard--><g id="link_ops_c_kubirds_dashboard"><path d="M511.48,166.04 C507.14,175.94 503.18,186.08 500,196 C486.71,237.51 479.79,286.92 476.3,321.65 " fill="none" id="ops-to-c_kubirds_dashboard" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="475.53,329.71,479.288,322.0368,473.316,321.4578,475.53,329.71" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="108" x="501" y="209.457">visit the dashboard</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="80" x="515" y="224.5508">[kubectl proxy]</text></g><!--MD5=[d802268a9560fc50874dd92c3b61138a]
+reverse link c_kubirds_operator to c_kubirds_dashboard--><g id="link_c_kubirds_operator_c_kubirds_dashboard"><path d="M244.77,366.5 C288.66,366.5 338.12,366.5 379.76,366.5 " fill="none" id="c_kubirds_operator-backto-c_kubirds_dashboard" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="236.65,366.5,244.65,369.5,244.65,363.5,236.65,366.5" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="107" x="254.75" y="344.957">query GraphQL API</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="45" x="285.75" y="360.0508">[HTTPS]</text></g><!--MD5=[ce30e3b37af8203d03773c08d495e1ec]
+@startuml ../../static/img/docs/architecture/containers
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+Person(ops, "OPS", "In charge of cluster management and maintainance")
+Person(cibot, "CI Bot", "Automatic deployment process")
+
+System_Boundary(sys_kubirds, "Kubirds") {
+  Container(c_kubirds_operator, "Operator", "Schedule monitoring tasks according to the current monitoring configuration")
+  Container(c_kubirds_dashboard, "Dashboard", "Visualize current cluster state")
+}
+
+System_Ext(sys_tekton, "TektonCD", "Task Scheduling System")
+System_Ext(sys_k8s, "Kubernetes", "Cluster Workload Management System")
+
+Rel_R(sys_tekton, sys_k8s, "schedule workload", "HTTPS")
+Rel_D(c_kubirds_operator, sys_tekton, "run monitoring task", "HTTPS")
+Rel_D(c_kubirds_operator, sys_k8s, "watch monitoring configuration", "HTTPS")
+
+Rel_L(cibot, sys_k8s, "setup the monitoring configuration", "HTTPS")
+Rel_D(ops, sys_k8s, "setup the monitoring configuration", "kubectl")
+Rel_D(ops, c_kubirds_dashboard, "visit the dashboard", "kubectl proxy")
+Rel_L(c_kubirds_dashboard, c_kubirds_operator, "query GraphQL API", "HTTPS")
+
+@enduml
+
+@startuml ../../static/img/docs/architecture/containers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam shadowing<<legendArea>> false
+skinparam rectangle<<legendArea>> {
+    backgroundcolor #00000000
+    bordercolor #00000000
+}
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam actor {
+    StereotypeFontSize 12
+    shadowing false
+    style awesome
+}
+
+skinparam person {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam package {
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontStyle plain
+    BackgroundColor transparent
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontColor #444444
+    BorderColor #444444
+    BackgroundColor transparent
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam actor<<person>> {
+    StereotypeFontColor #08427B
+    FontColor #08427B
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam person<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam database<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_person>> {
+    StereotypeFontColor #686868
+    FontColor #686868
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam person<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam queue<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam actor<<system>> {
+    StereotypeFontColor #1168BD
+    FontColor #1168BD
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam person<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_system>> {
+    StereotypeFontColor #999999
+    FontColor #999999
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam person<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+sprite $person2 [48x48/16] {
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000002578888300000000005888864100000000000
+0000000007DFFFFFFFFD9643347BFFFFFFFFFB4000000000
+00000004EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB10000000
+0000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD2000000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+00003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+0000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF50000
+0003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD0000
+0009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+0009FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF2000
+0003FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFD0000
+0000BFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFF50000
+00003FFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFB00000
+000006FFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFE100000
+0000007FFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFD2000000
+00000004EFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFB10000000
+0000000007DF8FFFFFFFFFFFFFFFFFFFFFF8FB4000000000
+000000000002578888888888888888888864100000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam actor<<container>> {
+    StereotypeFontColor #438DD5
+    FontColor #438DD5
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam person<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam actor<<external_container>> {
+    StereotypeFontColor #B3B3B3
+    FontColor #B3B3B3
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam person<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rectangle "<$person>\n==OPS\n\n In charge of cluster management and maintainance" <<person>> as ops 
+rectangle "<$person>\n==CI Bot\n\n Automatic deployment process" <<person>> as cibot 
+
+rectangle "==Kubirds\n<size:12>[System]</size>" <<boundary>> as sys_kubirds  {
+  rectangle "==Operator\n//<size:12>[Schedule monitoring tasks according to the current monitoring configuration]</size>//" <<container>> as c_kubirds_operator 
+  rectangle "==Dashboard\n//<size:12>[Visualize current cluster state]</size>//" <<container>> as c_kubirds_dashboard 
+}
+
+rectangle "==TektonCD\n\n Task Scheduling System" <<external_system>> as sys_tekton 
+rectangle "==Kubernetes\n\n Cluster Workload Management System" <<external_system>> as sys_k8s 
+
+sys_tekton -RIGHT->> sys_k8s : **schedule workload**\n//<size:12>[HTTPS]</size>//
+c_kubirds_operator -DOWN->> sys_tekton : **run monitoring task**\n//<size:12>[HTTPS]</size>//
+c_kubirds_operator -DOWN->> sys_k8s : **watch monitoring configuration**\n//<size:12>[HTTPS]</size>//
+
+cibot -LEFT->> sys_k8s : **setup the monitoring configuration**\n//<size:12>[HTTPS]</size>//
+ops -DOWN->> sys_k8s : **setup the monitoring configuration**\n//<size:12>[kubectl]</size>//
+ops -DOWN->> c_kubirds_dashboard : **visit the dashboard**\n//<size:12>[kubectl proxy]</size>//
+c_kubirds_dashboard -LEFT->> c_kubirds_operator : **query GraphQL API**\n//<size:12>[HTTPS]</size>//
+
+@enduml
+
+PlantUML version 1.2022.3(Tue Mar 29 18:10:57 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: fr
+Country: FR
+--></g></svg>

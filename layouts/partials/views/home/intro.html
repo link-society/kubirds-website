@@ -23,6 +23,32 @@
   </div>
 </section>
 
+<section class="section has-background-white">
+  <div class="columns is-vcentered">
+    <div class="column is-half">
+      <figure class="image m-auto">
+        <img src="{{ .Page.Params.introduction.dashboard.image }}" alt="Kubirds Dashboard Screenshot" />
+      </figure>
+    </div>
+
+    <div class="column is-half p-6">
+      <p class="title">{{ .Page.Params.introduction.dashboard.title }}</p>
+
+      <div class="content is-size-4 has-text-grey">
+        {{ .Page.Params.introduction.dashboard.description | markdownify }}
+      </div>
+
+      <div class="has-text-centered">
+        {{ range .Page.Params.introduction.dashboard.calls_to_action }}
+          <a class="button call-to-action" href="{{ .url }}">
+            {{ .name | safeHTML }}
+          </a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="section">
   <div class="columns is-vcentered">
     <div class="column is-half">

@@ -1,0 +1,24 @@
+@startuml ../../static/img/docs/workflows/unit-admission
+skinparam defaultTextAlignment center
+
+start
+
+repeat
+  #yellow:Unit added or modified]
+  if (spec.serviceAccountName exists?) then (no)
+  elseif (spec.schedule is a valid RRule?) then (no)
+  elseif (status.phase == Accepted) then (no)
+  else (yes)
+    #palegreen:Store in Cache>
+    #palegreen:Reconcile pipelines>
+    #palegreen:Schedule workers>
+    stop
+  endif
+  #pink:update status.failureReasons|
+  if (status.phase == Rejected) then (no)
+  elseif (status.failureReasons changed) then (yes)
+  else (no)
+    stop
+  endif
+  #pink:update status.phase|
+@enduml

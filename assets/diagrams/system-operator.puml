@@ -1,0 +1,19 @@
+@startuml ../../static/img/docs/architecture/systems
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+Person(ops, "OPS", "In charge of cluster management and maintainance")
+Person(cibot, "CI Bot", "Automatic deployment process")
+
+System(sys_kubirds, "Kubirds", "Monitoring System")
+System_Ext(sys_tekton, "TektonCD", "Task Scheduling System")
+System_Ext(sys_k8s, "Kubernetes", "Cluster Workload Management System")
+
+Rel_R(sys_tekton, sys_k8s, "schedule workload", "HTTPS")
+Rel_D(sys_kubirds, sys_tekton, "schedule monitoring tasks", "HTTPS")
+Rel_D(sys_kubirds, sys_k8s, "watch monitoring configuration", "HTTPS")
+
+Rel_L(cibot, sys_k8s, "setup the monitoring configuration", "HTTPS")
+Rel_D(ops, sys_k8s, "setup the monitoring configuration", "kubectl")
+Rel_D(ops, sys_kubirds, "visit the dashboard", "kubectl proxy")
+
+@enduml

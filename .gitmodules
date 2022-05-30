@@ -1,6 +1,0 @@
-[submodule "assets/modules/sdk"]
-	path = assets/modules/sdk
-	url = https://github.com/datapio/sdk.git
-[submodule "assets/modules/operator"]
-	path = assets/modules/operator
-	url = git@github.com:link-society/kubirds-operator.git
